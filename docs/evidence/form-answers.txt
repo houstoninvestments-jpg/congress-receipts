@@ -1,0 +1,36 @@
+Congress Receipts: YouTube API Services audit, API calls this project makes
+Channel: Congress Receipts (@CongressReceipts). Site: https://congressreceipts.pages.dev
+
+YouTube Data API v3 (tick these):
+  - youtube.videos.insert
+      Upload our own Short (resumable upload). Sets privacyStatus and containsSyntheticMedia.
+      Code: src/publish/youtube.ts uploadVideo()
+  - youtube.videos.list
+      Read back the privacy status of a video we uploaded (part=status).
+      Code: src/publish/youtube.ts videoStatus()
+  - youtube.videos.update
+      Set the privacy status of a video we uploaded (part=status). Used once for the private-upload lock test.
+      Code: src/publish/youtube.ts setPrivacy()
+  - youtube.thumbnails.set
+      Set the first frame of our own video as its thumbnail.
+      Code: src/publish/youtube.ts setThumbnail()
+  - youtube.channels.list
+      Read our own channel's ID, title and handle (mine=true, part=snippet): to verify the authorized channel is @CongressReceipts and to show a Watch on YouTube link.
+      Code: src/publish/youtube.ts channelInfo(); functions/auth/youtube/callback.ts
+
+YouTube Analytics API v2 (tick this):
+  - youtubeAnalytics.reports.query
+      Our own videos only (ids=channel==MINE, filters=video==ID): views, averageViewPercentage, and audienceWatchRatio by elapsedVideoTimeRatio.
+      Code: src/learn/index.ts report()
+
+YouTube Reporting API: not used.
+No other YouTube Data API methods are called: no search, comments, playlists, captions, subscriptions, or anything about other channels or viewers.
+
+OAuth scopes requested (nothing else, no email or profile):
+  - https://www.googleapis.com/auth/youtube.upload
+  - https://www.googleapis.com/auth/youtube.force-ssl
+  - https://www.googleapis.com/auth/yt-analytics.readonly
+
+Who signs in: only the owner of our own channel, once, through one link on our site. The channel is checked by handle and then pinned by ID.
+How often: up to 3 uploads a day (a ceiling, not a target), plus status, thumbnail and analytics calls for our own videos.
+Every upload sets status.containsSyntheticMedia = true and says in the description that the narration is an AI voice.
