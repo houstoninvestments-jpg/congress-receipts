@@ -190,5 +190,105 @@
         "usd": 0.01172
       }
     ]
+  },
+  {
+    "at": "2026-10-25T06:13:13.022Z",
+    "date": "2026-10-25",
+    "dryRun": true,
+    "status": "rendered",
+    "receipt": 1,
+    "usd": 0.2968,
+    "calls": [
+      {
+        "role": "writer",
+        "model": "claude-fable-5-1",
+        "input": 1593,
+        "output": 503,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.04108
+      },
+      {
+        "role": "checker-a",
+        "model": "claude-opus-5-5",
+        "input": 1302,
+        "output": 273,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.01067
+      },
+      {
+        "role": "checker-b",
+        "model": "claude-opus-5-5",
+        "input": 1266,
+        "output": 763,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.02032
+      },
+      {
+        "role": "writer",
+        "model": "claude-fable-5-1",
+        "input": 1619,
+        "output": 1171,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.07474
+      },
+      {
+        "role": "writer-retry",
+        "model": "claude-fable-5-1",
+        "input": 1953,
+        "output": 976,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.06833
+      },
+      {
+        "role": "checker-a",
+        "model": "claude-opus-5-5",
+        "input": 1335,
+        "output": 351,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.01236
+      },
+      {
+        "role": "checker-b",
+        "model": "claude-opus-5-5",
+        "input": 1299,
+        "output": 640,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.018
+      },
+      {
+        "role": "writer",
+        "model": "claude-fable-5-1",
+        "input": 1602,
+        "output": 240,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.02802
+      },
+      {
+        "role": "checker-a",
+        "model": "claude-opus-5-5",
+        "input": 1313,
+        "output": 239,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.01003
+      },
+      {
+        "role": "checker-b",
+        "model": "claude-opus-5-5",
+        "input": 1277,
+        "output": 409,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.01329
+      }
+    ]
   }
 ]
