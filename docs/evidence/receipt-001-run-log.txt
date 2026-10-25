@@ -1,0 +1,27 @@
+Receipt No. 001 upload run: GitHub Actions, Daily Receipt workflow, scheduled run 40225070983 (2026-10-25).
+Lines from the job log. Key names only; secret values are never printed.
+
+note: keys set (names only): ANTHROPIC_API_KEY MARKETSTACK_API_KEY YOUTUBE_CLIENT_ID YOUTUBE_CLIENT_SECRET CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID
+note: website: cloudflare https://congressreceipts.pages.dev
+note: authorize link ready at https://congressreceipts.pages.dev/auth/youtube
+note: YouTube connected: yes, Congress Receipts
+[2026-10-25T19:16:51.524Z] ok   data: 439 House members; 437 reports in the Clerk's index, 60 new parsed
+[2026-10-25T19:16:51.536Z] ok   pick: 418 purchases qualify, 386 after the party-balance and repeat rules; set aside: {"filing scanned":49,"not a listed stock with a ticker":116,"not a purchase":685,"thinly traded foreign share (over the counter)":4,"filer not matched to one sitting member":7}
+[2026-10-25T19:17:05.894Z] FAIL check: Jonathan L. Jackson / DDOG: problems: Minor wording issue: the description says 'reported a joint purchase ... on September 28, 2026', which could be read as the report date. The next sentence gives the correct filing date (October 19, 2026), so this is not a factual mismatch. Rewording to 'a joint purchase ... made September 28, 2026' would be clearer.
+[2026-10-25T19:17:37.842Z] ok   check: Jonathan L. Jackson / EL: code checks and both reviews passed
+[2026-10-25T19:17:51.560Z] ok   voice: AI voice (Kokoro open model), 36.4s
+[2026-10-25T19:18:42.486Z] ok   render: work/2026-10-25/receipt-001.mp4 (1080x1920, 36.37s)
+[2026-10-25T19:18:55.139Z] first upload lock test: status stayed private after asking for unlisted
+[2026-10-25T19:18:55.140Z] FAIL publish: status stayed private after asking for unlisted
+[2026-10-25T19:18:55.141Z] result: rendered work/2026-10-25/receipt-001.mp4
+note: rendered | first upload is locked private; audit answers prepared in docs/youtube-audit-request.md
+note: Rep. Jonathan L. Jackson (D-IL) bought EL $50,001 - $100,000, traded 2026-09-28, filed 2026-10-19, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035551.pdf
+note: EL 13.7% vs SPY -0.7% (2026-09-28 to 2026-10-23), stamp BEAT THE MARKET
+note: filing card untouched (0.00% changed), result untouched by the stamp (0.00%)
+note: Receipt No. 001: Rep. Jonathan L. Jackson bought Estee Lauder Companies
+note: GLCF2kvhLUw, private, LOCKED private by Google; 
+note: $0.2609 over 7 model calls (writer claude-fable-5-1 1593+679 tok; checker-a claude-opus-5-5 1302+328 tok; checker-b claude-opus-5-5 1266+500 tok; writer claude-fable-5-1 1619+1654 tok; writer-retry claude-fable-5-1 1953+897 tok; checker-a claude-opus-5-5 1331+220 tok; checker-b claude-opus-5-5 1295+299 tok)
+note: YouTube channel: Congress Receipts @congressreceipts
+note: https://congressreceipts.pages.dev answered 200 for: / /receipts/ /scoreboard/ /how/ /privacy/ /terms/
+note: home and scoreboard labeled and disclosed; 0 published receipt pages carry their chart link; TradingView links open
+note: already connected; the link says so

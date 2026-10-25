@@ -95,6 +95,17 @@ async function main() {
       note("YouTube channel", `${c.title} ${c.handle || c.id}`);
       break;
     }
+    case "evidence": {
+      // Files for Google's YouTube API audit form: --base <live site> captures the live pages too; --local makes the rest only.
+      const ev = await import("./evidence/index.js");
+      const files = flag("--local") ? await ev.makeLocalOnly(arg("--out")) : await ev.makeEvidence(arg("--base")!, arg("--out"));
+      const { writeAuditRequest } = await import("./publish/audit.js");
+      const { loadLedger } = await import("./lib/ledger.js");
+      const lock = loadLedger().firstUploadCheck;
+      if (lock?.locked) writeAuditRequest(path("docs/youtube-audit-request.md"), lock.detail);
+      note("Evidence", files.join(", "));
+      break;
+    }
     case "learn": {
       const { learn } = await import("./learn/index.js");
       await learn(oauthUploader());

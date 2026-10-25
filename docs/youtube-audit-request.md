@@ -8,18 +8,20 @@ Form: https://support.google.com/youtube/contact/yt_api_form
 ## Answers to paste
 
 **What does your API client do?**
-It uploads one short video a day to our own channel, Congress Receipts.
+It uploads up to three short videos a day (only those that pass every check) to our own channel, Congress Receipts.
 Each video shows one stock trade a member of Congress reported in an official House filing, and how that stock did next to the S&P 500.
 No other users. No other channels. We only upload to the channel we own.
 
 **Which API features do you use?**
-- videos.insert (one upload a day to our own channel)
-- videos.update (privacy status on our own videos)
-- videos.list (read back our own video status)
-- YouTube Analytics reports for our own channel (retention, views), used to improve future videos
+- youtube.videos.insert (upload our own video)
+- youtube.videos.update (privacy status on our own videos)
+- youtube.videos.list (read back our own video status)
+- youtube.thumbnails.set (our own video's first frame as its thumbnail)
+- youtube.channels.list (mine=true: confirm the connected channel is ours, and link to it)
+- youtubeAnalytics.reports.query (views and retention of our own videos, used to improve future videos)
 
 **Who uses the API client?**
-Only us, the channel owner. It runs as a scheduled job. There is no public app and no sign-in for anyone else.
+Only us, the channel owner, who authorizes once through one link on our site. It runs as a scheduled job. There is no public app and no sign-in for anyone else.
 
 **How do you store YouTube data?**
 We keep video IDs, titles, and our own channel's view and retention numbers for 30 days at most.
