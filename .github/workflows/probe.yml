@@ -10,24 +10,14 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    env:
-      UA: "CongressReceipts/0.1 (public-interest news; github.com/houstoninvestments-jpg/congress-receipts)"
     steps:
       - run: sudo apt-get update -q >/dev/null && sudo apt-get install -y -q poppler-utils >/dev/null
-      - name: House PTR text
+      - name: Price terms, full wording
         continue-on-error: true
         run: |
-          for id in 20035408 20035410 20035411; do
-            curl -sS -A "$UA" -o p.pdf "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/$id.pdf"
-            echo "##### $id"; pdftotext -layout p.pdf - | grep -v '^\s*$' | head -60
-            echo "##### raw $id"; pdftotext p.pdf - | grep -v '^\s*$' | head -50
-            sleep 2
-          done
-      - name: Price terms
-        continue-on-error: true
-        run: |
-          curl -sS -L -A "Mozilla/5.0" -o av.pdf https://www.alphavantage.co/terms_of_service/ && pdftotext av.pdf - | tr -s ' \n' | grep -ioE '.{0,300}(commercial|redistribut|display|publicly|news).{0,300}' | head -20
-          for u in "https://www.tiingo.com/about/pricing" "https://twelvedata.com/terms" "https://finnhub.io/terms-of-service" "https://site.financialmodelingprep.com/terms-of-service" "https://marketstack.com/terms" "https://fred.stlouisfed.org/series/SP500" "https://www.alphavantage.co/support/"; do
-            echo "=== $u"; curl -sS -L -A "Mozilla/5.0" -m 20 "$u" -o out.txt -w "%{http_code} %{size_download}\n" || true
-            sed -e 's/<[^>]*>//g' out.txt | tr -s ' \n' | grep -ioE '.{0,250}(commercial|redistribut|personal use|display|publicly|copyright).{0,250}' | head -8
+          curl -sS -L -A "Mozilla/5.0" -o av.pdf https://www.alphavantage.co/terms_of_service/ && pdftotext av.pdf av.txt
+          tr -s ' \n' ' ' < av.txt | grep -oE 'a\. Alpha Vantage grants.{0,2500}' | head -c 2600; echo
+          for u in "https://www.tiingo.com/about/pricing" "https://api.tiingo.com/about/pricing" "https://www.tiingo.com/documentation/general/overview" "https://marketstack.com/terms" "https://marketstack.com/pricing" "https://www.stockdata.org/terms" "https://www.stockdata.org/pricing"; do
+            echo; echo "=== $u"; curl -sS -L -A "Mozilla/5.0" -m 20 "$u" -o out.txt -w "%{http_code} %{size_download}\n" || true
+            sed -e 's/<script[^>]*>.*<\/script>//g' -e 's/<style[^>]*>.*<\/style>//g' -e 's/<[^>]*>/ /g' out.txt | tr -s ' \n' ' ' | grep -ioE '.{0,300}(commercial|redistribut|personal use|internal use|display).{0,300}' | grep -v 'font-face\|display:' | head -6
           done
