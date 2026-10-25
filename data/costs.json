@@ -1,0 +1,120 @@
+[
+  {
+    "at": "2026-10-25T05:12:29.608Z",
+    "date": "2026-10-25",
+    "dryRun": true,
+    "status": "rendered",
+    "receipt": 1,
+    "usd": 0.2696,
+    "calls": [
+      {
+        "role": "writer",
+        "model": "claude-fable-5-1",
+        "input": 1531,
+        "output": 235,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.02706
+      },
+      {
+        "role": "checker-a",
+        "model": "claude-opus-5-5",
+        "input": 1240,
+        "output": 513,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.01522
+      },
+      {
+        "role": "checker-b",
+        "model": "claude-opus-5-5",
+        "input": 1204,
+        "output": 545,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.01572
+      },
+      {
+        "role": "writer",
+        "model": "claude-fable-5-1",
+        "input": 1551,
+        "output": 251,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.02806
+      },
+      {
+        "role": "checker-b",
+        "model": "claude-opus-5-5",
+        "input": 1230,
+        "output": 335,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.01162
+      },
+      {
+        "role": "checker-a",
+        "model": "claude-opus-5-5",
+        "input": 1266,
+        "output": 525,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.01556
+      },
+      {
+        "role": "writer",
+        "model": "claude-fable-5-1",
+        "input": 1538,
+        "output": 239,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.02733
+      },
+      {
+        "role": "checker-b",
+        "model": "claude-opus-5-5",
+        "input": 1212,
+        "output": 159,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.00803
+      },
+      {
+        "role": "checker-a",
+        "model": "claude-opus-5-5",
+        "input": 1248,
+        "output": 596,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.01691
+      },
+      {
+        "role": "writer",
+        "model": "claude-fable-5-1",
+        "input": 1556,
+        "output": 1115,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.07131
+      },
+      {
+        "role": "checker-a",
+        "model": "claude-opus-5-5",
+        "input": 1267,
+        "output": 548,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.01603
+      },
+      {
+        "role": "checker-b",
+        "model": "claude-opus-5-5",
+        "input": 1231,
+        "output": 591,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.01674
+      }
+    ]
+  }
+]
