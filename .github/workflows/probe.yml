@@ -1,0 +1,58 @@
+name: Probe data sources
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      UA: "CongressReceipts/0.1 (public-interest news; github.com/houstoninvestments-jpg/congress-receipts)"
+    steps:
+      - name: Keys set (names only)
+        run: |
+          for n in ANTHROPIC_API_KEY ELEVENLABS_API_KEY CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID YOUTUBE_CLIENT_ID YOUTUBE_CLIENT_SECRET; do
+            if [ -n "${!n}" ]; then echo "SET $n"; else echo "MISSING $n"; fi
+          done
+      - name: House Clerk
+        run: |
+          sudo apt-get install -y -q poppler-utils >/dev/null 2>&1 || true
+          curl -sS -A "$UA" -o fd.zip -w "zip %{http_code} %{size_download}\n" https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026FD.zip
+          unzip -o -q fd.zip && ls -la
+          head -c 1500 2026FD.xml; echo
+          echo "PTR count: $(grep -c '<FilingType>P</FilingType>' 2026FD.xml)"
+          id=$(python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          r=ET.parse('2026FD.xml').getroot()
+          ms=[m for m in r if m.findtext('FilingType')=='P']
+          ms.sort(key=lambda m:m.findtext('FilingDate') or '')
+          for m in ms[-5:]:
+            import sys; print(m.findtext('DocID'), m.findtext('Last'), m.findtext('StateDst'), m.findtext('FilingDate'), file=sys.stderr)
+          print(ms[-1].findtext('DocID'))
+          PY
+          )
+          echo "doc $id"
+          curl -sS -A "$UA" -o ptr.pdf -w "pdf %{http_code} %{size_download}\n" "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/$id.pdf"
+          pdftotext -layout ptr.pdf - | head -80
+      - name: Senate eFD (one polite request each)
+        run: |
+          curl -sS -A "$UA" https://efdsearch.senate.gov/robots.txt -w "\nrobots %{http_code}\n" | head -30
+          sleep 5
+          curl -sS -A "$UA" -o home.html -w "home %{http_code}\n" https://efdsearch.senate.gov/search/home/
+          grep -io 'prohibit[^<]*' home.html | head -5; grep -io 'csrfmiddlewaretoken' home.html | head -1
+          sed -e 's/<[^>]*>//g' home.html | tr -s ' \n' | head -c 3000
+      - name: Price sources
+        run: |
+          for u in "https://stooq.com/q/d/l/?s=spy.us&i=d" "https://www.alphavantage.co/terms_of_service/" "https://www.tiingo.com/about/terms" "https://stooq.com/" "https://api.nasdaq.com/api/quote/SPY/historical?assetclass=etf&fromdate=2026-01-02&todate=2026-01-10&limit=10" "https://www.nasdaq.com/terms-of-use"; do
+            echo "=== $u"; curl -sS -L -A "$UA" -m 20 "$u" -o out.txt -w "%{http_code} %{size_download}\n"; sed -e 's/<[^>]*>//g' out.txt | tr -s ' \n' | grep -iE 'commercial|redistribut|personal|display|date,|close|terms' | head -15
+          done
