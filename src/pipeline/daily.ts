@@ -3,8 +3,9 @@ import type { CtaState, Facts, Ledger, Receipt, Script } from "../types.js";
 import type { ReceiptProps } from "../../remotion/props.js";
 import { config } from "../lib/config.js";
 import { loadLedger, saveLedger, upsertReceipt } from "../lib/ledger.js";
-import { log, pad3, path, slugify, today, writeJson } from "../lib/util.js";
+import { log, pad3, path, readJson, slugify, today, writeJson } from "../lib/util.js";
 import type { LLM } from "../llm/client.js";
+import { totalUsd, type CallCost } from "../llm/pricing.js";
 import { loadCache, refreshHouse } from "../data/house.js";
 import { loadMembers, refreshMembers } from "../data/members.js";
 import { candidates, pickOrder, type Candidate } from "../receipt/select.js";
@@ -88,6 +89,14 @@ export function receiptProps(r: Receipt, ledger: Ledger, opts: { testLabel: stri
   };
 }
 
+/** One line per run (dry runs too, since they can call the models) in data/costs.json. */
+function logCost(entry: { at: string; date: string; dryRun: boolean; status: string; receipt: number | null; usd: number; calls: CallCost[] }) {
+  const file = process.env.COST_FILE || path("data/costs.json");
+  const all = readJson<(typeof entry)[]>(file, []);
+  all.push(entry);
+  writeJson(file, all);
+}
+
 const late = (c: Candidate) => daysLate(c.txn.tradeDate, c.filing.filingDate) > 0;
 
 export async function runDaily(opts: RunOptions): Promise<RunReport> {
@@ -103,8 +112,10 @@ export async function runDaily(opts: RunOptions): Promise<RunReport> {
   try {
     if (!opts.dryRun && (!opts.llm || !opts.prices?.publishable)) throw new Error("live runs need the writer and checker models and a licensed price source");
     const ledger = loadLedger();
-    if (!opts.dryRun && ledger.receipts.some((r) => r.date === date && r.status === "published")) {
-      step("cadence", true, "already published today");
+    // Up to N a day (a ceiling, not a quota): each slot posts one only if a trade passes every check.
+    const postedToday = ledger.receipts.filter((r) => r.date === date && r.status === "published").length;
+    if (!opts.dryRun && postedToday >= cfg.cadence.shortsPerDay) {
+      step("cadence", true, `already ${postedToday} today; the ceiling is ${cfg.cadence.shortsPerDay}`);
       report.status = "skipped";
       return report;
     }
@@ -246,6 +257,10 @@ export async function runDaily(opts: RunOptions): Promise<RunReport> {
     report.status = "failed";
     return report;
   } finally {
+    const calls = opts.llm?.calls ?? [];
+    const usd = totalUsd(calls);
+    report.summary.modelCost = calls.length ? `$${usd.toFixed(4)} over ${calls.length} model calls (${calls.map((c) => `${c.role} ${c.model} ${c.input}+${c.output} tok`).join("; ")})` : "$0 (no model calls)";
+    logCost({ at: new Date().toISOString(), date, dryRun: opts.dryRun, status: report.status, receipt: report.receipt ?? null, usd, calls });
     writeJson(join(work, "run-report.json"), report);
     writeJson(path(opts.dryRun ? "data/dry-run/last-run.json" : "data/last-run.json"), report);
   }

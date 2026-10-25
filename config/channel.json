@@ -9,7 +9,7 @@
     "policyDate": "October 25, 2026"
   },
   "cadence": {
-    "shortsPerDay": 1,
+    "shortsPerDay": 3,
     "timezone": "America/Chicago"
   },
   "models": {

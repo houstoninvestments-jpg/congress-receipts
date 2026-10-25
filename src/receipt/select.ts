@@ -16,9 +16,10 @@ export interface Candidate {
  * to pick a trade; it only rules out the one choice that would break the balance.
  */
 export function allowedParties(ledger: Ledger, today: string, windowDays = config().selection.partyWindowDays): Set<Party> {
+  // The 7 days ending today, including receipts already posted today in an earlier slot.
   const recent = ledger.receipts.filter((r) => {
     const age = daysBetween(r.date, today);
-    return age > 0 && age < windowDays;
+    return age >= 0 && age < windowDays;
   });
   const d = recent.filter((r) => r.party === "Democrat").length;
   const r = recent.filter((r) => r.party === "Republican").length;

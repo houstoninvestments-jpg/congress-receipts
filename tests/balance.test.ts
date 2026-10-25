@@ -25,3 +25,23 @@ describe("party balance", () => {
     expect(balanced(l)).toBe(true);
   });
 });
+
+describe("three slots a day", () => {
+  it("counts receipts posted earlier the same day toward the 7-day balance", () => {
+    const l: Ledger = { nextNumber: 3, receipts: [receipt(1, day(3), "Democrat"), receipt(2, day(3), "Republican")], skipped: [] };
+    expect([...allowedParties(l, day(3), 7)].sort()).toEqual(["Democrat", "Independent", "Republican"]);
+    l.receipts.push(receipt(3, day(3), "Democrat"));
+    expect([...allowedParties(l, day(3), 7)].sort()).toEqual(["Independent", "Republican"]);
+  });
+  it("stays balanced with up to three a day for 30 days", () => {
+    const l: Ledger = { nextNumber: 1, receipts: [], skipped: [] };
+    for (let d = 0; d < 30; d++)
+      for (let slot = 0; slot < 3; slot++) {
+        const ok = allowedParties(l, day(d), 7);
+        const pick = (["Democrat", "Republican"] as const).find((p) => ok.has(p));
+        if (pick) l.receipts.push(receipt(l.nextNumber++, day(d), pick));
+      }
+    expect(balanced(l)).toBe(true);
+    expect(l.receipts.length).toBe(90);
+  });
+});

@@ -10,7 +10,7 @@ Founder steps: [docs/SETUP.md](docs/SETUP.md).
 
 ## How a day runs
 
-One GitHub Actions job (`.github/workflows/daily.yml`, 16:41 UTC):
+One GitHub Actions job (`.github/workflows/daily.yml`), three slots a day (about 9:37am, 2:37pm and 7:37pm Pacific). Up to 3 videos a day is a ceiling, not a quota: a slot posts only if a trade passes every check. Model cost is logged per run in `data/costs.json` and in the run notes.
 
 1. **Data** (`src/data`). The House Clerk's yearly disclosure index, then each
    new periodic transaction report PDF, read with `pdftotext`. Polite: clear

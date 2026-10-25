@@ -2,6 +2,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
 import type { z } from "zod";
 import { path, readJson, sha, writeJson } from "../lib/util.js";
+import { costOf, type CallCost } from "./pricing.js";
 
 export interface JsonCall<T extends z.ZodType> {
   role: string; // "writer" | "checker-a" | "checker-b" (names the fixture in dry-run)
@@ -15,6 +16,8 @@ export interface JsonCall<T extends z.ZodType> {
 export interface LLM {
   json<T extends z.ZodType>(call: JsonCall<T>): Promise<z.infer<T>>;
   readonly mode: "live" | "fixture";
+  /** Every model call this run, with tokens and dollars. */
+  readonly calls: CallCost[];
 }
 
 /**
@@ -23,6 +26,7 @@ export interface LLM {
  */
 export class AnthropicLLM implements LLM {
   readonly mode = "live" as const;
+  readonly calls: CallCost[] = [];
   private client = new Anthropic();
 
   async json<T extends z.ZodType>(call: JsonCall<T>): Promise<z.infer<T>> {
@@ -35,6 +39,9 @@ export class AnthropicLLM implements LLM {
       betas: ["server-side-fallback-2026-07-01"],
       fallbacks: "default",
     });
+    const u = res.usage as { input_tokens: number; output_tokens: number; cache_read_input_tokens?: number | null; cache_creation_input_tokens?: number | null };
+    const tokens = { input: u.input_tokens, output: u.output_tokens, cacheRead: u.cache_read_input_tokens ?? 0, cacheWrite: u.cache_creation_input_tokens ?? 0 };
+    this.calls.push({ role: call.role, model: res.model, ...tokens, usd: costOf(res.model, tokens) });
     if (res.stop_reason === "refusal") throw new Error(`${call.role}: model declined (${res.stop_details?.category ?? "no category"})`);
     if (res.stop_reason === "max_tokens") throw new Error(`${call.role}: output cut off at max_tokens`);
     if (!res.parsed_output) throw new Error(`${call.role}: no parseable output`);
@@ -49,6 +56,7 @@ export class AnthropicLLM implements LLM {
  */
 export class FixtureLLM implements LLM {
   readonly mode = "fixture" as const;
+  readonly calls: CallCost[] = [];
   constructor(private scenario: string) {}
 
   async json<T extends z.ZodType>(call: JsonCall<T>): Promise<z.infer<T>> {
@@ -61,6 +69,9 @@ export class FixtureLLM implements LLM {
 export class RecordingLLM implements LLM {
   readonly mode = "live" as const;
   constructor(private inner: LLM, private scenario: string) {}
+  get calls() {
+    return this.inner.calls;
+  }
   async json<T extends z.ZodType>(call: JsonCall<T>): Promise<z.infer<T>> {
     const output = await this.inner.json(call);
     writeJson(path("fixtures/llm", this.scenario, `${call.role}.json`), {

@@ -96,9 +96,10 @@ If you buy it, add one more secret:
 MARKETSTACK_API_KEY
 ```
 
-Go-live is automatic: the first daily run with steps 2 to 5 done uploads
-Receipt No. 001 as a private test, checks Google's upload lock, then posts
-public from the next day on.
+Go-live is automatic: the first run with steps 2 to 5 done uploads Receipt
+No. 001 as a private test and checks Google's upload lock. After that, up to
+3 public videos a day (about 9:37am, 2:37pm, 7:37pm Pacific), only what passes
+every check.
 
 ## Later, only when wanted
 

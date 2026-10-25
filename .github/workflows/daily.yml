@@ -2,8 +2,12 @@ name: Daily Receipt
 
 on:
   schedule:
-    # 16:41 UTC daily. Scam or Not runs at 14:23 UTC; this one never overlaps it.
-    - cron: "41 16 * * *"
+    # Three slots a day, a ceiling not a quota: each posts only if a trade passes every check.
+    # About 9:37am, 2:37pm and 7:37pm Pacific (an hour earlier in winter; GitHub cron runs on UTC).
+    # Scam or Not runs at 14:23 UTC, so these never overlap it.
+    - cron: "37 16 * * *"
+    - cron: "37 21 * * *"
+    - cron: "37 2 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
