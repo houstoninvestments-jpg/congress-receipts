@@ -1,7 +1,7 @@
 import { path, readJson } from "./util.js";
 
 export interface ChannelConfig {
-  channel: { name: string; handle: string; tagline: string; notAdvice: string; closer: string; contactEmail: string; policyDate: string };
+  channel: { name: string; handle: string; tagline: string; notAdvice: string; closer: string; policyDate: string; contactEmail?: string };
   cadence: { shortsPerDay: number; timezone: string };
   models: { writer: string; checker: string };
   voice: { provider: "kokoro"; kokoroVoice: string; lang: string; speed: number };
@@ -34,6 +34,8 @@ export function config(): ChannelConfig {
   const c = readJson<ChannelConfig>(path("config/channel.json"));
   const e = process.env;
   if (e.SITE_BASE_URL) c.site.baseUrl = e.SITE_BASE_URL.replace(/\/+$/, "");
+  // Never committed to this public repo: set as a GitHub Actions variable or secret and read at build time.
+  if (e.CONTACT_EMAIL?.trim()) c.channel.contactEmail = e.CONTACT_EMAIL.trim();
   cached = c;
   return c;
 }

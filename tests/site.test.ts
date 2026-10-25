@@ -45,6 +45,9 @@ describe("website", () => {
     expect(t).toContain("https://security.google.com/settings/security/permissions");
     expect(text("privacy/index.html")).toMatch(/delete stored YouTube data within 30 days/);
   });
+  it("privacy and terms give a way to reach us even without an email address set", () => {
+    expect(text("privacy/index.html")).toMatch(/YouTube channel's About page/);
+  });
   it("terms explain the news-media use and that we never sell data or alerts", () => {
     expect(text("terms/index.html")).toMatch(/13107\(c\)/);
     expect(text("terms/index.html")).toMatch(/never sell the data, and we never sell alerts/);

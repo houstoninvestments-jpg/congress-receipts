@@ -1,5 +1,13 @@
 import type { ChannelConfig } from "../lib/config.js";
-import { esc, page } from "./templates.js";
+import { esc, page, youtubeChannelUrl } from "./templates.js";
+
+/** How to reach us. The address comes from CONTACT_EMAIL at build time; it is never stored in this repo. */
+export function contactHtml(c: ChannelConfig, ask: string): string {
+  const email = c.channel.contactEmail;
+  if (email) return `Email <a href="mailto:${esc(email)}">${esc(email)}</a> ${ask}`;
+  const yt = youtubeChannelUrl();
+  return `Message us through ${yt ? `<a href="${esc(yt)}/about" rel="noopener">our YouTube channel's About page</a>` : "our YouTube channel's About page"} ${ask}`;
+}
 
 /**
  * Privacy policy and terms, written to the YouTube API Services rules from day one (same standard
@@ -8,7 +16,6 @@ import { esc, page } from "./templates.js";
  */
 
 export function privacyPage(c: ChannelConfig, root: string) {
-  const email = esc(c.channel.contactEmail);
   const name = esc(c.channel.name);
   const body = `
 <h1>Privacy</h1>
@@ -38,13 +45,13 @@ export function privacyPage(c: ChannelConfig, root: string) {
 <p><b>What we keep.</b> The ID, title and privacy setting of each video we posted. We keep the stats for each video for 30 days at most, then delete them. From those stats we keep one score per opening-line style. That score holds no personal data.</p>
 <p><b>The sign-in we store.</b> When the channel owner connects YouTube, our site keeps one sign-in token, locked with encryption, so the daily job can post. It belongs to our own channel only. Nobody else signs in.</p>
 <p><b>Who can turn it off.</b> Only the owner of the ${name} channel signs in to YouTube for our system. The owner can remove its access at any time on <a href="https://security.google.com/settings/security/permissions" rel="noopener">Google's security settings page</a>. Then our system can no longer post or read stats.</p>
-<p><b>Getting data deleted.</b> Email us and we will delete stored YouTube data within 30 days.</p>
+<p><b>Getting data deleted.</b> Contact us (below) and we will delete stored YouTube data within 30 days.</p>
 
 <h2>We never sell or share it</h2>
 <p>We don't sell your information. We don't rent it or trade it. We don't give it to advertisers.</p>
 
 <h2>How to get removed</h2>
-<p>Email <a href="mailto:${email}">${email}</a> and ask us to delete anything we hold about you. We will delete it within 30 days and tell you when it's done.</p>
+<p>${contactHtml(c, "and ask us to delete anything we hold about you.")} We will delete it within 30 days and tell you when it's done.</p>
 
 <h2>Kids</h2>
 <p>This site and our videos are not made for children under 13. We don't collect anything from them.</p>
@@ -53,12 +60,11 @@ export function privacyPage(c: ChannelConfig, root: string) {
 <p>If we change how we use information, we will first update this page. We will also change the date at the top.</p>
 
 <h2>Contact</h2>
-<p>Questions? Email <a href="mailto:${email}">${email}</a>.</p>`;
+<p>Questions? ${contactHtml(c, "")}</p>`;
   return page({ title: `Privacy | ${c.channel.name}`, description: `What ${c.channel.name} collects (almost nothing) and how to get removed.`, body, root, canonical: `${c.site.baseUrl}/privacy/` });
 }
 
 export function termsPage(c: ChannelConfig, root: string) {
-  const email = esc(c.channel.contactEmail);
   const name = esc(c.channel.name);
   const body = `
 <h1>Terms</h1>
@@ -80,7 +86,7 @@ export function termsPage(c: ChannelConfig, root: string) {
 <p>Federal law limits how these reports may be used (5 U.S.C. 13107(c)). It bans commercial use, except by news and communications media sharing them with the general public. That's what we do. We publish for the public. We never sell the data, and we never sell alerts.</p>
 
 <h2>We check, but we can be wrong</h2>
-<p>Code and two separate reviews check every number against the filing before we post. If anything is unclear, we skip that trade. Still, filings can be amended and we can make mistakes. The filing is always the source of truth. Spot an error? Email us and we will fix it.</p>
+<p>Code and two separate reviews check every number against the filing before we post. If anything is unclear, we skip that trade. Still, filings can be amended and we can make mistakes. The filing is always the source of truth. Spot an error? Contact us (below) and we will fix it.</p>
 
 <h2>AI</h2>
 <p>The voice in our videos is made by AI. The filing card in each video is a clean recreation of the official report, made by code.</p>
@@ -101,6 +107,6 @@ export function termsPage(c: ChannelConfig, root: string) {
 <p>We may update these terms. We will change the date at the top when we do.</p>
 
 <h2>Contact</h2>
-<p>Questions? Email <a href="mailto:${email}">${email}</a>.</p>`;
+<p>Questions? ${contactHtml(c, "")}</p>`;
   return page({ title: `Terms | ${c.channel.name}`, description: `The simple rules for using ${c.channel.name}.`, body, root, canonical: `${c.site.baseUrl}/terms/` });
 }

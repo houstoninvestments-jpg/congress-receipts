@@ -1,9 +1,9 @@
 import { seal } from "../../../src/auth/seal";
-import { checkState, esc, page, projectVars, ready, redirectUri, saveVars, type Env } from "./_shared";
+import { channelCheck, checkState, esc, page, projectVars, ready, redirectUri, saveVars, type Env } from "./_shared";
 
 /**
  * GET /auth/youtube/callback: Google sends the owner back here after Allow.
- * Swaps the code for a refresh token, checks it is the owner's Google account, seals the token
+ * Swaps the code for a refresh token, checks the channel picked is ours (by handle, then pinned ID), seals the token
  * and saves it on our Pages project. Only the first connection is accepted.
  */
 export const onRequestGet = async ({ request, env }: { request: Request; env: Env }) => {
@@ -28,21 +28,19 @@ export const onRequestGet = async ({ request, env }: { request: Request; env: En
   const t: any = await tok.json();
   if (!tok.ok || !t.refresh_token) return page("Not connected", "<p>Google didn't send a long-lived token. Open the link again and click Allow on every screen.</p>", 400);
 
-  // The id_token came straight from Google over TLS in this same request, so reading its claims is safe.
-  const claims = JSON.parse(atob(String(t.id_token ?? "").split(".")[1]?.replace(/-/g, "+").replace(/_/g, "/") ?? "e30="));
-  if (!claims.email_verified || String(claims.email).toLowerCase() !== env.ALLOWED_EMAIL!.toLowerCase())
-    return page("Wrong Google account", "<p>This link only works for the channel owner's Google account. Nothing was saved.</p>", 403);
-
   const ch = await fetch("https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true", { headers: { authorization: `Bearer ${t.access_token}` } });
   const c: any = await ch.json();
-  const channel = c.items?.[0];
-  if (!channel) return page("No channel picked", "<p>That account has no YouTube channel. Open the link again and pick the Congress Receipts channel.</p>", 400);
+  const item = c.items?.[0];
+  const channel = item ? { id: String(item.id), title: String(item.snippet?.title ?? ""), handle: String(item.snippet?.customUrl ?? "") } : null;
+  const verdict = channelCheck(channel, env.ALLOWED_HANDLE!, vars.YT_PINNED_CHANNEL_ID?.value || undefined);
+  if (!verdict.ok) return page("Wrong channel", `<p>Nothing was saved: ${esc(verdict.why)}.</p><p>Open the link again and pick the <b>${esc(env.ALLOWED_HANDLE!)}</b> channel.</p>`, 403);
 
   await saveVars(env, {
     YT_TOKEN_SEALED: await seal(t.refresh_token, env.GOOGLE_CLIENT_SECRET!),
-    YT_CHANNEL_ID: channel.id,
-    YT_CHANNEL_TITLE: channel.snippet?.title ?? "",
+    YT_CHANNEL_ID: channel!.id,
+    YT_PINNED_CHANNEL_ID: channel!.id,
+    YT_CHANNEL_TITLE: channel!.title,
     YT_AUTH_AT: new Date().toISOString(),
   });
-  return page("Connected", `<p>Done. The daily job can now post to <b>${esc(channel.snippet?.title ?? "your channel")}</b>.</p><p>You can close this page.</p>`);
+  return page("Connected", `<p>Done. The daily job can now post to <b>${esc(channel!.title || "your channel")}</b> (${esc(channel!.handle)}).</p><p>You can close this page.</p>`);
 };

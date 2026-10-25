@@ -1,7 +1,5 @@
 // Cloudflare Pages Function helpers for the one-link YouTube authorization.
 export const SCOPES = [
-  "openid",
-  "email",
   "https://www.googleapis.com/auth/youtube.upload",
   "https://www.googleapis.com/auth/youtube.force-ssl",
   "https://www.googleapis.com/auth/yt-analytics.readonly",
@@ -13,10 +11,10 @@ export interface Env {
   CF_API_TOKEN?: string;
   CF_ACCOUNT_ID?: string;
   CF_PROJECT?: string;
-  ALLOWED_EMAIL?: string;
+  ALLOWED_HANDLE?: string; // "@CongressReceipts"
 }
 
-export const ready = (e: Env) => Boolean(e.GOOGLE_CLIENT_ID && e.GOOGLE_CLIENT_SECRET && e.CF_API_TOKEN && e.CF_ACCOUNT_ID && e.CF_PROJECT && e.ALLOWED_EMAIL);
+export const ready = (e: Env) => Boolean(e.GOOGLE_CLIENT_ID && e.GOOGLE_CLIENT_SECRET && e.CF_API_TOKEN && e.CF_ACCOUNT_ID && e.CF_PROJECT && e.ALLOWED_HANDLE);
 
 export const redirectUri = (req: Request) => `${new URL(req.url).origin}/auth/youtube/callback`;
 
@@ -39,6 +37,25 @@ export async function checkState(secret: string, state: string | null, now = Dat
   const [ts, sig] = state.split(".");
   if (!ts || !sig || now - Number(ts) > 15 * 60_000 || Number(ts) > now + 60_000) return false;
   return sig === (await hmac(secret, `state:${ts}`));
+}
+
+export interface Channel {
+  id: string;
+  title: string;
+  handle: string; // snippet.customUrl, e.g. "@congressreceipts"
+}
+
+/**
+ * Is this the channel we post to? Checked on the channel the sign-in picked, never on an email:
+ * brand-account channels sign in with an identity that isn't the owner's Gmail.
+ * Once a channel has connected, its ID is pinned and only that channel is accepted again.
+ */
+export function channelCheck(ch: Channel | null, allowedHandle: string, pinnedId?: string): { ok: true } | { ok: false; why: string } {
+  if (!ch?.id) return { ok: false, why: "no channel came back with this sign-in" };
+  if (pinnedId) return ch.id === pinnedId ? { ok: true } : { ok: false, why: `this site is tied to a different channel (${pinnedId})` };
+  const norm = (h: string) => h.trim().toLowerCase().replace(/^@?/, "@");
+  if (!ch.handle || norm(ch.handle) !== norm(allowedHandle)) return { ok: false, why: `the channel picked has the handle ${ch.handle || "(none)"}, not ${allowedHandle}` };
+  return { ok: true };
 }
 
 export async function projectVars(e: Env): Promise<Record<string, { value?: string } | null>> {

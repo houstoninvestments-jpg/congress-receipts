@@ -78,8 +78,9 @@ https://congressreceipts.pages.dev/auth/youtube
 
 Pick your Google account, pick the **Congress Receipts** channel, click
 **Allow** (Google warns the app is unverified; continue, it's your own app).
-The page says "Connected". Nothing to copy. The token is sealed and stored by
-the site; only your Google account can use this link.
+The page says "Connected". Nothing to copy. The site checks the channel
+itself: it must be `@CongressReceipts`, and after the first connection only
+that same channel is accepted. A brand-account channel works.
 
 ## 5. Founder decision: the price source
 
@@ -102,6 +103,14 @@ No. 001 as a private test and checks Google's upload lock. After that, up to
 every check.
 
 ## Later, only when wanted
+
+- **Contact address on the privacy and terms pages.** Optional. Until it's
+  set, those pages point to the YouTube channel's About page. To show an
+  email instead, add a repo **variable** (not committed to the code):
+
+```
+CONTACT_EMAIL
+```
 
 - **Weekly email "This week's receipts".** Built, hidden. Needs an email
   service and its signup form address in `config/channel.json`

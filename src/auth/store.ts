@@ -74,17 +74,22 @@ export async function armAuthFunction(): Promise<string> {
     CF_API_TOKEN: { type: "secret_text", value: env("CLOUDFLARE_API_TOKEN")! },
     CF_ACCOUNT_ID: { type: "plain_text", value: c.account },
     CF_PROJECT: { type: "plain_text", value: c.project },
-    ALLOWED_EMAIL: { type: "plain_text", value: config().channel.contactEmail },
+    ALLOWED_HANDLE: { type: "plain_text", value: config().channel.handle },
+    ALLOWED_EMAIL: null, // retired: channels are checked by handle and pinned ID, not by email
     ...keep(SEALED_VAR),
     ...keep("YT_CHANNEL_TITLE"),
     ...keep("YT_CHANNEL_ID"),
     ...keep("YT_AUTH_AT"),
+    ...keep("YT_PINNED_CHANNEL_ID"),
   });
   if (!r.success) throw new Error(`could not arm the authorize link: ${r.errors?.[0]?.message ?? r.status}`);
   return `authorize link ready at https://${c.project}.pages.dev/auth/youtube`;
 }
 
-/** Forget the stored YouTube connection, so the one link can be used again (reset_youtube in the daily job). */
+/**
+ * Forget the stored YouTube connection, so the one link can be used again (reset_youtube in the daily job).
+ * The pinned channel ID stays: a reconnect must be the same channel.
+ */
 export async function resetAuth(): Promise<void> {
   const c = await cf();
   if (!c) return;
