@@ -1,9 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { companyName, parseAmount, shortCompany } from "../src/data/ptr.js";
+import { companyName, isOtcForeign, parseAmount, shortCompany } from "../src/data/ptr.js";
+import { factsForModel } from "../src/writer/index.js";
+import { liquidityCheck } from "../src/prices/index.js";
 import { matchMember } from "../src/data/members.js";
 import { daysLate } from "../src/receipt/facts.js";
 import { leg, splitAdjust } from "../src/prices/index.js";
-import { parsed, SALAZAR, SALAZAR_M } from "./helpers.js";
+import { facts, parsed, SALAZAR, SALAZAR_M } from "./helpers.js";
 import { parsePtrText } from "../src/data/ptr.js";
 
 describe("House PTR parser", () => {
@@ -67,5 +69,24 @@ describe("prices", () => {
     const pts = [{ date: "2026-01-05", close: 10 }, { date: "2026-02-02", close: 11 }];
     expect(leg("X", pts, "2026-01-03")!.start.date).toBe("2026-01-05");
     expect(leg("X", pts, "2025-12-01")).toBeNull();
+  });
+});
+
+describe("fixes after the first live dry run", () => {
+  it("cleans all-caps share names from the filing", () => {
+    expect(shortCompany(companyName("NOKIA A SHS (NOKBF) [ST]"))).toBe("Nokia");
+    expect(shortCompany(companyName("IBM CORP (IBM) [ST]"))).toBe("IBM");
+    expect(shortCompany(companyName("META PLATFORMS INC CL A (META) [ST]"))).toBe("Meta Platforms");
+  });
+  it("skips thin over-the-counter foreign shares", () => {
+    expect(isOtcForeign("NOKBF")).toBe(true);
+    expect(isOtcForeign("MSFT")).toBe(false);
+    expect(isOtcForeign("BRK.B")).toBe(false);
+    expect(() => liquidityCheck("X", [{ volume: 1000, exchange: "XNAS" }, { volume: 2000, exchange: "XNAS" }])).toThrow(/thinly traded/);
+    expect(() => liquidityCheck("X", [{ volume: 1e6, exchange: "OTCM" }])).toThrow(/major U.S. exchange/);
+    expect(() => liquidityCheck("X", [{ volume: 1e6, exchange: "XNYS" }])).not.toThrow();
+  });
+  it("tells the reviewers the filing says purchase", () => {
+    expect(factsForModel(facts()).transaction).toMatch(/purchase/);
   });
 });

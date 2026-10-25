@@ -1,6 +1,7 @@
 import type { Filing, Ledger, Member, ParsedFiling, Party, Transaction } from "../types.js";
 import { config } from "../lib/config.js";
 import { matchMember } from "../data/members.js";
+import { isOtcForeign } from "../data/ptr.js";
 import { daysBetween } from "./facts.js";
 
 export interface Candidate {
@@ -77,6 +78,10 @@ export function candidates(cache: Record<string, ParsedFiling>, members: Member[
       }
       if (t.assetType !== "ST" || !t.ticker) {
         drop("not a listed stock with a ticker");
+        continue;
+      }
+      if (isOtcForeign(t.ticker)) {
+        drop("thinly traded foreign share (over the counter)");
         continue;
       }
       if (!member) {

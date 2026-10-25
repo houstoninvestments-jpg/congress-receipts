@@ -189,6 +189,20 @@ jobs:
           curl -s "$base/" | grep -q "Not financial advice. Facts from public filings." || { echo "::error title=Live check::home page is missing the not-advice line"; exit 1; }
           echo "::notice title=Live check::$base answered 200 for:$ok"
 
+      - name: Check the YouTube authorize link
+        if: always() && steps.cloudflare.outcome == 'success' && env.YOUTUBE_CLIENT_ID != ''
+        run: |
+          base="${{ steps.site.outputs.base_url }}"
+          out=$(curl -s -o work/auth.html -w "%{http_code} %{redirect_url}" "$base/auth/youtube")
+          code="${out%% *}"; loc="${out#* }"
+          if [ "$code" = "302" ] && [[ "$loc" == https://accounts.google.com/o/oauth2/v2/auth\?* ]] && [[ "$loc" == *"client_id=$YOUTUBE_CLIENT_ID"* ]] && [[ "$loc" == *"redirect_uri=$(node -p 'encodeURIComponent(process.argv[1])' "$base/auth/youtube/callback")"* ]]; then
+            echo "::notice title=Authorize link::$base/auth/youtube sends you to Google sign-in (accounts.google.com) with this channel's client and the callback $base/auth/youtube/callback"
+          elif [ "$code" = "200" ] && grep -q "Already connected" work/auth.html; then
+            echo "::notice title=Authorize link::already connected; the link says so"
+          else
+            echo "::error title=Authorize link::$base/auth/youtube answered $code ${loc%%\?*}: $(sed -e 's/<[^>]*>/ /g' work/auth.html | tr -s ' \n' ' ' | cut -c1-200)"; exit 1
+          fi
+
       - name: Save ledger and parsed filings
         if: always()
         run: |

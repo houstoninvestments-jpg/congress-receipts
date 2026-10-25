@@ -87,12 +87,14 @@ ${JSON.stringify({ ...example, title: "" }, null, 2)}${fix}`;
 /** Facts with every number pre-formatted, so the model never does arithmetic. */
 export function factsForModel(f: Facts) {
   return {
+    transaction: "purchase (the filing's transaction type is P, which means purchase)",
     who: whoBought(f),
     member: `${f.memberTitle} ${f.memberName}`,
     party: f.party,
     state: f.stateName,
-    owner: f.owner,
+    owner: `${f.owner} (from the filing's owner column)`,
     company: f.company,
+    companyAsFiled: f.companyFull,
     ticker: f.ticker,
     amountFiled: f.amountText,
     amountSpoken: amountWords(f),

@@ -157,8 +157,20 @@ export function companyName(asset: string): string {
     .replace(/\b(-\s*)?(New\s+)?(Class [A-Z]\s+)?(Common|Ordinary)(\s+(Stock|Shares))?\b.*$/i, "")
     .replace(/[\s,\-–]+$/, "")
     .replace(/\s+/g, " ")
-    .trim();
+    .trim()
+    .replace(/\s+(-\s*)?(Class\s+)?([A-Z]\s+)?(SHS|SHARES|ORD|ORDINARY|ADR|ADS|SPONSORED ADR|SPON ADR|REG|REGISTERED)\b.*$/i, "")
+    .replace(/\s+(-\s*)?(CL|CLASS)\s+[A-Z]\b.*$/i, "")
+    .replace(/[\s,\-–]+$/, "")
+    .split(" ")
+    .map((w, _i, all) => (all.join(" ") === all.join(" ").toUpperCase() && /^[A-Z]{4,}$/.test(w) ? w.charAt(0) + w.slice(1).toLowerCase() : w))
+    .join(" ");
 }
+
+/**
+ * Foreign shares that trade over the counter in the U.S. (five-letter tickers ending in F, like NOKBF)
+ * often trade thinly, so their prices are less reliable. We skip them.
+ */
+export const isOtcForeign = (ticker: string) => /^[A-Z]{4}F$/.test(ticker);
 
 /** The name people say: "Merck & Company, Inc." -> "Merck & Company", "Apple Inc." -> "Apple". */
 export function shortCompany(name: string): string {

@@ -37,11 +37,24 @@ export function marketstack(fetchImpl: typeof fetch = fetch): PriceSource {
       const q = new URLSearchParams({ access_key: key, symbols: symbol, date_from: from, date_to: to, limit: "1000" });
       const res = await fetchImpl(`https://api.marketstack.com/v2/eod?${q}`);
       if (!res.ok) throw new Error(`marketstack ${symbol} -> ${res.status}`);
-      const j = (await res.json()) as { data?: { date: string; close: number; split_factor?: number; symbol?: string }[] };
+      const j = (await res.json()) as { data?: { date: string; close: number; split_factor?: number; symbol?: string; volume?: number; exchange?: string }[] };
       const rows = (j.data ?? []).filter((r) => !r.symbol || r.symbol.toUpperCase() === symbol.toUpperCase());
+      liquidityCheck(symbol, rows);
       return checkJumps(splitAdjust(rows.map((r) => ({ date: r.date.slice(0, 10), close: Number(r.close), splitFactor: r.split_factor }))), symbol);
     },
   };
+}
+
+/** Major U.S. exchanges (ISO market codes). Anything else, like over-the-counter markets, is skipped. */
+export const US_EXCHANGES = new Set(["XNYS", "XNAS", "ARCX", "BATS", "XASE", "IEXG"]);
+export const MIN_MEDIAN_VOLUME = 50_000;
+
+/** Thin trading means unreliable closes: skip, never guess. Checks only what the source reports. */
+export function liquidityCheck(symbol: string, rows: { volume?: number; exchange?: string }[]) {
+  const ex = rows.map((r) => r.exchange).filter((x): x is string => Boolean(x));
+  if (ex.length && !ex.some((e) => US_EXCHANGES.has(e.toUpperCase()))) throw new Error(`${symbol}: not on a major U.S. exchange (${ex[0]})`);
+  const vols = rows.map((r) => r.volume).filter((v): v is number => typeof v === "number").sort((a, b) => a - b);
+  if (vols.length && vols[Math.floor(vols.length / 2)] < MIN_MEDIAN_VOLUME) throw new Error(`${symbol}: thinly traded (median ${vols[Math.floor(vols.length / 2)]} shares a day)`);
 }
 
 /** A one-day move over 40% after split adjustment means bad data (or an unlisted split): skip, never guess. */
