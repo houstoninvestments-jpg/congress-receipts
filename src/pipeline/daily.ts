@@ -17,6 +17,7 @@ import { check, mechanicalCheck, spokenLines } from "../checker/index.js";
 import { loadHooks, pickHook } from "../learn/hooks.js";
 import { synthesize } from "../voice/index.js";
 import { assertShort, extractCover, prepareTimeline, probe, readWindowChecks, renderShort } from "../render/index.js";
+import { checkSymbols } from "../site/affiliate.js";
 import { publishShort, recheckLock, uploadRequest, type Uploader } from "../publish/youtube.js";
 
 export interface RunOptions {
@@ -230,7 +231,8 @@ export async function runDaily(opts: RunOptions): Promise<RunReport> {
     report.videoFile = videoFile;
     report.receipt = number;
 
-    // 4. Publish
+    // 4. Publish. The description links the stock's TradingView chart, so check that page exists first.
+    if (cfg.affiliate.enabled && !opts.offline) await checkSymbols([facts.ticker]);
     const upload = uploadRequest(r, voice.label);
     writeJson(join(work, "upload-request.json"), upload);
     report.summary.title = upload.snippet.title;

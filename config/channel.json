@@ -36,11 +36,10 @@
     "baseUrl": "https://congressreceipts.pages.dev"
   },
   "affiliate": {
-    "enabled": false,
+    "enabled": true,
     "label": "Paid link",
-    "name": "Brokerage pick",
-    "url": "",
-    "blurb": "Placeholder. No partner picked yet."
+    "name": "TradingView",
+    "affId": "1173299"
   },
   "newsletter": {
     "enabled": false,

@@ -17,6 +17,12 @@ describe("YouTube upload metadata", () => {
     expect(d).toMatch(/narration is an AI voice/);
     expect(d.trim().split("\n").at(-1)).toBe("#CongressReceipts #STOCKAct #Congress #Shorts");
   });
+  it("description carries the receipt's TradingView chart link for YouTube, with the paid-link disclosure", () => {
+    const d = u.snippet.description;
+    expect(d).toMatch(/Full MRK chart on TradingView \(paid link\): https:\/\/www\.tradingview\.com\/\S*aff_id=1173299&aff_sub=receipt-001&source=youtube/);
+    expect(d).toContain("Paid link: TradingView pays us if you sign up for a paid plan through it.");
+    expect(d).not.toMatch(/\$15(?![\d,])|discount|coupon/i);
+  });
   it("flags synthetic media on every upload", () => {
     expect(u.status.containsSyntheticMedia).toBe(true);
     expect(u.status.selfDeclaredMadeForKids).toBe(false);

@@ -28,6 +28,9 @@ export function privacyPage(c: ChannelConfig, root: string) {
     c.newsletter.enabled ? "" : " Right now it is turned off, so the site collects no email addresses at all."
   } If we turn it on, you can type in your email. We would then save your email address and the date you signed up, and use it only to send that weekly email. We would update this page first.</p>
 
+<h2>Paid links to TradingView</h2>
+<p>Our paid links to TradingView carry our partner code. If you click one, TradingView may store a cookie in your browser for up to 90 days, so it can tell we sent you. That is TradingView's cookie, under <a href="https://www.tradingview.com/privacy-policy/" rel="noopener">TradingView's privacy policy</a>. We get no information about you from it.</p>
+
 <h2>Our web host</h2>
 <p>The site is hosted by Cloudflare. Cloudflare handles the traffic to the site, like any web host. It may keep basic records, such as visit times and browser types. We don't use those records to track you.</p>
 
@@ -95,7 +98,7 @@ export function termsPage(c: ChannelConfig, root: string) {
 <p>Our videos are on YouTube, and we post them using YouTube API Services. When you watch them there, you agree to the <a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms of Service</a>. Our <a href="../privacy/">privacy page</a> explains what YouTube data we use.</p>
 
 <h2>Paid links</h2>
-<p>If we ever add a paid link, we will label it "Paid link" right next to it.</p>
+<p>Some links go to TradingView, a charting site. TradingView pays us if you sign up for a paid plan through them. Each one is labeled "Paid link" right next to it. They have no effect on which trades we show, and nothing on TradingView or here is advice.</p>
 
 <h2>Using our content</h2>
 <p>You are welcome to share links to our pages and videos. Please don't copy whole pages or videos and post them as your own.</p>

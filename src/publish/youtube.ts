@@ -5,6 +5,7 @@ import { log, path, requireEnv } from "../lib/util.js";
 import { refreshToken } from "../auth/store.js";
 import { writeAuditRequest } from "./audit.js";
 import { longDate } from "../receipt/facts.js";
+import { DESCRIPTION_DISCLOSURE, chartLink } from "../site/affiliate.js";
 
 export interface Uploader {
   token(): Promise<string>;
@@ -50,6 +51,7 @@ export function videoDescription(r: Receipt, voiceLabel: string) {
     "",
     `Source filing (U.S. House Clerk): ${f.pdfUrl}`,
     `The receipt and the math: ${receiptUrl(r)}`,
+    ...(c.affiliate.enabled ? ["", `Full ${f.ticker} chart on TradingView (paid link): ${chartLink(f.ticker, r.number, "youtube")}`, DESCRIPTION_DISCLOSURE] : []),
     "",
     c.channel.notAdvice,
     `Disclosure: the narration is an ${voiceLabel}. The filing card is a clean recreation of the official report.`,

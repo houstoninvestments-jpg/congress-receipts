@@ -3,6 +3,18 @@ import { config } from "../lib/config.js";
 import { path, readJson } from "../lib/util.js";
 import { longDate } from "../receipt/facts.js";
 import type { Side } from "../receipt/scoreboard.js";
+import { DISCLOSURE, chartLink, generalLink } from "./affiliate.js";
+
+/** A paid link: the button, the "Paid link" label right next to it, and the plain disclosure under it. */
+export function paidLink(href: string, text: string) {
+  const a = config().affiliate;
+  if (!a.enabled) return "";
+  return `<div class="paidlink"><a class="btn" href="${esc(href)}" rel="sponsored noopener" target="_blank">${esc(text)}</a> <span class="paid">${esc(a.label)}</span>
+<p class="small">${esc(DISCLOSURE)}</p></div>`;
+}
+
+export const CHART_TEXT = "See the full chart on TradingView";
+export const generalPaidLink = (aff_sub: string) => paidLink(generalLink(aff_sub, "site"), "Charts for any stock on TradingView");
 
 export const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const pad3 = (n: number) => String(n).padStart(3, "0");
@@ -55,6 +67,7 @@ h2{font-size:1.3em;font-weight:900;margin:1.8em 0 .6em}
 .list a{display:block;padding:12px 0;border-bottom:1px solid var(--line);text-decoration:none}
 .list small{color:var(--dim);display:block}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin:16px 0}
+.paidlink{margin:12px 0}.paidlink .btn{display:inline-block;margin:0 8px 0 0}
 .paid{font-size:.78em;font-weight:800;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--dim);border-radius:6px;padding:1px 6px;color:var(--dim)}
 .btn{display:block;text-align:center;border:2px solid var(--ink);border-radius:14px;padding:14px 16px;font-weight:800;text-decoration:none;margin:12px 0}
 input[type=email]{width:100%;font:inherit;padding:12px;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--ink)}
@@ -157,6 +170,7 @@ ${f.stamp ? `<span class="stamp">${esc(f.stamp)}</span>` : ""}
 ${receiptCard(r)}
 <h2>What happened next</h2>
 <p class="lede">${esc(r.script.resultSay)}</p>
+${paidLink(chartLink(f.ticker, r.number, "site"), CHART_TEXT)}
 <h2>The math</h2>
 ${mathBlock(r)}
 ${youtubeUrl ? `<a class="btn" href="${esc(youtubeUrl)}" rel="noopener">Watch the video on YouTube</a>` : ""}

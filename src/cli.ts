@@ -53,6 +53,12 @@ async function main() {
       // --test-preview builds from the dry-run ledger, for local checks only. Never deploy that output.
       const preview = flag("--test-preview");
       if (preview) process.env.LEDGER_FILE ??= path("data/dry-run/ledger.json");
+      if (process.env.TV_CHECK === "1") {
+        // Check each receipt's TradingView chart page exists before linking to it (needs the network).
+        const { checkSymbols } = await import("./site/affiliate.js");
+        const { loadLedger } = await import("./lib/ledger.js");
+        await checkSymbols(loadLedger().receipts.map((x) => x.facts.ticker));
+      }
       const { buildSite } = await import("./site/build.js");
       const r = await buildSite({ dryRun: preview, dir: preview ? path("work/site-preview") : undefined });
       log(`site: ${r.pages.length} pages in ${r.dir}`);

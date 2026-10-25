@@ -6,7 +6,7 @@ import { loadLedger, published } from "../lib/ledger.js";
 import { path, today } from "../lib/util.js";
 import { longDate } from "../receipt/facts.js";
 import { scoreboard } from "../receipt/scoreboard.js";
-import { CSS, boardBlock, esc, page, receiptCard, receiptPage } from "./templates.js";
+import { CSS, boardBlock, esc, generalPaidLink, page, receiptCard, receiptPage } from "./templates.js";
 import { privacyPage, termsPage } from "./legal.js";
 
 const pad3 = (n: number) => String(n).padStart(3, "0");
@@ -26,7 +26,6 @@ function homePage(eps: Receipt[]) {
   const c = config();
   const last = eps.at(-1);
   const year = Number(today(c.cadence.timezone).slice(0, 4));
-  const aff = c.affiliate;
   const nl = c.newsletter;
   const body = `
 <h1>${esc(c.channel.tagline)}</h1>
@@ -54,11 +53,8 @@ ${eps.length > 1 ? `<h2>Recent receipts</h2><div class="list">${[...eps].reverse
 </form>
 </section>
 
-<section id="paid-link" class="card"${aff.enabled && aff.url ? "" : " hidden"}>
-<p><span class="paid">${esc(aff.label)}</span></p>
-<p><b>${esc(aff.name)}</b></p><p>${esc(aff.blurb)}</p>
-<a class="btn" href="${esc(aff.url)}" rel="sponsored noopener">See it</a>
-<p class="small">We earn money if you sign up through this link. It has no effect on which trades we show.</p>
+<section id="paid-link">
+${generalPaidLink("home")}
 </section>`;
   return page({ title: `${c.channel.name}: stock trades by members of Congress, from the filings`, description: c.channel.tagline, body, root: "", canonical: `${c.site.baseUrl}/` });
 }
@@ -73,7 +69,8 @@ function boardPage(eps: Receipt[]) {
   const c = config();
   const year = Number(today(c.cadence.timezone).slice(0, 4));
   const body = `<h1>Scoreboard ${year}</h1>${boardBlock(scoreboard(eps, year))}
-<p>"Average vs S&amp;P 500" is the stock's price change minus the S&amp;P 500's price change over the same days, averaged over that party's receipts. It covers only the trades we showed, not every trade members made.</p>`;
+<p>"Average vs S&amp;P 500" is the stock's price change minus the S&amp;P 500's price change over the same days, averaged over that party's receipts. It covers only the trades we showed, not every trade members made.</p>
+${generalPaidLink("scoreboard")}`;
   return page({ title: `Scoreboard ${year} | Congress Receipts`, description: "Democrats and Republicans side by side, from the receipts we posted this year.", body, root: "../", canonical: `${c.site.baseUrl}/scoreboard/` });
 }
 

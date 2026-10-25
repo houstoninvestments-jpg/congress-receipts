@@ -151,6 +151,9 @@ jobs:
       - name: Build website
         if: always()
         # Public site shows published receipts only. Dry-run test renders never appear on it.
+        # TV_CHECK: confirm each receipt's TradingView chart page exists before linking to it.
+        env:
+          TV_CHECK: "1"
         run: npx tsx src/cli.ts site
 
       - name: Publish website to Cloudflare Pages
@@ -190,6 +193,35 @@ jobs:
           done
           curl -s "$base/" | grep -q "Not financial advice. Facts from public filings." || { echo "::error title=Live check::home page is missing the not-advice line"; exit 1; }
           echo "::notice title=Live check::$base answered 200 for:$ok"
+
+      - name: Check the TradingView paid links
+        if: always() && (steps.cloudflare.outcome == 'success' || steps.ghpages.outcome == 'success')
+        run: |
+          base="${{ steps.site.outputs.base_url }}"
+          ua="Mozilla/5.0 (compatible; CongressReceipts link check)"
+          fail() { echo "::error title=Paid links::$1"; exit 1; }
+          # Home and scoreboard: one general link each, labeled, with the disclosure.
+          for pg in "home|" "scoreboard|scoreboard/"; do
+            name="${pg%%|*}"; path="${pg#*|}"
+            h=$(curl -s "$base/$path")
+            echo "$h" | grep -q "https://www.tradingview.com/?aff_id=1173299&amp;aff_sub=$name&amp;source=site" || fail "$name page has no TradingView link"
+            echo "$h" | grep -q '<span class="paid">Paid link</span>' || fail "$name page link is not labeled Paid link"
+            echo "$h" | grep -q "TradingView pays us" || fail "$name page has no disclosure"
+          done
+          # Every published receipt page: its chart link, right under the result.
+          n=0
+          for row in $(node -e 'const l=require("./data/ledger.json");const m=require("fs").existsSync("./data/tradingview-symbols.json")?require("./data/tradingview-symbols.json"):{};for(const r of l.receipts.filter(r=>r.status==="published"))console.log([r.slug,String(r.number).padStart(3,"0"),(m[r.facts.ticker.toUpperCase()]||{}).path||"/"].join("|"))' 2>/dev/null); do
+            slug="${row%%|*}"; rest="${row#*|}"; num="${rest%%|*}"; tvpath="${rest#*|}"
+            h=$(curl -s "$base/receipt/$slug/")
+            echo "$h" | grep -q "https://www.tradingview.com${tvpath}?aff_id=1173299&amp;aff_sub=receipt-$num&amp;source=site" || fail "receipt $num has no chart link"
+            echo "$h" | grep -q 'See the full chart on TradingView</a> <span class="paid">Paid link</span>' || fail "receipt $num link is not labeled"
+            n=$((n+1))
+          done
+          # The links themselves must open a real TradingView page.
+          for u in "https://www.tradingview.com/?aff_id=1173299&aff_sub=home&source=site" $(node -e 'const m=require("fs").existsSync("./data/tradingview-symbols.json")?require("./data/tradingview-symbols.json"):{};for(const v of Object.values(m).filter(v=>v.path).slice(-5))console.log("https://www.tradingview.com"+v.path+"?aff_id=1173299")'); do
+            code=$(curl -s -L -A "$ua" -o /dev/null -w "%{http_code}" "$u"); [ "$code" = "200" ] || fail "$u answered $code"
+          done
+          echo "::notice title=Paid links::home and scoreboard labeled and disclosed; $n published receipt pages carry their chart link; TradingView links open"
 
       - name: Check the YouTube authorize link
         if: always() && steps.cloudflare.outcome == 'success' && env.YOUTUBE_CLIENT_ID != ''

@@ -15,6 +15,8 @@ const text = (rel: string) => html(rel).replace(/<[^>]+>/g, " ").replace(/&amp;/
 beforeAll(async () => {
   const tmp = mkdtempSync(join(tmpdir(), "site-"));
   process.env.LEDGER_FILE = join(tmp, "ledger.json");
+  process.env.TV_SYMBOLS_FILE = join(tmp, "tv.json");
+  writeJson(process.env.TV_SYMBOLS_FILE, { MRK: { path: "/symbols/NYSE-MRK/", checkedAt: "2026-10-25T00:00:00Z" } });
   writeJson(process.env.LEDGER_FILE, { nextNumber: 3, receipts: [receipt(1, "2026-10-01", "Republican"), receipt(2, "2026-10-02", "Democrat")], skipped: [] });
   const r = await buildSite({ dir: join(tmp, "dist") });
   dir = r.dir;
@@ -52,11 +54,31 @@ describe("website", () => {
     expect(text("terms/index.html")).toMatch(/13107\(c\)/);
     expect(text("terms/index.html")).toMatch(/never sell the data, and we never sell alerts/);
   });
-  it("paid link slot and weekly email are built but hidden until set up, and the slot is labeled", () => {
-    const t = html("index.html");
-    expect(t).toMatch(/<section id="paid-link" class="card" hidden>/);
-    expect(t).toContain("Paid link");
-    expect(t).toMatch(/<section id="newsletter" hidden>/);
-    expect(t).toContain("This week's receipts");
+  it("weekly email is built but hidden until set up", () => {
+    expect(html("index.html")).toMatch(/<section id="newsletter" hidden>/);
+    expect(html("index.html")).toContain("This week's receipts");
+  });
+  it("every receipt page has the TradingView chart link under the result, labeled and disclosed", () => {
+    for (const [n, slug] of [[1, "001-test"], [2, "002-test"]] as const) {
+      const t = html(`receipt/${slug}/index.html`);
+      const link = `https://www.tradingview.com/symbols/NYSE-MRK/?aff_id=1173299&amp;aff_sub=receipt-00${n}&amp;source=site`;
+      expect(t).toContain(link);
+      expect(t.indexOf(link)).toBeGreaterThan(t.indexOf("What happened next"));
+      expect(t.indexOf(link)).toBeLessThan(t.indexOf("The math"));
+      expect(t).toMatch(/See the full chart on TradingView<\/a> <span class="paid">Paid link<\/span>/);
+      expect(t).toContain("TradingView pays us if you sign up for a paid TradingView plan through this link.");
+      expect(t).toMatch(/rel="sponsored noopener"/);
+    }
+  });
+  it("home and scoreboard carry one general TradingView link, same label", () => {
+    expect(html("index.html")).toContain("https://www.tradingview.com/?aff_id=1173299&amp;aff_sub=home&amp;source=site");
+    expect(html("scoreboard/index.html")).toContain("https://www.tradingview.com/?aff_id=1173299&amp;aff_sub=scoreboard&amp;source=site");
+    for (const p of ["index.html", "scoreboard/index.html"]) expect(html(p)).toContain('<span class="paid">Paid link</span>');
+  });
+  it("follows TradingView's rules: no discount or offer in our wording, no buy/sell wording near the links", () => {
+    for (const p of pages) {
+      expect(text(p), p).not.toMatch(/\$15(?![\d,])|% off|\boff your\b|discount|coupon|special offer/i);
+      expect(text(p), p).not.toMatch(/copy (this|the) trade|\bbuy now\b|\bsell now\b/i);
+    }
   });
 });

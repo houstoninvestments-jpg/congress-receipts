@@ -8,7 +8,7 @@ export interface ChannelConfig {
   ctaStates: ("none" | "soft" | "direct")[];
   selection: { minDaysSinceTrade: number; maxDaysSinceFiling: number; partyWindowDays: number; memberCooldownDays: number };
   site: { baseUrl: string };
-  affiliate: { enabled: boolean; label: string; name: string; url: string; blurb: string };
+  affiliate: { enabled: boolean; label: string; name: string; affId: string };
   newsletter: { enabled: boolean; name: string; blurb: string; formAction: string };
   youtube: {
     categoryId: string;
