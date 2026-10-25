@@ -13,40 +13,21 @@ jobs:
     env:
       UA: "CongressReceipts/0.1 (public-interest news; github.com/houstoninvestments-jpg/congress-receipts)"
     steps:
-      - name: House Clerk
+      - run: sudo apt-get update -q >/dev/null && sudo apt-get install -y -q poppler-utils >/dev/null
+      - name: House PTR text
         continue-on-error: true
         run: |
-          curl -sS -A "$UA" -o fd.zip -w "zip %{http_code} %{size_download}\n" https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026FD.zip
-          unzip -o -q fd.zip && ls -la
-          head -c 900 2026FD.xml; echo
-          echo "PTR count: $(grep -c '<FilingType>P</FilingType>' 2026FD.xml)"
-          python3 - <<'PY' > ids.txt
-          import xml.etree.ElementTree as ET, sys
-          r=ET.parse('2026FD.xml').getroot()
-          ms=[m for m in r if m.findtext('FilingType')=='P']
-          ms.sort(key=lambda m:m.findtext('FilingDate') or '')
-          for m in ms[-6:]:
-            print(m.findtext('DocID'), m.findtext('Last'), m.findtext('StateDst'), m.findtext('FilingDate'))
-          PY
-          cat ids.txt
-          for id in $(cut -d' ' -f1 ids.txt | tail -3); do
-            curl -sS -A "$UA" -o p.pdf -w "pdf $id %{http_code} %{size_download} %{content_type}\n" "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/$id.pdf"
-            pdftotext -layout p.pdf - | grep -v '^\s*$' | head -45
+          for id in 20035408 20035410 20035411; do
+            curl -sS -A "$UA" -o p.pdf "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/$id.pdf"
+            echo "##### $id"; pdftotext -layout p.pdf - | grep -v '^\s*$' | head -60
+            echo "##### raw $id"; pdftotext p.pdf - | grep -v '^\s*$' | head -50
             sleep 2
           done
-      - name: Senate eFD
+      - name: Price terms
         continue-on-error: true
         run: |
-          curl -sS -A "$UA" https://efdsearch.senate.gov/robots.txt -w "\nrobots %{http_code}\n" | head -20
-          sleep 5
-          curl -sS -A "$UA" -c jar -o home.html -w "home %{http_code}\n" https://efdsearch.senate.gov/search/home/
-          sed -e 's/<[^>]*>//g' home.html | tr -s ' \n' | grep -iE 'prohibit|unlawful|commercial|agree|statement' | head -12
-          grep -o 'name="csrfmiddlewaretoken"' home.html | head -1
-      - name: Price sources
-        continue-on-error: true
-        run: |
-          for u in "https://stooq.com/q/d/l/?s=spy.us&i=d" "https://www.alphavantage.co/terms_of_service/" "https://www.tiingo.com/about/terms-of-use" "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=5d&interval=1d" "https://api.nasdaq.com/api/quote/SPY/historical?assetclass=etf&fromdate=2026-01-02&todate=2026-01-10&limit=10" "https://www.nasdaq.com/terms-of-use" "https://eodhd.com/financial-apis/terms-conditions" "https://polygon.io/terms" "https://massive.com/terms"; do
-            echo "=== $u"; curl -sS -L --http1.1 -A "Mozilla/5.0 $UA" -m 20 "$u" -o out.txt -w "%{http_code} %{size_download}\n" || true
-            head -c 300 out.txt | tr -d '\0'; echo
-            sed -e 's/<[^>]*>//g' out.txt | tr -s ' \n' | grep -ioE '.{0,200}(commercial|redistribut|personal use|display|publicly).{0,200}' | head -8
+          curl -sS -L -A "Mozilla/5.0" -o av.pdf https://www.alphavantage.co/terms_of_service/ && pdftotext av.pdf - | tr -s ' \n' | grep -ioE '.{0,300}(commercial|redistribut|display|publicly|news).{0,300}' | head -20
+          for u in "https://www.tiingo.com/about/pricing" "https://twelvedata.com/terms" "https://finnhub.io/terms-of-service" "https://site.financialmodelingprep.com/terms-of-service" "https://marketstack.com/terms" "https://fred.stlouisfed.org/series/SP500" "https://www.alphavantage.co/support/"; do
+            echo "=== $u"; curl -sS -L -A "Mozilla/5.0" -m 20 "$u" -o out.txt -w "%{http_code} %{size_download}\n" || true
+            sed -e 's/<[^>]*>//g' out.txt | tr -s ' \n' | grep -ioE '.{0,250}(commercial|redistribut|personal use|display|publicly|copyright).{0,250}' | head -8
           done
