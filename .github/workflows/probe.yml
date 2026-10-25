@@ -1,0 +1,39 @@
+name: Probe (one-off checks)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: TradingView partner rules
+        continue-on-error: true
+        run: |
+          for u in https://www.tradingview.com/partner-rules/ https://www.tradingview.com/partner-program/; do
+            echo "=================== $u"
+            curl -sS -L -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36" -o page.html -w "%{http_code} %{url_effective} %{size_download}\n" "$u"
+            python3 - <<'PY'
+          import re, html
+          s = open("page.html", encoding="utf-8", errors="ignore").read()
+          s = re.sub(r"(?is)<(script|style|svg|noscript)[^>]*>.*?</\1>", " ", s)
+          s = re.sub(r"(?i)<(br|/p|/li|/h\d|/div|li)[^>]*>", "\n", s)
+          s = html.unescape(re.sub(r"<[^>]+>", " ", s))
+          lines = [re.sub(r"[ \t]+", " ", l).strip() for l in s.split("\n")]
+          out = "\n".join(l for l in lines if l)
+          print(out[:20000])
+          PY
+          done
+      - name: TradingView symbol pages
+        continue-on-error: true
+        run: |
+          for p in symbols/MSFT/ symbols/NASDAQ-MSFT/ symbols/DDOG/ symbols/NASDAQ-DDOG/ symbols/MRK/ symbols/NYSE-MRK/ symbols/BRK.B/ symbols/NYSE-BRK.B/ symbols/IBM/ symbols/ZZZZQX/ symbols/NASDAQ-ZZZZQX/; do
+            r=$(curl -sS -L -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36" -o p.html -w "%{http_code} %{url_effective}" "https://www.tradingview.com/$p?aff_id=1173299&aff_sub=receipt-000&source=site")
+            t=$(grep -o '<title>[^<]*' p.html | head -1 | cut -c8-120)
+            echo "$p -> $r | $t"
+            sleep 2
+          done
