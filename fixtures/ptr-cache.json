@@ -1,0 +1,209 @@
+{
+  "20035408": {
+    "filing": {
+      "docId": "20035408",
+      "year": 2026,
+      "prefix": "",
+      "first": "April",
+      "last": "McClain Delaney",
+      "suffix": "",
+      "stateDst": "MD06",
+      "filingDate": "2026-09-09",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-09-09",
+    "transactions": [
+      {
+        "id": "20035408-1",
+        "docId": "20035408",
+        "row": 1,
+        "owner": "DC",
+        "asset": "Brown & Brown, Inc. Common Stock (BRO) [ST]",
+        "ticker": "BRO",
+        "assetType": "ST",
+        "type": "S",
+        "tradeDate": "2026-08-25",
+        "notifiedDate": "2026-09-01",
+        "amountMin": 100001,
+        "amountMax": 250000,
+        "amountText": "$100,001 - $250,000"
+      },
+      {
+        "id": "20035408-2",
+        "docId": "20035408",
+        "row": 2,
+        "owner": "DC",
+        "asset": "C.H. Robinson Worldwide, Inc. - Common Stock (CHRW) [ST]",
+        "ticker": "CHRW",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-08-05",
+        "notifiedDate": "2026-09-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035408-3",
+        "docId": "20035408",
+        "row": 3,
+        "owner": "DC",
+        "asset": "Corpay, Inc. Common Stock (CPAY) [ST]",
+        "ticker": "CPAY",
+        "assetType": "ST",
+        "type": "S (partial)",
+        "tradeDate": "2026-08-06",
+        "notifiedDate": "2026-09-01",
+        "amountMin": 15001,
+        "amountMax": 50000,
+        "amountText": "$15,001 - $50,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-10-25T00:00:00.000Z"
+  },
+  "20035410": {
+    "filing": {
+      "docId": "20035410",
+      "year": 2026,
+      "prefix": "",
+      "first": "Brandon",
+      "last": "Gill",
+      "suffix": "",
+      "stateDst": "TX26",
+      "filingDate": "2026-09-09",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035410.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-09-09",
+    "transactions": [
+      {
+        "id": "20035410-1",
+        "docId": "20035410",
+        "row": 1,
+        "owner": "",
+        "asset": "RSP ETF [OT]",
+        "ticker": null,
+        "assetType": "OT",
+        "type": "P",
+        "tradeDate": "2026-08-13",
+        "notifiedDate": "2026-08-13",
+        "amountMin": 50001,
+        "amountMax": 100000,
+        "amountText": "$50,001 - $100,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-10-25T00:00:00.000Z"
+  },
+  "20035411": {
+    "filing": {
+      "docId": "20035411",
+      "year": 2026,
+      "prefix": "",
+      "first": "Maria Elvira",
+      "last": "Salazar",
+      "suffix": "",
+      "stateDst": "FL27",
+      "filingDate": "2026-09-09",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-09-09",
+    "transactions": [
+      {
+        "id": "20035411-1",
+        "docId": "20035411",
+        "row": 1,
+        "owner": "",
+        "asset": "Berkshire Hathaway Inc. New Common Stock (BRK.B) [ST]",
+        "ticker": "BRK.B",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-08-07",
+        "notifiedDate": "2026-09-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035411-2",
+        "docId": "20035411",
+        "row": 2,
+        "owner": "",
+        "asset": "Chubb Limited Common Stock (CB) [ST]",
+        "ticker": "CB",
+        "assetType": "ST",
+        "type": "S",
+        "tradeDate": "2026-08-19",
+        "notifiedDate": "2026-09-01",
+        "amountMin": 15001,
+        "amountMax": 50000,
+        "amountText": "$15,001 - $50,000"
+      },
+      {
+        "id": "20035411-3",
+        "docId": "20035411",
+        "row": 3,
+        "owner": "",
+        "asset": "International Business Machines Corporation Common Stock (IBM) [ST]",
+        "ticker": "IBM",
+        "assetType": "ST",
+        "type": "S (partial)",
+        "tradeDate": "2026-08-24",
+        "notifiedDate": "2026-09-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035411-4",
+        "docId": "20035411",
+        "row": 4,
+        "owner": "",
+        "asset": "Merck & Company, Inc. Common Stock (MRK) [ST]",
+        "ticker": "MRK",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-08-19",
+        "notifiedDate": "2026-09-01",
+        "amountMin": 15001,
+        "amountMax": 50000,
+        "amountText": "$15,001 - $50,000"
+      },
+      {
+        "id": "20035411-5",
+        "docId": "20035411",
+        "row": 5,
+        "owner": "",
+        "asset": "Moderna, Inc. - Common Stock (MRNA) [ST]",
+        "ticker": "MRNA",
+        "assetType": "ST",
+        "type": "S (partial)",
+        "tradeDate": "2026-08-19",
+        "notifiedDate": "2026-09-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035411-6",
+        "docId": "20035411",
+        "row": 6,
+        "owner": "",
+        "asset": "Space Exploration Technologies Corp. - Class A Common Stock (SPCX) [ST]",
+        "ticker": "SPCX",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-08-12",
+        "notifiedDate": "2026-09-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-10-25T00:00:00.000Z"
+  }
+}

@@ -1,0 +1,24 @@
+                                                                                                                  Filing ID #20035408
+                          P                             T                                      R
+              Clerk of the House of Representatives • Legislative Resource Center • B81 Cannon Building • Washington, DC 20515
+F         I
+Name:                Hon. April McClain Delaney
+Status:              Member
+State/District: MD06
+T
+ID        Owner Asset                                        Transaction Date             Notification Amount                Cap.
+                                                             Type                         Date                               Gains >
+                                                                                                                             $200?
+          DC          Brown & Brown, Inc. Common Stock       S              08/25/2026 09/01/2026         $100,001 -
+                      (BRO) [ST]                                                                          $250,000
+                      F      S     : New
+          DC          C.H. Robinson Worldwide, Inc. -        P              08/05/2026 09/01/2026         $1,001 - $15,000
+ID   Owner Asset                              Transaction Date         Notification Amount             Cap.
+                                              Type                     Date                            Gains >
+                                                                                                       $200?
+           Common Stock (CHRW) [ST]
+           F       S   : New
+     DC    Corpay, Inc. Common Stock (CPAY)   S (partial)   08/06/2026 09/01/2026   $15,001 -
+           [ST]                                                                     $50,000
+           F       S   : New
+Digitally Signed: Hon. April McClain Delaney , 09/09/2026

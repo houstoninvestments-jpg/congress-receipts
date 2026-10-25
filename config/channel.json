@@ -1,0 +1,59 @@
+{
+  "channel": {
+    "name": "Congress Receipts",
+    "handle": "@CongressReceipts",
+    "tagline": "One stock trade by a member of Congress, every day. Straight from the filing.",
+    "notAdvice": "Not financial advice. Facts from public filings.",
+    "closer": "Ban it, or keep it?",
+    "contactEmail": "houstoninvestments@gmail.com",
+    "policyDate": "October 25, 2026"
+  },
+  "cadence": {
+    "shortsPerDay": 1,
+    "timezone": "America/Chicago"
+  },
+  "models": {
+    "writer": "claude-fable-5-1",
+    "checker": "claude-opus-5-5"
+  },
+  "voice": {
+    "provider": "kokoro",
+    "kokoroVoice": "am_michael",
+    "lang": "en-us",
+    "speed": 0.95
+  },
+  "ctaStates": [
+    "none",
+    "soft",
+    "direct"
+  ],
+  "selection": {
+    "minDaysSinceTrade": 14,
+    "maxDaysSinceFiling": 120,
+    "partyWindowDays": 7,
+    "memberCooldownDays": 7
+  },
+  "site": {
+    "baseUrl": "https://congressreceipts.pages.dev"
+  },
+  "affiliate": {
+    "enabled": false,
+    "label": "Paid link",
+    "name": "Brokerage pick",
+    "url": "",
+    "blurb": "Placeholder. No partner picked yet."
+  },
+  "newsletter": {
+    "enabled": false,
+    "name": "This week's receipts",
+    "blurb": "Free. One email a week with that week's receipts. Leave anytime.",
+    "formAction": ""
+  },
+  "youtube": {
+    "categoryId": "25",
+    "defaultLanguage": "en",
+    "privacyStatus": "public",
+    "firstUploadPrivacy": "private",
+    "dailyQuotaBudget": 9000
+  }
+}

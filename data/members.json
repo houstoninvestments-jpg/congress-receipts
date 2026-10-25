@@ -1,0 +1,3957 @@
+{
+  "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/gh-pages/legislators-current.json",
+  "fetchedAt": "2026-10-25T04:13:26.493Z",
+  "members": [
+    {
+      "bioguide": "A000055",
+      "name": "Robert B. Aderholt",
+      "official": "Rep. Robert B. Aderholt",
+      "party": "Republican",
+      "state": "AL",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001257",
+      "name": "Gus M. Bilirakis",
+      "official": "Rep. Gus M. Bilirakis",
+      "party": "Republican",
+      "state": "FL",
+      "district": 12,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B000490",
+      "name": "Sanford D. Bishop, Jr.",
+      "official": "Rep. Sanford D. Bishop, Jr.",
+      "party": "Democrat",
+      "state": "GA",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001260",
+      "name": "Vern Buchanan",
+      "official": "Rep. Vern Buchanan",
+      "party": "Republican",
+      "state": "FL",
+      "district": 16,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C000059",
+      "name": "Ken Calvert",
+      "official": "Rep. Ken Calvert",
+      "party": "Republican",
+      "state": "CA",
+      "district": 41,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001072",
+      "name": "André Carson",
+      "official": "Rep. André Carson",
+      "party": "Democrat",
+      "state": "IN",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001051",
+      "name": "John R. Carter",
+      "official": "Rep. John R. Carter",
+      "party": "Republican",
+      "state": "TX",
+      "district": 31,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001066",
+      "name": "Kathy Castor",
+      "official": "Rep. Kathy Castor",
+      "party": "Democrat",
+      "state": "FL",
+      "district": 14,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001080",
+      "name": "Judy Chu",
+      "official": "Rep. Judy Chu",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 28,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001067",
+      "name": "Yvette D. Clarke",
+      "official": "Rep. Yvette D. Clarke",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 9,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001061",
+      "name": "Emanuel Cleaver",
+      "official": "Rep. Emanuel Cleaver",
+      "party": "Democrat",
+      "state": "MO",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C000537",
+      "name": "James E. Clyburn",
+      "official": "Rep. James E. Clyburn",
+      "party": "Democrat",
+      "state": "SC",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001068",
+      "name": "Steve Cohen",
+      "official": "Rep. Steve Cohen",
+      "party": "Democrat",
+      "state": "TN",
+      "district": 9,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001053",
+      "name": "Tom Cole",
+      "official": "Rep. Tom Cole",
+      "party": "Republican",
+      "state": "OK",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001059",
+      "name": "Jim Costa",
+      "official": "Rep. Jim Costa",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 21,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001069",
+      "name": "Joe Courtney",
+      "official": "Rep. Joe Courtney",
+      "party": "Democrat",
+      "state": "CT",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001087",
+      "name": "Eric A. \"Rick\" Crawford",
+      "official": "Rep. Eric A. \"Rick\" Crawford",
+      "party": "Republican",
+      "state": "AR",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001063",
+      "name": "Henry Cuellar",
+      "official": "Rep. Henry Cuellar",
+      "party": "Democrat",
+      "state": "TX",
+      "district": 28,
+      "gender": "M"
+    },
+    {
+      "bioguide": "D000096",
+      "name": "Danny K. Davis",
+      "official": "Rep. Danny K. Davis",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "D000197",
+      "name": "Diana DeGette",
+      "official": "Rep. Diana DeGette",
+      "party": "Democrat",
+      "state": "CO",
+      "district": 1,
+      "gender": "F"
+    },
+    {
+      "bioguide": "D000216",
+      "name": "Rosa L. DeLauro",
+      "official": "Rep. Rosa L. DeLauro",
+      "party": "Democrat",
+      "state": "CT",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "D000616",
+      "name": "Scott DesJarlais",
+      "official": "Rep. Scott DesJarlais",
+      "party": "Republican",
+      "state": "TN",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "D000600",
+      "name": "Mario Diaz-Balart",
+      "official": "Rep. Mario Diaz-Balart",
+      "party": "Republican",
+      "state": "FL",
+      "district": 26,
+      "gender": "M"
+    },
+    {
+      "bioguide": "D000399",
+      "name": "Lloyd Doggett",
+      "official": "Rep. Lloyd Doggett",
+      "party": "Democrat",
+      "state": "TX",
+      "district": 37,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000459",
+      "name": "Charles J. \"Chuck\" Fleischmann",
+      "official": "Rep. Charles J. \"Chuck\" Fleischmann",
+      "party": "Republican",
+      "state": "TN",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000450",
+      "name": "Virginia Foxx",
+      "official": "Rep. Virginia Foxx",
+      "party": "Republican",
+      "state": "NC",
+      "district": 5,
+      "gender": "F"
+    },
+    {
+      "bioguide": "G000559",
+      "name": "John Garamendi",
+      "official": "Rep. John Garamendi",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000565",
+      "name": "Paul A. Gosar",
+      "official": "Rep. Paul A. Gosar",
+      "party": "Republican",
+      "state": "AZ",
+      "district": 9,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000546",
+      "name": "Sam Graves",
+      "official": "Rep. Sam Graves",
+      "party": "Republican",
+      "state": "MO",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000553",
+      "name": "Al Green",
+      "official": "Rep. Al Green",
+      "party": "Democrat",
+      "state": "TX",
+      "district": 9,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000568",
+      "name": "H. Morgan Griffith",
+      "official": "Rep. H. Morgan Griffith",
+      "party": "Republican",
+      "state": "VA",
+      "district": 9,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000558",
+      "name": "Brett Guthrie",
+      "official": "Rep. Brett Guthrie",
+      "party": "Republican",
+      "state": "KY",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001052",
+      "name": "Andy Harris",
+      "official": "Rep. Andy Harris",
+      "party": "Republican",
+      "state": "MD",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001047",
+      "name": "James A. Himes",
+      "official": "Rep. James A. Himes",
+      "party": "Democrat",
+      "state": "CT",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H000874",
+      "name": "Steny H. Hoyer",
+      "official": "Rep. Steny H. Hoyer",
+      "party": "Democrat",
+      "state": "MD",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001058",
+      "name": "Bill Huizenga",
+      "official": "Rep. Bill Huizenga",
+      "party": "Republican",
+      "state": "MI",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "J000288",
+      "name": "Henry C. \"Hank\" Johnson, Jr.",
+      "official": "Rep. Henry C. \"Hank\" Johnson, Jr.",
+      "party": "Democrat",
+      "state": "GA",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "J000289",
+      "name": "Jim Jordan",
+      "official": "Rep. Jim Jordan",
+      "party": "Republican",
+      "state": "OH",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000009",
+      "name": "Marcy Kaptur",
+      "official": "Rep. Marcy Kaptur",
+      "party": "Democrat",
+      "state": "OH",
+      "district": 9,
+      "gender": "F"
+    },
+    {
+      "bioguide": "K000375",
+      "name": "William R. Keating",
+      "official": "Rep. William R. Keating",
+      "party": "Democrat",
+      "state": "MA",
+      "district": 9,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000376",
+      "name": "Mike Kelly",
+      "official": "Rep. Mike Kelly",
+      "party": "Republican",
+      "state": "PA",
+      "district": 16,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000560",
+      "name": "Rick Larsen",
+      "official": "Rep. Rick Larsen",
+      "party": "Democrat",
+      "state": "WA",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000557",
+      "name": "John B. Larson",
+      "official": "Rep. John B. Larson",
+      "party": "Democrat",
+      "state": "CT",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000566",
+      "name": "Robert E. Latta",
+      "official": "Rep. Robert E. Latta",
+      "party": "Republican",
+      "state": "OH",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000397",
+      "name": "Zoe Lofgren",
+      "official": "Rep. Zoe Lofgren",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 18,
+      "gender": "F"
+    },
+    {
+      "bioguide": "L000491",
+      "name": "Frank D. Lucas",
+      "official": "Rep. Frank D. Lucas",
+      "party": "Republican",
+      "state": "OK",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000562",
+      "name": "Stephen F. Lynch",
+      "official": "Rep. Stephen F. Lynch",
+      "party": "Democrat",
+      "state": "MA",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001163",
+      "name": "Doris O. Matsui",
+      "official": "Rep. Doris O. Matsui",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 7,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M001157",
+      "name": "Michael T. McCaul",
+      "official": "Rep. Michael T. McCaul",
+      "party": "Republican",
+      "state": "TX",
+      "district": 10,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001177",
+      "name": "Tom McClintock",
+      "official": "Rep. Tom McClintock",
+      "party": "Republican",
+      "state": "CA",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001143",
+      "name": "Betty McCollum",
+      "official": "Rep. Betty McCollum",
+      "party": "Democrat",
+      "state": "MN",
+      "district": 4,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M000312",
+      "name": "James P. McGovern",
+      "official": "Rep. James P. McGovern",
+      "party": "Democrat",
+      "state": "MA",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001137",
+      "name": "Gregory W. Meeks",
+      "official": "Rep. Gregory W. Meeks",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001160",
+      "name": "Gwen Moore",
+      "official": "Rep. Gwen Moore",
+      "party": "Democrat",
+      "state": "WI",
+      "district": 4,
+      "gender": "F"
+    },
+    {
+      "bioguide": "N000002",
+      "name": "Jerrold Nadler",
+      "official": "Rep. Jerrold Nadler",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 12,
+      "gender": "M"
+    },
+    {
+      "bioguide": "N000015",
+      "name": "Richard E. Neal",
+      "official": "Rep. Richard E. Neal",
+      "party": "Democrat",
+      "state": "MA",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "N000147",
+      "name": "Eleanor Holmes Norton",
+      "official": "Rep. Eleanor Holmes Norton",
+      "party": "Democrat",
+      "state": "DC",
+      "district": 0,
+      "gender": "F"
+    },
+    {
+      "bioguide": "P000034",
+      "name": "Frank Pallone, Jr.",
+      "official": "Rep. Frank Pallone, Jr.",
+      "party": "Democrat",
+      "state": "NJ",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "P000197",
+      "name": "Nancy Pelosi",
+      "official": "Rep. Nancy Pelosi",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 11,
+      "gender": "F"
+    },
+    {
+      "bioguide": "P000597",
+      "name": "Chellie Pingree",
+      "official": "Rep. Chellie Pingree",
+      "party": "Democrat",
+      "state": "ME",
+      "district": 1,
+      "gender": "F"
+    },
+    {
+      "bioguide": "Q000023",
+      "name": "Mike Quigley",
+      "official": "Rep. Mike Quigley",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000395",
+      "name": "Harold Rogers",
+      "official": "Rep. Harold Rogers",
+      "party": "Republican",
+      "state": "KY",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000575",
+      "name": "Mike Rogers",
+      "official": "Rep. Mike Rogers",
+      "party": "Republican",
+      "state": "AL",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001176",
+      "name": "Steve Scalise",
+      "official": "Rep. Steve Scalise",
+      "party": "Republican",
+      "state": "LA",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001145",
+      "name": "Janice D. Schakowsky",
+      "official": "Rep. Janice D. Schakowsky",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 9,
+      "gender": "F"
+    },
+    {
+      "bioguide": "S001183",
+      "name": "David Schweikert",
+      "official": "Rep. David Schweikert",
+      "party": "Republican",
+      "state": "AZ",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001189",
+      "name": "Austin Scott",
+      "official": "Rep. Austin Scott",
+      "party": "Republican",
+      "state": "GA",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S000185",
+      "name": "Robert C. \"Bobby\" Scott",
+      "official": "Rep. Robert C. \"Bobby\" Scott",
+      "party": "Democrat",
+      "state": "VA",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001185",
+      "name": "Terri A. Sewell",
+      "official": "Rep. Terri A. Sewell",
+      "party": "Democrat",
+      "state": "AL",
+      "district": 7,
+      "gender": "F"
+    },
+    {
+      "bioguide": "S000344",
+      "name": "Brad Sherman",
+      "official": "Rep. Brad Sherman",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 32,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001148",
+      "name": "Michael K. Simpson",
+      "official": "Rep. Michael K. Simpson",
+      "party": "Republican",
+      "state": "ID",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S000510",
+      "name": "Adam Smith",
+      "official": "Rep. Adam Smith",
+      "party": "Democrat",
+      "state": "WA",
+      "district": 9,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001172",
+      "name": "Adrian Smith",
+      "official": "Rep. Adrian Smith",
+      "party": "Republican",
+      "state": "NE",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S000522",
+      "name": "Christopher H. Smith",
+      "official": "Rep. Christopher H. Smith",
+      "party": "Republican",
+      "state": "NJ",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001156",
+      "name": "Linda T. Sánchez",
+      "official": "Rep. Linda T. Sánchez",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 38,
+      "gender": "F"
+    },
+    {
+      "bioguide": "T000193",
+      "name": "Bennie G. Thompson",
+      "official": "Rep. Bennie G. Thompson",
+      "party": "Democrat",
+      "state": "MS",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "T000460",
+      "name": "Mike Thompson",
+      "official": "Rep. Mike Thompson",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "T000467",
+      "name": "Glenn Thompson",
+      "official": "Rep. Glenn Thompson",
+      "party": "Republican",
+      "state": "PA",
+      "district": 15,
+      "gender": "M"
+    },
+    {
+      "bioguide": "T000469",
+      "name": "Paul Tonko",
+      "official": "Rep. Paul Tonko",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 20,
+      "gender": "M"
+    },
+    {
+      "bioguide": "T000463",
+      "name": "Michael R. Turner",
+      "official": "Rep. Michael R. Turner",
+      "party": "Republican",
+      "state": "OH",
+      "district": 10,
+      "gender": "M"
+    },
+    {
+      "bioguide": "V000081",
+      "name": "Nydia M. Velázquez",
+      "official": "Rep. Nydia M. Velázquez",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 7,
+      "gender": "F"
+    },
+    {
+      "bioguide": "W000798",
+      "name": "Tim Walberg",
+      "official": "Rep. Tim Walberg",
+      "party": "Republican",
+      "state": "MI",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "W000797",
+      "name": "Debbie Wasserman Schultz",
+      "official": "Rep. Debbie Wasserman Schultz",
+      "party": "Democrat",
+      "state": "FL",
+      "district": 25,
+      "gender": "F"
+    },
+    {
+      "bioguide": "W000187",
+      "name": "Maxine Waters",
+      "official": "Rep. Maxine Waters",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 43,
+      "gender": "F"
+    },
+    {
+      "bioguide": "W000806",
+      "name": "Daniel Webster",
+      "official": "Rep. Daniel Webster",
+      "party": "Republican",
+      "state": "FL",
+      "district": 11,
+      "gender": "M"
+    },
+    {
+      "bioguide": "W000795",
+      "name": "Joe Wilson",
+      "official": "Rep. Joe Wilson",
+      "party": "Republican",
+      "state": "SC",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "W000808",
+      "name": "Frederica S. Wilson",
+      "official": "Rep. Frederica S. Wilson",
+      "party": "Democrat",
+      "state": "FL",
+      "district": 24,
+      "gender": "F"
+    },
+    {
+      "bioguide": "W000804",
+      "name": "Robert J. Wittman",
+      "official": "Rep. Robert J. Wittman",
+      "party": "Republican",
+      "state": "VA",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "W000809",
+      "name": "Steve Womack",
+      "official": "Rep. Steve Womack",
+      "party": "Republican",
+      "state": "AR",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "A000369",
+      "name": "Mark E. Amodei",
+      "official": "Rep. Mark E. Amodei",
+      "party": "Republican",
+      "state": "NV",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001278",
+      "name": "Suzanne Bonamici",
+      "official": "Rep. Suzanne Bonamici",
+      "party": "Democrat",
+      "state": "OR",
+      "district": 1,
+      "gender": "F"
+    },
+    {
+      "bioguide": "D000617",
+      "name": "Suzan K. DelBene",
+      "official": "Rep. Suzan K. DelBene",
+      "party": "Democrat",
+      "state": "WA",
+      "district": 1,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M001184",
+      "name": "Thomas Massie",
+      "official": "Rep. Thomas Massie",
+      "party": "Republican",
+      "state": "KY",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000454",
+      "name": "Bill Foster",
+      "official": "Rep. Bill Foster",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 11,
+      "gender": "M"
+    },
+    {
+      "bioguide": "T000468",
+      "name": "Dina Titus",
+      "official": "Rep. Dina Titus",
+      "party": "Democrat",
+      "state": "NV",
+      "district": 1,
+      "gender": "F"
+    },
+    {
+      "bioguide": "H001068",
+      "name": "Jared Huffman",
+      "official": "Rep. Jared Huffman",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001287",
+      "name": "Ami Bera",
+      "official": "Rep. Ami Bera",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001285",
+      "name": "Julia Brownley",
+      "official": "Rep. Julia Brownley",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 26,
+      "gender": "F"
+    },
+    {
+      "bioguide": "R000599",
+      "name": "Raul Ruiz",
+      "official": "Rep. Raul Ruiz",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 25,
+      "gender": "M"
+    },
+    {
+      "bioguide": "T000472",
+      "name": "Mark Takano",
+      "official": "Rep. Mark Takano",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 39,
+      "gender": "M"
+    },
+    {
+      "bioguide": "V000130",
+      "name": "Juan Vargas",
+      "official": "Rep. Juan Vargas",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 52,
+      "gender": "M"
+    },
+    {
+      "bioguide": "P000608",
+      "name": "Scott H. Peters",
+      "official": "Rep. Scott H. Peters",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 50,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000462",
+      "name": "Lois Frankel",
+      "official": "Rep. Lois Frankel",
+      "party": "Democrat",
+      "state": "FL",
+      "district": 22,
+      "gender": "F"
+    },
+    {
+      "bioguide": "B001282",
+      "name": "Andy Barr",
+      "official": "Rep. Andy Barr",
+      "party": "Republican",
+      "state": "KY",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "W000812",
+      "name": "Ann Wagner",
+      "official": "Rep. Ann Wagner",
+      "party": "Republican",
+      "state": "MO",
+      "district": 2,
+      "gender": "F"
+    },
+    {
+      "bioguide": "H001067",
+      "name": "Richard Hudson",
+      "official": "Rep. Richard Hudson",
+      "party": "Republican",
+      "state": "NC",
+      "district": 9,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001188",
+      "name": "Grace Meng",
+      "official": "Rep. Grace Meng",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 6,
+      "gender": "F"
+    },
+    {
+      "bioguide": "J000294",
+      "name": "Hakeem S. Jeffries",
+      "official": "Rep. Hakeem S. Jeffries",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001281",
+      "name": "Joyce Beatty",
+      "official": "Rep. Joyce Beatty",
+      "party": "Democrat",
+      "state": "OH",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "J000295",
+      "name": "David P. Joyce",
+      "official": "Rep. David P. Joyce",
+      "party": "Republican",
+      "state": "OH",
+      "district": 14,
+      "gender": "M"
+    },
+    {
+      "bioguide": "P000605",
+      "name": "Scott Perry",
+      "official": "Rep. Scott Perry",
+      "party": "Republican",
+      "state": "PA",
+      "district": 10,
+      "gender": "M"
+    },
+    {
+      "bioguide": "W000814",
+      "name": "Randy K. Weber, Sr.",
+      "official": "Rep. Randy K. Weber, Sr.",
+      "party": "Republican",
+      "state": "TX",
+      "district": 14,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001091",
+      "name": "Joaquin Castro",
+      "official": "Rep. Joaquin Castro",
+      "party": "Democrat",
+      "state": "TX",
+      "district": 20,
+      "gender": "M"
+    },
+    {
+      "bioguide": "W000816",
+      "name": "Roger Williams",
+      "official": "Rep. Roger Williams",
+      "party": "Republican",
+      "state": "TX",
+      "district": 25,
+      "gender": "M"
+    },
+    {
+      "bioguide": "V000131",
+      "name": "Marc A. Veasey",
+      "official": "Rep. Marc A. Veasey",
+      "party": "Democrat",
+      "state": "TX",
+      "district": 33,
+      "gender": "M"
+    },
+    {
+      "bioguide": "P000607",
+      "name": "Mark Pocan",
+      "official": "Rep. Mark Pocan",
+      "party": "Democrat",
+      "state": "WI",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000385",
+      "name": "Robin L. Kelly",
+      "official": "Rep. Robin L. Kelly",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 2,
+      "gender": "F"
+    },
+    {
+      "bioguide": "S001195",
+      "name": "Jason Smith",
+      "official": "Rep. Jason Smith",
+      "party": "Republican",
+      "state": "MO",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001101",
+      "name": "Katherine M. Clark",
+      "official": "Rep. Katherine M. Clark",
+      "party": "Democrat",
+      "state": "MA",
+      "district": 5,
+      "gender": "F"
+    },
+    {
+      "bioguide": "N000188",
+      "name": "Donald Norcross",
+      "official": "Rep. Donald Norcross",
+      "party": "Democrat",
+      "state": "NJ",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "A000370",
+      "name": "Alma S. Adams",
+      "official": "Rep. Alma S. Adams",
+      "party": "Democrat",
+      "state": "NC",
+      "district": 12,
+      "gender": "F"
+    },
+    {
+      "bioguide": "P000609",
+      "name": "Gary J. Palmer",
+      "official": "Rep. Gary J. Palmer",
+      "party": "Republican",
+      "state": "AL",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001072",
+      "name": "J. French Hill",
+      "official": "Rep. J. French Hill",
+      "party": "Republican",
+      "state": "AR",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "W000821",
+      "name": "Bruce Westerman",
+      "official": "Rep. Bruce Westerman",
+      "party": "Republican",
+      "state": "AR",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "D000623",
+      "name": "Mark DeSaulnier",
+      "official": "Rep. Mark DeSaulnier",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 10,
+      "gender": "M"
+    },
+    {
+      "bioguide": "A000371",
+      "name": "Pete Aguilar",
+      "official": "Rep. Pete Aguilar",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 33,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000582",
+      "name": "Ted Lieu",
+      "official": "Rep. Ted Lieu",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 36,
+      "gender": "M"
+    },
+    {
+      "bioguide": "T000474",
+      "name": "Norma J. Torres",
+      "official": "Rep. Norma J. Torres",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 35,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001103",
+      "name": "Earl L. \"Buddy\" Carter",
+      "official": "Rep. Earl L. \"Buddy\" Carter",
+      "party": "Republican",
+      "state": "GA",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000583",
+      "name": "Barry Loudermilk",
+      "official": "Rep. Barry Loudermilk",
+      "party": "Republican",
+      "state": "GA",
+      "district": 11,
+      "gender": "M"
+    },
+    {
+      "bioguide": "A000372",
+      "name": "Rick W. Allen",
+      "official": "Rep. Rick W. Allen",
+      "party": "Republican",
+      "state": "GA",
+      "district": 12,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001295",
+      "name": "Mike Bost",
+      "official": "Rep. Mike Bost",
+      "party": "Republican",
+      "state": "IL",
+      "district": 12,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001196",
+      "name": "Seth Moulton",
+      "official": "Rep. Seth Moulton",
+      "party": "Democrat",
+      "state": "MA",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001194",
+      "name": "John R. Moolenaar",
+      "official": "Rep. John R. Moolenaar",
+      "party": "Republican",
+      "state": "MI",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "D000624",
+      "name": "Debbie Dingell",
+      "official": "Rep. Debbie Dingell",
+      "party": "Democrat",
+      "state": "MI",
+      "district": 6,
+      "gender": "F"
+    },
+    {
+      "bioguide": "E000294",
+      "name": "Tom Emmer",
+      "official": "Rep. Tom Emmer",
+      "party": "Republican",
+      "state": "MN",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000603",
+      "name": "David Rouzer",
+      "official": "Rep. David Rouzer",
+      "party": "Republican",
+      "state": "NC",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "W000822",
+      "name": "Bonnie Watson Coleman",
+      "official": "Rep. Bonnie Watson Coleman",
+      "party": "Democrat",
+      "state": "NJ",
+      "district": 12,
+      "gender": "F"
+    },
+    {
+      "bioguide": "S001196",
+      "name": "Elise M. Stefanik",
+      "official": "Rep. Elise M. Stefanik",
+      "party": "Republican",
+      "state": "NY",
+      "district": 21,
+      "gender": "F"
+    },
+    {
+      "bioguide": "B001296",
+      "name": "Brendan F. Boyle",
+      "official": "Rep. Brendan F. Boyle",
+      "party": "Democrat",
+      "state": "PA",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001291",
+      "name": "Brian Babin",
+      "official": "Rep. Brian Babin",
+      "party": "Republican",
+      "state": "TX",
+      "district": 36,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001292",
+      "name": "Donald S. Beyer, Jr.",
+      "official": "Rep. Donald S. Beyer, Jr.",
+      "party": "Democrat",
+      "state": "VA",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "P000610",
+      "name": "Stacey E. Plaskett",
+      "official": "Rep. Stacey E. Plaskett",
+      "party": "Democrat",
+      "state": "VI",
+      "district": 0,
+      "gender": "F"
+    },
+    {
+      "bioguide": "N000189",
+      "name": "Dan Newhouse",
+      "official": "Rep. Dan Newhouse",
+      "party": "Republican",
+      "state": "WA",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000576",
+      "name": "Glenn Grothman",
+      "official": "Rep. Glenn Grothman",
+      "party": "Republican",
+      "state": "WI",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000600",
+      "name": "Aumua Amata Coleman Radewagen",
+      "official": "Rep. Aumua Amata Coleman Radewagen",
+      "party": "Republican",
+      "state": "AS",
+      "district": 0,
+      "gender": "F"
+    },
+    {
+      "bioguide": "K000388",
+      "name": "Trent Kelly",
+      "official": "Rep. Trent Kelly",
+      "party": "Republican",
+      "state": "MS",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000585",
+      "name": "Darin LaHood",
+      "official": "Rep. Darin LaHood",
+      "party": "Republican",
+      "state": "IL",
+      "district": 16,
+      "gender": "M"
+    },
+    {
+      "bioguide": "D000626",
+      "name": "Warren Davidson",
+      "official": "Rep. Warren Davidson",
+      "party": "Republican",
+      "state": "OH",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001108",
+      "name": "James Comer",
+      "official": "Rep. James Comer",
+      "party": "Republican",
+      "state": "KY",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "E000296",
+      "name": "Dwight Evans",
+      "official": "Rep. Dwight Evans",
+      "party": "Democrat",
+      "state": "PA",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001190",
+      "name": "Bradley Scott Schneider",
+      "official": "Rep. Bradley Scott Schneider",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 10,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001302",
+      "name": "Andy Biggs",
+      "official": "Rep. Andy Biggs",
+      "party": "Republican",
+      "state": "AZ",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000389",
+      "name": "Ro Khanna",
+      "official": "Rep. Ro Khanna",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 17,
+      "gender": "M"
+    },
+    {
+      "bioguide": "P000613",
+      "name": "Jimmy Panetta",
+      "official": "Rep. Jimmy Panetta",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 19,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001112",
+      "name": "Salud O. Carbajal",
+      "official": "Rep. Salud O. Carbajal",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 24,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001300",
+      "name": "Nanette Diaz Barragán",
+      "official": "Rep. Nanette Diaz Barragán",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 44,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001110",
+      "name": "J. Luis Correa",
+      "official": "Rep. J. Luis Correa",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 46,
+      "gender": "M"
+    },
+    {
+      "bioguide": "D000628",
+      "name": "Neal P. Dunn",
+      "official": "Rep. Neal P. Dunn",
+      "party": "Republican",
+      "state": "FL",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000609",
+      "name": "John H. Rutherford",
+      "official": "Rep. John H. Rutherford",
+      "party": "Republican",
+      "state": "FL",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001200",
+      "name": "Darren Soto",
+      "official": "Rep. Darren Soto",
+      "party": "Democrat",
+      "state": "FL",
+      "district": 9,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001199",
+      "name": "Brian J. Mast",
+      "official": "Rep. Brian J. Mast",
+      "party": "Republican",
+      "state": "FL",
+      "district": 21,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000391",
+      "name": "Raja Krishnamoorthi",
+      "official": "Rep. Raja Krishnamoorthi",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001077",
+      "name": "Clay Higgins",
+      "official": "Rep. Clay Higgins",
+      "party": "Republican",
+      "state": "LA",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "J000299",
+      "name": "Mike Johnson",
+      "official": "Rep. Mike Johnson",
+      "party": "Republican",
+      "state": "LA",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000606",
+      "name": "Jamie Raskin",
+      "official": "Rep. Jamie Raskin",
+      "party": "Democrat",
+      "state": "MD",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001301",
+      "name": "Jack Bergman",
+      "official": "Rep. Jack Bergman",
+      "party": "Republican",
+      "state": "MI",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001298",
+      "name": "Don Bacon",
+      "official": "Rep. Don Bacon",
+      "party": "Republican",
+      "state": "NE",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000583",
+      "name": "Josh Gottheimer",
+      "official": "Rep. Josh Gottheimer",
+      "party": "Democrat",
+      "state": "NJ",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "E000297",
+      "name": "Adriano Espaillat",
+      "official": "Rep. Adriano Espaillat",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 13,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000466",
+      "name": "Brian K. Fitzpatrick",
+      "official": "Rep. Brian K. Fitzpatrick",
+      "party": "Republican",
+      "state": "PA",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001199",
+      "name": "Lloyd Smucker",
+      "official": "Rep. Lloyd Smucker",
+      "party": "Republican",
+      "state": "PA",
+      "district": 11,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000392",
+      "name": "David Kustoff",
+      "official": "Rep. David Kustoff",
+      "party": "Republican",
+      "state": "TN",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000581",
+      "name": "Vicente Gonzalez",
+      "official": "Rep. Vicente Gonzalez",
+      "party": "Democrat",
+      "state": "TX",
+      "district": 34,
+      "gender": "M"
+    },
+    {
+      "bioguide": "A000375",
+      "name": "Jodey C. Arrington",
+      "official": "Rep. Jodey C. Arrington",
+      "party": "Republican",
+      "state": "TX",
+      "district": 19,
+      "gender": "M"
+    },
+    {
+      "bioguide": "J000298",
+      "name": "Pramila Jayapal",
+      "official": "Rep. Pramila Jayapal",
+      "party": "Democrat",
+      "state": "WA",
+      "district": 7,
+      "gender": "F"
+    },
+    {
+      "bioguide": "E000298",
+      "name": "Ron Estes",
+      "official": "Rep. Ron Estes",
+      "party": "Republican",
+      "state": "KS",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "N000190",
+      "name": "Ralph Norman",
+      "official": "Rep. Ralph Norman",
+      "party": "Republican",
+      "state": "SC",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000585",
+      "name": "Jimmy Gomez",
+      "official": "Rep. Jimmy Gomez",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 34,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001115",
+      "name": "Michael Cloud",
+      "official": "Rep. Michael Cloud",
+      "party": "Republican",
+      "state": "TX",
+      "district": 27,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001306",
+      "name": "Troy Balderson",
+      "official": "Rep. Troy Balderson",
+      "party": "Republican",
+      "state": "OH",
+      "district": 12,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001082",
+      "name": "Kevin Hern",
+      "official": "Rep. Kevin Hern",
+      "party": "Republican",
+      "state": "OK",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001206",
+      "name": "Joseph D. Morelle",
+      "official": "Rep. Joseph D. Morelle",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 25,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001205",
+      "name": "Mary Gay Scanlon",
+      "official": "Rep. Mary Gay Scanlon",
+      "party": "Democrat",
+      "state": "PA",
+      "district": 5,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001055",
+      "name": "Ed Case",
+      "official": "Rep. Ed Case",
+      "party": "Democrat",
+      "state": "HI",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001066",
+      "name": "Steven Horsford",
+      "official": "Rep. Steven Horsford",
+      "party": "Democrat",
+      "state": "NV",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001211",
+      "name": "Greg Stanton",
+      "official": "Rep. Greg Stanton",
+      "party": "Democrat",
+      "state": "AZ",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001090",
+      "name": "Josh Harder",
+      "official": "Rep. Josh Harder",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 9,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000593",
+      "name": "Mike Levin",
+      "official": "Rep. Mike Levin",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 49,
+      "gender": "M"
+    },
+    {
+      "bioguide": "N000191",
+      "name": "Joe Neguse",
+      "official": "Rep. Joe Neguse",
+      "party": "Democrat",
+      "state": "CO",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001121",
+      "name": "Jason Crow",
+      "official": "Rep. Jason Crow",
+      "party": "Democrat",
+      "state": "CO",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001081",
+      "name": "Jahana Hayes",
+      "official": "Rep. Jahana Hayes",
+      "party": "Democrat",
+      "state": "CT",
+      "district": 5,
+      "gender": "F"
+    },
+    {
+      "bioguide": "S001214",
+      "name": "W. Gregory Steube",
+      "official": "Rep. W. Gregory Steube",
+      "party": "Republican",
+      "state": "FL",
+      "district": 17,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001208",
+      "name": "Lucy McBath",
+      "official": "Rep. Lucy McBath",
+      "party": "Democrat",
+      "state": "GA",
+      "district": 6,
+      "gender": "F"
+    },
+    {
+      "bioguide": "F000469",
+      "name": "Russ Fulcher",
+      "official": "Rep. Russ Fulcher",
+      "party": "Republican",
+      "state": "ID",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000586",
+      "name": "Jesús G. \"Chuy\" García",
+      "official": "Rep. Jesús G. \"Chuy\" García",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001117",
+      "name": "Sean Casten",
+      "official": "Rep. Sean Casten",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "U000040",
+      "name": "Lauren Underwood",
+      "official": "Rep. Lauren Underwood",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 14,
+      "gender": "F"
+    },
+    {
+      "bioguide": "B001307",
+      "name": "James R. Baird",
+      "official": "Rep. James R. Baird",
+      "party": "Republican",
+      "state": "IN",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "D000629",
+      "name": "Sharice Davids",
+      "official": "Rep. Sharice Davids",
+      "party": "Democrat",
+      "state": "KS",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "T000482",
+      "name": "Lori Trahan",
+      "official": "Rep. Lori Trahan",
+      "party": "Democrat",
+      "state": "MA",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "P000617",
+      "name": "Ayanna Pressley",
+      "official": "Rep. Ayanna Pressley",
+      "party": "Democrat",
+      "state": "MA",
+      "district": 7,
+      "gender": "F"
+    },
+    {
+      "bioguide": "S001215",
+      "name": "Haley M. Stevens",
+      "official": "Rep. Haley M. Stevens",
+      "party": "Democrat",
+      "state": "MI",
+      "district": 11,
+      "gender": "F"
+    },
+    {
+      "bioguide": "T000481",
+      "name": "Rashida Tlaib",
+      "official": "Rep. Rashida Tlaib",
+      "party": "Democrat",
+      "state": "MI",
+      "district": 12,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001119",
+      "name": "Angie Craig",
+      "official": "Rep. Angie Craig",
+      "party": "Democrat",
+      "state": "MN",
+      "district": 2,
+      "gender": "F"
+    },
+    {
+      "bioguide": "O000173",
+      "name": "Ilhan Omar",
+      "official": "Rep. Ilhan Omar",
+      "party": "Democrat",
+      "state": "MN",
+      "district": 5,
+      "gender": "F"
+    },
+    {
+      "bioguide": "S001212",
+      "name": "Pete Stauber",
+      "official": "Rep. Pete Stauber",
+      "party": "Republican",
+      "state": "MN",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000591",
+      "name": "Michael Guest",
+      "official": "Rep. Michael Guest",
+      "party": "Republican",
+      "state": "MS",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "P000614",
+      "name": "Chris Pappas",
+      "official": "Rep. Chris Pappas",
+      "party": "Democrat",
+      "state": "NH",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "V000133",
+      "name": "Jefferson Van Drew",
+      "official": "Rep. Jefferson Van Drew",
+      "party": "Republican",
+      "state": "NJ",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000590",
+      "name": "Susie Lee",
+      "official": "Rep. Susie Lee",
+      "party": "Democrat",
+      "state": "NV",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "O000172",
+      "name": "Alexandria Ocasio-Cortez",
+      "official": "Rep. Alexandria Ocasio-Cortez",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 14,
+      "gender": "F"
+    },
+    {
+      "bioguide": "D000631",
+      "name": "Madeleine Dean",
+      "official": "Rep. Madeleine Dean",
+      "party": "Democrat",
+      "state": "PA",
+      "district": 4,
+      "gender": "F"
+    },
+    {
+      "bioguide": "H001085",
+      "name": "Chrissy Houlahan",
+      "official": "Rep. Chrissy Houlahan",
+      "party": "Democrat",
+      "state": "PA",
+      "district": 6,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M001204",
+      "name": "Daniel Meuser",
+      "official": "Rep. Daniel Meuser",
+      "party": "Republican",
+      "state": "PA",
+      "district": 9,
+      "gender": "M"
+    },
+    {
+      "bioguide": "J000302",
+      "name": "John Joyce",
+      "official": "Rep. John Joyce",
+      "party": "Republican",
+      "state": "PA",
+      "district": 13,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000610",
+      "name": "Guy Reschenthaler",
+      "official": "Rep. Guy Reschenthaler",
+      "party": "Republican",
+      "state": "PA",
+      "district": 14,
+      "gender": "M"
+    },
+    {
+      "bioguide": "T000480",
+      "name": "William R. Timmons IV",
+      "official": "Rep. William R. Timmons IV",
+      "party": "Republican",
+      "state": "SC",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "J000301",
+      "name": "Dusty Johnson",
+      "official": "Rep. Dusty Johnson",
+      "party": "Republican",
+      "state": "SD",
+      "district": 0,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001309",
+      "name": "Tim Burchett",
+      "official": "Rep. Tim Burchett",
+      "party": "Republican",
+      "state": "TN",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000612",
+      "name": "John W. Rose",
+      "official": "Rep. John W. Rose",
+      "party": "Republican",
+      "state": "TN",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001120",
+      "name": "Dan Crenshaw",
+      "official": "Rep. Dan Crenshaw",
+      "party": "Republican",
+      "state": "TX",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000589",
+      "name": "Lance Gooden",
+      "official": "Rep. Lance Gooden",
+      "party": "Republican",
+      "state": "TX",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000468",
+      "name": "Lizzie Fletcher",
+      "official": "Rep. Lizzie Fletcher",
+      "party": "Democrat",
+      "state": "TX",
+      "district": 7,
+      "gender": "F"
+    },
+    {
+      "bioguide": "E000299",
+      "name": "Veronica Escobar",
+      "official": "Rep. Veronica Escobar",
+      "party": "Democrat",
+      "state": "TX",
+      "district": 16,
+      "gender": "F"
+    },
+    {
+      "bioguide": "R000614",
+      "name": "Chip Roy",
+      "official": "Rep. Chip Roy",
+      "party": "Republican",
+      "state": "TX",
+      "district": 21,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000587",
+      "name": "Sylvia R. Garcia",
+      "official": "Rep. Sylvia R. Garcia",
+      "party": "Democrat",
+      "state": "TX",
+      "district": 29,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001118",
+      "name": "Ben Cline",
+      "official": "Rep. Ben Cline",
+      "party": "Republican",
+      "state": "VA",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001216",
+      "name": "Kim Schrier",
+      "official": "Rep. Kim Schrier",
+      "party": "Democrat",
+      "state": "WA",
+      "district": 8,
+      "gender": "F"
+    },
+    {
+      "bioguide": "S001213",
+      "name": "Bryan Steil",
+      "official": "Rep. Bryan Steil",
+      "party": "Republican",
+      "state": "WI",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001205",
+      "name": "Carol D. Miller",
+      "official": "Rep. Carol D. Miller",
+      "party": "Republican",
+      "state": "WV",
+      "district": 1,
+      "gender": "F"
+    },
+    {
+      "bioguide": "G000592",
+      "name": "Jared F. Golden",
+      "official": "Rep. Jared F. Golden",
+      "party": "Democrat",
+      "state": "ME",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001210",
+      "name": "Gregory F. Murphy",
+      "official": "Rep. Gregory F. Murphy",
+      "party": "Republican",
+      "state": "NC",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M000687",
+      "name": "Kweisi Mfume",
+      "official": "Rep. Kweisi Mfume",
+      "party": "Democrat",
+      "state": "MD",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "T000165",
+      "name": "Thomas P. Tiffany",
+      "official": "Rep. Thomas P. Tiffany",
+      "party": "Republican",
+      "state": "WI",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "I000056",
+      "name": "Darrell Issa",
+      "official": "Rep. Darrell Issa",
+      "party": "Republican",
+      "state": "CA",
+      "district": 48,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S000250",
+      "name": "Pete Sessions",
+      "official": "Rep. Pete Sessions",
+      "party": "Republican",
+      "state": "TX",
+      "district": 17,
+      "gender": "M"
+    },
+    {
+      "bioguide": "V000129",
+      "name": "David G. Valadao",
+      "official": "Rep. David G. Valadao",
+      "party": "Republican",
+      "state": "CA",
+      "district": 22,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001212",
+      "name": "Barry Moore",
+      "official": "Rep. Barry Moore",
+      "party": "Republican",
+      "state": "AL",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "O000019",
+      "name": "Jay Obernolte",
+      "official": "Rep. Jay Obernolte",
+      "party": "Republican",
+      "state": "CA",
+      "district": 23,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000397",
+      "name": "Young Kim",
+      "official": "Rep. Young Kim",
+      "party": "Republican",
+      "state": "CA",
+      "district": 40,
+      "gender": "F"
+    },
+    {
+      "bioguide": "J000305",
+      "name": "Sara Jacobs",
+      "official": "Rep. Sara Jacobs",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 51,
+      "gender": "F"
+    },
+    {
+      "bioguide": "B000825",
+      "name": "Lauren Boebert",
+      "official": "Rep. Lauren Boebert",
+      "party": "Republican",
+      "state": "CO",
+      "district": 4,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001039",
+      "name": "Kat Cammack",
+      "official": "Rep. Kat Cammack",
+      "party": "Republican",
+      "state": "FL",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "F000472",
+      "name": "Scott Franklin",
+      "official": "Rep. Scott Franklin",
+      "party": "Republican",
+      "state": "FL",
+      "district": 18,
+      "gender": "M"
+    },
+    {
+      "bioguide": "D000032",
+      "name": "Byron Donalds",
+      "official": "Rep. Byron Donalds",
+      "party": "Republican",
+      "state": "FL",
+      "district": 19,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000593",
+      "name": "Carlos A. Gimenez",
+      "official": "Rep. Carlos A. Gimenez",
+      "party": "Republican",
+      "state": "FL",
+      "district": 28,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S000168",
+      "name": "Maria Elvira Salazar",
+      "official": "Rep. Maria Elvira Salazar",
+      "party": "Republican",
+      "state": "FL",
+      "district": 27,
+      "gender": "F"
+    },
+    {
+      "bioguide": "W000788",
+      "name": "Nikema Williams",
+      "official": "Rep. Nikema Williams",
+      "party": "Democrat",
+      "state": "GA",
+      "district": 5,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001116",
+      "name": "Andrew S. Clyde",
+      "official": "Rep. Andrew S. Clyde",
+      "party": "Republican",
+      "state": "GA",
+      "district": 9,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001091",
+      "name": "Ashley Hinson",
+      "official": "Rep. Ashley Hinson",
+      "party": "Republican",
+      "state": "IA",
+      "district": 2,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M001215",
+      "name": "Mariannette Miller-Meeks",
+      "official": "Rep. Mariannette Miller-Meeks",
+      "party": "Republican",
+      "state": "IA",
+      "district": 1,
+      "gender": "F"
+    },
+    {
+      "bioguide": "F000446",
+      "name": "Randy Feenstra",
+      "official": "Rep. Randy Feenstra",
+      "party": "Republican",
+      "state": "IA",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001211",
+      "name": "Mary E. Miller",
+      "official": "Rep. Mary E. Miller",
+      "party": "Republican",
+      "state": "IL",
+      "district": 15,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M001214",
+      "name": "Frank J. Mrvan",
+      "official": "Rep. Frank J. Mrvan",
+      "party": "Democrat",
+      "state": "IN",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S000929",
+      "name": "Victoria Spartz",
+      "official": "Rep. Victoria Spartz",
+      "party": "Republican",
+      "state": "IN",
+      "district": 5,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M000871",
+      "name": "Tracey Mann",
+      "official": "Rep. Tracey Mann",
+      "party": "Republican",
+      "state": "KS",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "A000148",
+      "name": "Jake Auchincloss",
+      "official": "Rep. Jake Auchincloss",
+      "party": "Democrat",
+      "state": "MA",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001136",
+      "name": "Lisa C. McClain",
+      "official": "Rep. Lisa C. McClain",
+      "party": "Republican",
+      "state": "MI",
+      "district": 9,
+      "gender": "F"
+    },
+    {
+      "bioguide": "F000470",
+      "name": "Michelle Fischbach",
+      "official": "Rep. Michelle Fischbach",
+      "party": "Republican",
+      "state": "MN",
+      "district": 7,
+      "gender": "F"
+    },
+    {
+      "bioguide": "R000305",
+      "name": "Deborah K. Ross",
+      "official": "Rep. Deborah K. Ross",
+      "party": "Democrat",
+      "state": "NC",
+      "district": 2,
+      "gender": "F"
+    },
+    {
+      "bioguide": "L000273",
+      "name": "Teresa Leger Fernandez",
+      "official": "Rep. Teresa Leger Fernandez",
+      "party": "Democrat",
+      "state": "NM",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "G000597",
+      "name": "Andrew R. Garbarino",
+      "official": "Rep. Andrew R. Garbarino",
+      "party": "Republican",
+      "state": "NY",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M000317",
+      "name": "Nicole Malliotakis",
+      "official": "Rep. Nicole Malliotakis",
+      "party": "Republican",
+      "state": "NY",
+      "district": 11,
+      "gender": "F"
+    },
+    {
+      "bioguide": "T000486",
+      "name": "Ritchie Torres",
+      "official": "Rep. Ritchie Torres",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 15,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B000740",
+      "name": "Stephanie I. Bice",
+      "official": "Rep. Stephanie I. Bice",
+      "party": "Republican",
+      "state": "OK",
+      "district": 5,
+      "gender": "F"
+    },
+    {
+      "bioguide": "B000668",
+      "name": "Cliff Bentz",
+      "official": "Rep. Cliff Bentz",
+      "party": "Republican",
+      "state": "OR",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M000194",
+      "name": "Nancy Mace",
+      "official": "Rep. Nancy Mace",
+      "party": "Republican",
+      "state": "SC",
+      "district": 1,
+      "gender": "F"
+    },
+    {
+      "bioguide": "H001086",
+      "name": "Diana Harshbarger",
+      "official": "Rep. Diana Harshbarger",
+      "party": "Republican",
+      "state": "TN",
+      "district": 1,
+      "gender": "F"
+    },
+    {
+      "bioguide": "F000246",
+      "name": "Pat Fallon",
+      "official": "Rep. Pat Fallon",
+      "party": "Republican",
+      "state": "TX",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "P000048",
+      "name": "August Pfluger",
+      "official": "Rep. August Pfluger",
+      "party": "Republican",
+      "state": "TX",
+      "district": 11,
+      "gender": "M"
+    },
+    {
+      "bioguide": "J000304",
+      "name": "Ronny Jackson",
+      "official": "Rep. Ronny Jackson",
+      "party": "Republican",
+      "state": "TX",
+      "district": 13,
+      "gender": "M"
+    },
+    {
+      "bioguide": "N000026",
+      "name": "Troy E. Nehls",
+      "official": "Rep. Troy E. Nehls",
+      "party": "Republican",
+      "state": "TX",
+      "district": 22,
+      "gender": "M"
+    },
+    {
+      "bioguide": "V000134",
+      "name": "Beth Van Duyne",
+      "official": "Rep. Beth Van Duyne",
+      "party": "Republican",
+      "state": "TX",
+      "district": 24,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M001213",
+      "name": "Blake D. Moore",
+      "official": "Rep. Blake D. Moore",
+      "party": "Republican",
+      "state": "UT",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "O000086",
+      "name": "Burgess Owens",
+      "official": "Rep. Burgess Owens",
+      "party": "Republican",
+      "state": "UT",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001159",
+      "name": "Marilyn Strickland",
+      "official": "Rep. Marilyn Strickland",
+      "party": "Democrat",
+      "state": "WA",
+      "district": 10,
+      "gender": "F"
+    },
+    {
+      "bioguide": "F000471",
+      "name": "Scott Fitzgerald",
+      "official": "Rep. Scott Fitzgerald",
+      "party": "Republican",
+      "state": "WI",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "T000478",
+      "name": "Claudia Tenney",
+      "official": "Rep. Claudia Tenney",
+      "party": "Republican",
+      "state": "NY",
+      "district": 24,
+      "gender": "F"
+    },
+    {
+      "bioguide": "L000595",
+      "name": "Julia Letlow",
+      "official": "Rep. Julia Letlow",
+      "party": "Republican",
+      "state": "LA",
+      "district": 5,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001125",
+      "name": "Troy A. Carter",
+      "official": "Rep. Troy A. Carter",
+      "party": "Democrat",
+      "state": "LA",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001218",
+      "name": "Melanie A. Stansbury",
+      "official": "Rep. Melanie A. Stansbury",
+      "party": "Democrat",
+      "state": "NM",
+      "district": 1,
+      "gender": "F"
+    },
+    {
+      "bioguide": "E000071",
+      "name": "Jake Ellzey",
+      "official": "Rep. Jake Ellzey",
+      "party": "Republican",
+      "state": "TX",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001313",
+      "name": "Shontel M. Brown",
+      "official": "Rep. Shontel M. Brown",
+      "party": "Democrat",
+      "state": "OH",
+      "district": 11,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001126",
+      "name": "Mike Carey",
+      "official": "Rep. Mike Carey",
+      "party": "Republican",
+      "state": "OH",
+      "district": 15,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000474",
+      "name": "Mike Flood",
+      "official": "Rep. Mike Flood",
+      "party": "Republican",
+      "state": "NE",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000475",
+      "name": "Brad Finstad",
+      "official": "Rep. Brad Finstad",
+      "party": "Republican",
+      "state": "MN",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000579",
+      "name": "Patrick Ryan",
+      "official": "Rep. Patrick Ryan",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 18,
+      "gender": "M"
+    },
+    {
+      "bioguide": "Y000067",
+      "name": "Rudy Yakym III",
+      "official": "Rep. Rudy Yakym III",
+      "party": "Republican",
+      "state": "IN",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "Z000018",
+      "name": "Ryan K. Zinke",
+      "official": "Rep. Ryan K. Zinke",
+      "party": "Republican",
+      "state": "MT",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001220",
+      "name": "Dale W. Strong",
+      "official": "Rep. Dale W. Strong",
+      "party": "Republican",
+      "state": "AL",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001132",
+      "name": "Elijah Crane",
+      "official": "Rep. Elijah Crane",
+      "party": "Republican",
+      "state": "AZ",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001133",
+      "name": "Juan Ciscomani",
+      "official": "Rep. Juan Ciscomani",
+      "party": "Republican",
+      "state": "AZ",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000401",
+      "name": "Kevin Kiley",
+      "official": "Rep. Kevin Kiley",
+      "party": "Independent",
+      "state": "CA",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001225",
+      "name": "Kevin Mullin",
+      "official": "Rep. Kevin Mullin",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 15,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000400",
+      "name": "Sydney Kamlager-Dove",
+      "official": "Rep. Sydney Kamlager-Dove",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 37,
+      "gender": "F"
+    },
+    {
+      "bioguide": "G000598",
+      "name": "Robert Garcia",
+      "official": "Rep. Robert Garcia",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 42,
+      "gender": "M"
+    },
+    {
+      "bioguide": "P000620",
+      "name": "Brittany Pettersen",
+      "official": "Rep. Brittany Pettersen",
+      "party": "Democrat",
+      "state": "CO",
+      "district": 7,
+      "gender": "F"
+    },
+    {
+      "bioguide": "B001314",
+      "name": "Aaron Bean",
+      "official": "Rep. Aaron Bean",
+      "party": "Republican",
+      "state": "FL",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001216",
+      "name": "Cory Mills",
+      "official": "Rep. Cory Mills",
+      "party": "Republican",
+      "state": "FL",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000476",
+      "name": "Maxwell Frost",
+      "official": "Rep. Maxwell Frost",
+      "party": "Democrat",
+      "state": "FL",
+      "district": 10,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000596",
+      "name": "Anna Paulina Luna",
+      "official": "Rep. Anna Paulina Luna",
+      "party": "Republican",
+      "state": "FL",
+      "district": 13,
+      "gender": "F"
+    },
+    {
+      "bioguide": "L000597",
+      "name": "Laurel M. Lee",
+      "official": "Rep. Laurel M. Lee",
+      "party": "Republican",
+      "state": "FL",
+      "district": 15,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M001217",
+      "name": "Jared Moskowitz",
+      "official": "Rep. Jared Moskowitz",
+      "party": "Democrat",
+      "state": "FL",
+      "district": 23,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001218",
+      "name": "Richard McCormick",
+      "official": "Rep. Richard McCormick",
+      "party": "Republican",
+      "state": "GA",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001129",
+      "name": "Mike Collins",
+      "official": "Rep. Mike Collins",
+      "party": "Republican",
+      "state": "GA",
+      "district": 10,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001219",
+      "name": "James C. Moylan",
+      "official": "Rep. James C. Moylan",
+      "party": "Republican",
+      "state": "GU",
+      "district": 0,
+      "gender": "M"
+    },
+    {
+      "bioguide": "T000487",
+      "name": "Jill N. Tokuda",
+      "official": "Rep. Jill N. Tokuda",
+      "party": "Democrat",
+      "state": "HI",
+      "district": 2,
+      "gender": "F"
+    },
+    {
+      "bioguide": "N000193",
+      "name": "Zachary Nunn",
+      "official": "Rep. Zachary Nunn",
+      "party": "Republican",
+      "state": "IA",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "J000309",
+      "name": "Jonathan L. Jackson",
+      "official": "Rep. Jonathan L. Jackson",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000617",
+      "name": "Delia C. Ramirez",
+      "official": "Rep. Delia C. Ramirez",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "B001315",
+      "name": "Nikki Budzinski",
+      "official": "Rep. Nikki Budzinski",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 13,
+      "gender": "F"
+    },
+    {
+      "bioguide": "S001225",
+      "name": "Eric Sorensen",
+      "official": "Rep. Eric Sorensen",
+      "party": "Democrat",
+      "state": "IL",
+      "district": 17,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001093",
+      "name": "Erin Houchin",
+      "official": "Rep. Erin Houchin",
+      "party": "Republican",
+      "state": "IN",
+      "district": 9,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M001220",
+      "name": "Morgan McGarvey",
+      "official": "Rep. Morgan McGarvey",
+      "party": "Democrat",
+      "state": "KY",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "I000058",
+      "name": "Glenn Ivey",
+      "official": "Rep. Glenn Ivey",
+      "party": "Democrat",
+      "state": "MD",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001221",
+      "name": "Hillary J. Scholten",
+      "official": "Rep. Hillary J. Scholten",
+      "party": "Democrat",
+      "state": "MI",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "J000307",
+      "name": "John James",
+      "official": "Rep. John James",
+      "party": "Republican",
+      "state": "MI",
+      "district": 10,
+      "gender": "M"
+    },
+    {
+      "bioguide": "T000488",
+      "name": "Shri Thanedar",
+      "official": "Rep. Shri Thanedar",
+      "party": "Democrat",
+      "state": "MI",
+      "district": 13,
+      "gender": "M"
+    },
+    {
+      "bioguide": "A000379",
+      "name": "Mark Alford",
+      "official": "Rep. Mark Alford",
+      "party": "Republican",
+      "state": "MO",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001316",
+      "name": "Eric Burlison",
+      "official": "Rep. Eric Burlison",
+      "party": "Republican",
+      "state": "MO",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "E000235",
+      "name": "Mike Ezell",
+      "official": "Rep. Mike Ezell",
+      "party": "Republican",
+      "state": "MS",
+      "district": 4,
+      "gender": "M"
+    },
+    {
+      "bioguide": "D000230",
+      "name": "Donald G. Davis",
+      "official": "Rep. Donald G. Davis",
+      "party": "Democrat",
+      "state": "NC",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000477",
+      "name": "Valerie P. Foushee",
+      "official": "Rep. Valerie P. Foushee",
+      "party": "Democrat",
+      "state": "NC",
+      "district": 4,
+      "gender": "F"
+    },
+    {
+      "bioguide": "E000246",
+      "name": "Chuck Edwards",
+      "official": "Rep. Chuck Edwards",
+      "party": "Republican",
+      "state": "NC",
+      "district": 11,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000398",
+      "name": "Thomas H. Kean, Jr.",
+      "official": "Rep. Thomas H. Kean, Jr.",
+      "party": "Republican",
+      "state": "NJ",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001226",
+      "name": "Robert Menendez",
+      "official": "Rep. Robert Menendez",
+      "party": "Democrat",
+      "state": "NJ",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "V000136",
+      "name": "Gabe Vasquez",
+      "official": "Rep. Gabe Vasquez",
+      "party": "Democrat",
+      "state": "NM",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000598",
+      "name": "Nick LaLota",
+      "official": "Rep. Nick LaLota",
+      "party": "Republican",
+      "state": "NY",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000599",
+      "name": "Daniel S. Goldman",
+      "official": "Rep. Daniel S. Goldman",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 10,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000599",
+      "name": "Michael Lawler",
+      "official": "Rep. Michael Lawler",
+      "party": "Republican",
+      "state": "NY",
+      "district": 17,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000600",
+      "name": "Nicholas A. Langworthy",
+      "official": "Rep. Nicholas A. Langworthy",
+      "party": "Republican",
+      "state": "NY",
+      "district": 23,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000601",
+      "name": "Greg Landsman",
+      "official": "Rep. Greg Landsman",
+      "party": "Democrat",
+      "state": "OH",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001222",
+      "name": "Max L. Miller",
+      "official": "Rep. Max L. Miller",
+      "party": "Republican",
+      "state": "OH",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001223",
+      "name": "Emilia Strong Sykes",
+      "official": "Rep. Emilia Strong Sykes",
+      "party": "Democrat",
+      "state": "OH",
+      "district": 13,
+      "gender": "F"
+    },
+    {
+      "bioguide": "B001317",
+      "name": "Josh Brecheen",
+      "official": "Rep. Josh Brecheen",
+      "party": "Republican",
+      "state": "OK",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001094",
+      "name": "Val T. Hoyle",
+      "official": "Rep. Val T. Hoyle",
+      "party": "Democrat",
+      "state": "OR",
+      "district": 4,
+      "gender": "F"
+    },
+    {
+      "bioguide": "S001226",
+      "name": "Andrea Salinas",
+      "official": "Rep. Andrea Salinas",
+      "party": "Democrat",
+      "state": "OR",
+      "district": 6,
+      "gender": "F"
+    },
+    {
+      "bioguide": "L000602",
+      "name": "Summer L. Lee",
+      "official": "Rep. Summer L. Lee",
+      "party": "Democrat",
+      "state": "PA",
+      "district": 12,
+      "gender": "F"
+    },
+    {
+      "bioguide": "D000530",
+      "name": "Christopher R. Deluzio",
+      "official": "Rep. Christopher R. Deluzio",
+      "party": "Democrat",
+      "state": "PA",
+      "district": 17,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001223",
+      "name": "Seth Magaziner",
+      "official": "Rep. Seth Magaziner",
+      "party": "Democrat",
+      "state": "RI",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000478",
+      "name": "Russell Fry",
+      "official": "Rep. Russell Fry",
+      "party": "Republican",
+      "state": "SC",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "O000175",
+      "name": "Andrew Ogles",
+      "official": "Rep. Andrew Ogles",
+      "party": "Republican",
+      "state": "TN",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001224",
+      "name": "Nathaniel Moran",
+      "official": "Rep. Nathaniel Moran",
+      "party": "Republican",
+      "state": "TX",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001224",
+      "name": "Keith Self",
+      "official": "Rep. Keith Self",
+      "party": "Republican",
+      "state": "TX",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000603",
+      "name": "Morgan Luttrell",
+      "official": "Rep. Morgan Luttrell",
+      "party": "Republican",
+      "state": "TX",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "D000594",
+      "name": "Monica De La Cruz",
+      "official": "Rep. Monica De La Cruz",
+      "party": "Republican",
+      "state": "TX",
+      "district": 15,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001130",
+      "name": "Jasmine Crockett",
+      "official": "Rep. Jasmine Crockett",
+      "party": "Democrat",
+      "state": "TX",
+      "district": 30,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001131",
+      "name": "Greg Casar",
+      "official": "Rep. Greg Casar",
+      "party": "Democrat",
+      "state": "TX",
+      "district": 35,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001095",
+      "name": "Wesley Hunt",
+      "official": "Rep. Wesley Hunt",
+      "party": "Republican",
+      "state": "TX",
+      "district": 38,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000399",
+      "name": "Jennifer A. Kiggans",
+      "official": "Rep. Jennifer A. Kiggans",
+      "party": "Republican",
+      "state": "VA",
+      "district": 2,
+      "gender": "F"
+    },
+    {
+      "bioguide": "B001318",
+      "name": "Becca Balint",
+      "official": "Rep. Becca Balint",
+      "party": "Democrat",
+      "state": "VT",
+      "district": 0,
+      "gender": "F"
+    },
+    {
+      "bioguide": "G000600",
+      "name": "Marie Gluesenkamp Perez",
+      "official": "Rep. Marie Gluesenkamp Perez",
+      "party": "Democrat",
+      "state": "WA",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "V000135",
+      "name": "Derrick Van Orden",
+      "official": "Rep. Derrick Van Orden",
+      "party": "Republican",
+      "state": "WI",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001096",
+      "name": "Harriet M. Hageman",
+      "official": "Rep. Harriet M. Hageman",
+      "party": "Republican",
+      "state": "WY",
+      "district": 0,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M001227",
+      "name": "Jennifer L. McClellan",
+      "official": "Rep. Jennifer L. McClellan",
+      "party": "Democrat",
+      "state": "VA",
+      "district": 4,
+      "gender": "F"
+    },
+    {
+      "bioguide": "A000380",
+      "name": "Gabe Amo",
+      "official": "Rep. Gabe Amo",
+      "party": "Democrat",
+      "state": "RI",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001228",
+      "name": "Celeste Maloy",
+      "official": "Rep. Celeste Maloy",
+      "party": "Republican",
+      "state": "UT",
+      "district": 2,
+      "gender": "F"
+    },
+    {
+      "bioguide": "S001201",
+      "name": "Thomas R. Suozzi",
+      "official": "Rep. Thomas R. Suozzi",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000402",
+      "name": "Timothy M. Kennedy",
+      "official": "Rep. Timothy M. Kennedy",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 26,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000480",
+      "name": "Vince Fong",
+      "official": "Rep. Vince Fong",
+      "party": "Republican",
+      "state": "CA",
+      "district": 20,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000619",
+      "name": "Michael A. Rulli",
+      "official": "Rep. Michael A. Rulli",
+      "party": "Republican",
+      "state": "OH",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001229",
+      "name": "LaMonica McIver",
+      "official": "Rep. LaMonica McIver",
+      "party": "Democrat",
+      "state": "NJ",
+      "district": 10,
+      "gender": "F"
+    },
+    {
+      "bioguide": "W000829",
+      "name": "Tony Wied",
+      "official": "Rep. Tony Wied",
+      "party": "Republican",
+      "state": "WI",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000110",
+      "name": "Cleo Fields",
+      "official": "Rep. Cleo Fields",
+      "party": "Democrat",
+      "state": "LA",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001188",
+      "name": "Marlin A. Stutzman",
+      "official": "Rep. Marlin A. Stutzman",
+      "party": "Republican",
+      "state": "IN",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001123",
+      "name": "Gilbert Ray Cisneros, Jr.",
+      "official": "Rep. Gilbert Ray Cisneros, Jr.",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 31,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001323",
+      "name": "Nicholas J. Begich III",
+      "official": "Rep. Nicholas J. Begich III",
+      "party": "Republican",
+      "state": "AK",
+      "district": 0,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000481",
+      "name": "Shomari Figures",
+      "official": "Rep. Shomari Figures",
+      "party": "Democrat",
+      "state": "AL",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "A000381",
+      "name": "Yassamin Ansari",
+      "official": "Rep. Yassamin Ansari",
+      "party": "Democrat",
+      "state": "AZ",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "H001098",
+      "name": "Abraham J. Hamadeh",
+      "official": "Rep. Abraham J. Hamadeh",
+      "party": "Republican",
+      "state": "AZ",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001231",
+      "name": "Lateefah Simon",
+      "official": "Rep. Lateefah Simon",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 12,
+      "gender": "F"
+    },
+    {
+      "bioguide": "G000605",
+      "name": "Adam Gray",
+      "official": "Rep. Adam Gray",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 13,
+      "gender": "M"
+    },
+    {
+      "bioguide": "L000607",
+      "name": "Sam T. Liccardo",
+      "official": "Rep. Sam T. Liccardo",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 16,
+      "gender": "M"
+    },
+    {
+      "bioguide": "W000830",
+      "name": "George Whitesides",
+      "official": "Rep. George Whitesides",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 27,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000620",
+      "name": "Luz M. Rivas",
+      "official": "Rep. Luz M. Rivas",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 29,
+      "gender": "F"
+    },
+    {
+      "bioguide": "F000483",
+      "name": "Laura Friedman",
+      "official": "Rep. Laura Friedman",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 30,
+      "gender": "F"
+    },
+    {
+      "bioguide": "T000491",
+      "name": "Derek Tran",
+      "official": "Rep. Derek Tran",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 45,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001241",
+      "name": "Dave Min",
+      "official": "Rep. Dave Min",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 47,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001100",
+      "name": "Jeff Hurd",
+      "official": "Rep. Jeff Hurd",
+      "party": "Republican",
+      "state": "CO",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "C001137",
+      "name": "Jeff Crank",
+      "official": "Rep. Jeff Crank",
+      "party": "Republican",
+      "state": "CO",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "E000300",
+      "name": "Gabe Evans",
+      "official": "Rep. Gabe Evans",
+      "party": "Republican",
+      "state": "CO",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001238",
+      "name": "Sarah McBride",
+      "official": "Rep. Sarah McBride",
+      "party": "Democrat",
+      "state": "DE",
+      "district": 0,
+      "gender": "F"
+    },
+    {
+      "bioguide": "H001099",
+      "name": "Mike Haridopolos",
+      "official": "Rep. Mike Haridopolos",
+      "party": "Republican",
+      "state": "FL",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "J000311",
+      "name": "Brian Jack",
+      "official": "Rep. Brian Jack",
+      "party": "Republican",
+      "state": "GA",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001229",
+      "name": "Jefferson Shreve",
+      "official": "Rep. Jefferson Shreve",
+      "party": "Republican",
+      "state": "IN",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001233",
+      "name": "Mark B. Messmer",
+      "official": "Rep. Mark B. Messmer",
+      "party": "Republican",
+      "state": "IN",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001228",
+      "name": "Derek Schmidt",
+      "official": "Rep. Derek Schmidt",
+      "party": "Republican",
+      "state": "KS",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "O000176",
+      "name": "Johnny Olszewski, Jr.",
+      "official": "Rep. Johnny Olszewski, Jr.",
+      "party": "Democrat",
+      "state": "MD",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "E000301",
+      "name": "Sarah Elfreth",
+      "official": "Rep. Sarah Elfreth",
+      "party": "Democrat",
+      "state": "MD",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M001232",
+      "name": "April McClain Delaney",
+      "official": "Rep. April McClain Delaney",
+      "party": "Democrat",
+      "state": "MD",
+      "district": 6,
+      "gender": "F"
+    },
+    {
+      "bioguide": "B001321",
+      "name": "Tom Barrett",
+      "official": "Rep. Tom Barrett",
+      "party": "Republican",
+      "state": "MI",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001237",
+      "name": "Kristen McDonald Rivet",
+      "official": "Rep. Kristen McDonald Rivet",
+      "party": "Democrat",
+      "state": "MI",
+      "district": 8,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M001234",
+      "name": "Kelly Morrison",
+      "official": "Rep. Kelly Morrison",
+      "party": "Democrat",
+      "state": "MN",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "B001324",
+      "name": "Wesley Bell",
+      "official": "Rep. Wesley Bell",
+      "party": "Democrat",
+      "state": "MO",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "O000177",
+      "name": "Robert F. Onder, Jr.",
+      "official": "Rep. Robert F. Onder, Jr.",
+      "party": "Republican",
+      "state": "MO",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000404",
+      "name": "Kimberlyn King-Hinds",
+      "official": "Rep. Kimberlyn King-Hinds",
+      "party": "Republican",
+      "state": "MP",
+      "district": 0,
+      "gender": "F"
+    },
+    {
+      "bioguide": "D000634",
+      "name": "Troy Downing",
+      "official": "Rep. Troy Downing",
+      "party": "Republican",
+      "state": "MT",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001240",
+      "name": "Addison P. McDowell",
+      "official": "Rep. Addison P. McDowell",
+      "party": "Republican",
+      "state": "NC",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001102",
+      "name": "Mark Harris",
+      "official": "Rep. Mark Harris",
+      "party": "Republican",
+      "state": "NC",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001101",
+      "name": "Pat Harrigan",
+      "official": "Rep. Pat Harrigan",
+      "party": "Republican",
+      "state": "NC",
+      "district": 10,
+      "gender": "M"
+    },
+    {
+      "bioguide": "K000405",
+      "name": "Brad Knott",
+      "official": "Rep. Brad Knott",
+      "party": "Republican",
+      "state": "NC",
+      "district": 13,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001236",
+      "name": "Tim Moore",
+      "official": "Rep. Tim Moore",
+      "party": "Republican",
+      "state": "NC",
+      "district": 14,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000482",
+      "name": "Julie Fedorchak",
+      "official": "Rep. Julie Fedorchak",
+      "party": "Republican",
+      "state": "ND",
+      "district": 0,
+      "gender": "F"
+    },
+    {
+      "bioguide": "G000604",
+      "name": "Maggie Goodlander",
+      "official": "Rep. Maggie Goodlander",
+      "party": "Democrat",
+      "state": "NH",
+      "district": 2,
+      "gender": "F"
+    },
+    {
+      "bioguide": "C001136",
+      "name": "Herbert C. Conaway, Jr.",
+      "official": "Rep. Herbert C. Conaway, Jr.",
+      "party": "Democrat",
+      "state": "NJ",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "P000621",
+      "name": "Nellie Pou",
+      "official": "Rep. Nellie Pou",
+      "party": "Democrat",
+      "state": "NJ",
+      "district": 9,
+      "gender": "F"
+    },
+    {
+      "bioguide": "G000602",
+      "name": "Laura Gillen",
+      "official": "Rep. Laura Gillen",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 4,
+      "gender": "F"
+    },
+    {
+      "bioguide": "L000606",
+      "name": "George Latimer",
+      "official": "Rep. George Latimer",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 16,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000622",
+      "name": "Josh Riley",
+      "official": "Rep. Josh Riley",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 19,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001231",
+      "name": "John W. Mannion",
+      "official": "Rep. John W. Mannion",
+      "party": "Democrat",
+      "state": "NY",
+      "district": 22,
+      "gender": "M"
+    },
+    {
+      "bioguide": "T000490",
+      "name": "David J. Taylor",
+      "official": "Rep. David J. Taylor",
+      "party": "Republican",
+      "state": "OH",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "D000635",
+      "name": "Maxine Dexter",
+      "official": "Rep. Maxine Dexter",
+      "party": "Democrat",
+      "state": "OR",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "B001326",
+      "name": "Janelle S. Bynum",
+      "official": "Rep. Janelle S. Bynum",
+      "party": "Democrat",
+      "state": "OR",
+      "district": 5,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M001230",
+      "name": "Ryan Mackenzie",
+      "official": "Rep. Ryan Mackenzie",
+      "party": "Republican",
+      "state": "PA",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001327",
+      "name": "Robert P. Bresnahan, Jr.",
+      "official": "Rep. Robert P. Bresnahan, Jr.",
+      "party": "Republican",
+      "state": "PA",
+      "district": 8,
+      "gender": "M"
+    },
+    {
+      "bioguide": "H001103",
+      "name": "Pablo José Hernández",
+      "official": "Rep. Pablo José Hernández",
+      "party": "Democrat",
+      "state": "PR",
+      "district": 0,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001325",
+      "name": "Sheri Biggs",
+      "official": "Rep. Sheri Biggs",
+      "party": "Republican",
+      "state": "SC",
+      "district": 3,
+      "gender": "F"
+    },
+    {
+      "bioguide": "G000601",
+      "name": "Craig A. Goldman",
+      "official": "Rep. Craig A. Goldman",
+      "party": "Republican",
+      "state": "TX",
+      "district": 12,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000603",
+      "name": "Brandon Gill",
+      "official": "Rep. Brandon Gill",
+      "party": "Republican",
+      "state": "TX",
+      "district": 26,
+      "gender": "M"
+    },
+    {
+      "bioguide": "J000310",
+      "name": "Julie Johnson",
+      "official": "Rep. Julie Johnson",
+      "party": "Democrat",
+      "state": "TX",
+      "district": 32,
+      "gender": "F"
+    },
+    {
+      "bioguide": "K000403",
+      "name": "Mike Kennedy",
+      "official": "Rep. Mike Kennedy",
+      "party": "Republican",
+      "state": "UT",
+      "district": 3,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001239",
+      "name": "John J. McGuire III",
+      "official": "Rep. John J. McGuire III",
+      "party": "Republican",
+      "state": "VA",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "V000138",
+      "name": "Eugene Simon Vindman",
+      "official": "Rep. Eugene Simon Vindman",
+      "party": "Democrat",
+      "state": "VA",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "S001230",
+      "name": "Suhas Subramanyam",
+      "official": "Rep. Suhas Subramanyam",
+      "party": "Democrat",
+      "state": "VA",
+      "district": 10,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001322",
+      "name": "Michael Baumgartner",
+      "official": "Rep. Michael Baumgartner",
+      "party": "Republican",
+      "state": "WA",
+      "district": 5,
+      "gender": "M"
+    },
+    {
+      "bioguide": "R000621",
+      "name": "Emily Randall",
+      "official": "Rep. Emily Randall",
+      "party": "Democrat",
+      "state": "WA",
+      "district": 6,
+      "gender": "F"
+    },
+    {
+      "bioguide": "M001235",
+      "name": "Riley M. Moore",
+      "official": "Rep. Riley M. Moore",
+      "party": "Republican",
+      "state": "WV",
+      "district": 2,
+      "gender": "M"
+    },
+    {
+      "bioguide": "P000622",
+      "name": "Jimmy Patronis",
+      "official": "Rep. Jimmy Patronis",
+      "party": "Republican",
+      "state": "FL",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000484",
+      "name": "Randy Fine",
+      "official": "Rep. Randy Fine",
+      "party": "Republican",
+      "state": "FL",
+      "district": 6,
+      "gender": "M"
+    },
+    {
+      "bioguide": "W000831",
+      "name": "James R. Walkinshaw",
+      "official": "Rep. James R. Walkinshaw",
+      "party": "Democrat",
+      "state": "VA",
+      "district": 11,
+      "gender": "M"
+    },
+    {
+      "bioguide": "G000606",
+      "name": "Adelita S. Grijalva",
+      "official": "Rep. Adelita S. Grijalva",
+      "party": "Democrat",
+      "state": "AZ",
+      "district": 7,
+      "gender": "F"
+    },
+    {
+      "bioguide": "V000139",
+      "name": "Matt Van Epps",
+      "official": "Rep. Matt Van Epps",
+      "party": "Republican",
+      "state": "TN",
+      "district": 7,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001245",
+      "name": "Christian D. Menefee",
+      "official": "Rep. Christian D. Menefee",
+      "party": "Democrat",
+      "state": "TX",
+      "district": 18,
+      "gender": "M"
+    },
+    {
+      "bioguide": "F000485",
+      "name": "Clay Fuller",
+      "official": "Rep. Clay Fuller",
+      "party": "Republican",
+      "state": "GA",
+      "district": 14,
+      "gender": "M"
+    },
+    {
+      "bioguide": "M001246",
+      "name": "Analilia Mejia",
+      "official": "Rep. Analilia Mejia",
+      "party": "Democrat",
+      "state": "NJ",
+      "district": 11,
+      "gender": "F"
+    },
+    {
+      "bioguide": "G000607",
+      "name": "James Gallagher",
+      "official": "Rep. James Gallagher",
+      "party": "Republican",
+      "state": "CA",
+      "district": 1,
+      "gender": "M"
+    },
+    {
+      "bioguide": "B001328",
+      "name": "Everton Blair Jr.",
+      "official": "Rep. Everton Blair Jr.",
+      "party": "Democrat",
+      "state": "GA",
+      "district": 13,
+      "gender": "M"
+    },
+    {
+      "bioguide": "W000832",
+      "name": "Aisha Wahab",
+      "official": "Rep. Aisha Wahab",
+      "party": "Democrat",
+      "state": "CA",
+      "district": 14,
+      "gender": "F"
+    }
+  ]
+}
