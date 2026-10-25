@@ -1,8 +1,17 @@
 {
   "variants": [
-    { "id": "what-next", "pattern": "This congressman bought up to $250K of Nvidia. Here's what happened next." },
-    { "id": "receipt-in", "pattern": "This congresswoman bought up to $50K of Apple. The receipt is in." },
-    { "id": "since-then", "pattern": "This congressman bought up to $15K of Merck. Let's see how it did." }
+    {
+      "id": "what-next",
+      "pattern": "This congressman bought up to $250K of Nvidia. Here's what happened next."
+    },
+    {
+      "id": "receipt-in",
+      "pattern": "This congresswoman bought up to $50K of Apple. The receipt is in."
+    },
+    {
+      "id": "since-then",
+      "pattern": "This congressman bought up to $15K of Merck. Let's see how it did."
+    }
   ],
   "stats": {}
 }

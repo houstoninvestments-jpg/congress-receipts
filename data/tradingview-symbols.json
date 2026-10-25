@@ -2,5 +2,9 @@
   "GH": {
     "path": "/symbols/NASDAQ-GH/",
     "checkedAt": "2026-10-25T06:13:12.020Z"
+  },
+  "EL": {
+    "path": "/symbols/NYSE-EL/",
+    "checkedAt": "2026-10-25T19:18:51.204Z"
   }
 }

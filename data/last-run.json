@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-25",
+  "dryRun": false,
+  "status": "rendered",
+  "warnings": [],
+  "errors": [
+    "first upload is locked private; audit answers prepared in docs/youtube-audit-request.md"
+  ],
+  "steps": [
+    {
+      "step": "data",
+      "ok": true,
+      "detail": "439 House members; 437 reports in the Clerk's index, 60 new parsed"
+    },
+    {
+      "step": "pick",
+      "ok": true,
+      "detail": "418 purchases qualify, 386 after the party-balance and repeat rules; set aside: {\"filing scanned\":49,\"not a listed stock with a ticker\":116,\"not a purchase\":685,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
+    },
+    {
+      "step": "check",
+      "ok": false,
+      "detail": "Jonathan L. Jackson / DDOG: problems: Minor wording issue: the description says 'reported a joint purchase ... on September 28, 2026', which could be read as the report date. The next sentence gives the correct filing date (October 19, 2026), so this is not a factual mismatch. Rewording to 'a joint purchase ... made September 28, 2026' would be clearer."
+    },
+    {
+      "step": "check",
+      "ok": true,
+      "detail": "Jonathan L. Jackson / EL: code checks and both reviews passed"
+    },
+    {
+      "step": "voice",
+      "ok": true,
+      "detail": "AI voice (Kokoro open model), 36.4s"
+    },
+    {
+      "step": "render",
+      "ok": true,
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-25/receipt-001.mp4 (1080x1920, 36.37s)"
+    },
+    {
+      "step": "publish",
+      "ok": false,
+      "detail": "status stayed private after asking for unlisted"
+    }
+  ],
+  "summary": {
+    "receipt": "Rep. Jonathan L. Jackson (D-IL) bought EL $50,001 - $100,000, traded 2026-09-28, filed 2026-10-19, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035551.pdf",
+    "result": "EL 13.7% vs SPY -0.7% (2026-09-28 to 2026-10-23), stamp BEAT THE MARKET",
+    "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
+    "title": "Receipt No. 001: Rep. Jonathan L. Jackson bought Estee Lauder Companies",
+    "upload": "GLCF2kvhLUw, private, LOCKED private by Google; ",
+    "modelCost": "$0.2609 over 7 model calls (writer claude-fable-5-1 1593+679 tok; checker-a claude-opus-5-5 1302+328 tok; checker-b claude-opus-5-5 1266+500 tok; writer claude-fable-5-1 1619+1654 tok; writer-retry claude-fable-5-1 1953+897 tok; checker-a claude-opus-5-5 1331+220 tok; checker-b claude-opus-5-5 1295+299 tok)"
+  },
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-25/receipt-001.mp4",
+  "receipt": 1,
+  "youtubeId": "GLCF2kvhLUw"
+}

@@ -1,0 +1,99 @@
+{
+  "nextNumber": 2,
+  "receipts": [
+    {
+      "number": 1,
+      "date": "2026-10-25",
+      "txnId": "20035551-2",
+      "docId": "20035551",
+      "bioguide": "J000309",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Jonathan L. Jackson",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "IL",
+        "stateName": "Illinois",
+        "district": 1,
+        "owner": "jointly",
+        "company": "Estee Lauder Companies",
+        "companyFull": "Estee Lauder Companies, Inc.",
+        "ticker": "EL",
+        "amountText": "$50,001 - $100,000",
+        "amountMin": 50001,
+        "amountMax": 100000,
+        "amountMid": 75001,
+        "tradeDate": "2026-09-28",
+        "filedDate": "2026-10-19",
+        "daysToFile": 21,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "EL",
+            "start": {
+              "date": "2026-09-28",
+              "close": 95.57
+            },
+            "end": {
+              "date": "2026-10-23",
+              "close": 108.67
+            },
+            "changePct": 13.7
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-09-28",
+              "close": 765.61
+            },
+            "end": {
+              "date": "2026-10-23",
+              "close": 759.97
+            },
+            "changePct": -0.7
+          }
+        },
+        "excessPts": 14.4,
+        "stamp": "BEAT THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035551.pdf"
+      },
+      "script": {
+        "hook": "This congressman jointly bought up to $100K of Estee Lauder Companies. What happened next?",
+        "receiptSay": "Rep. Jonathan L. Jackson, Democrat of Illinois. Trade date September 28, 2026. Filed October 19, 2026.",
+        "resultSay": "Since then, Estee Lauder Companies is up 13.7%. The S&P 500 is down 0.7%.",
+        "stampSay": "That beat the market by 14.4 points.",
+        "title": "Receipt No. 001: Rep. Jonathan L. Jackson bought Estee Lauder Companies",
+        "description": "Rep. Jonathan L. Jackson (D-IL) reported a joint purchase of Estee Lauder Companies (EL) worth $50,001 - $100,000 on September 28, 2026. The report was filed October 19, 2026."
+      },
+      "slug": "001-jonathan-l-jackson-el",
+      "cta": "none",
+      "hookVariant": "what-next",
+      "status": "rendered",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "GLCF2kvhLUw",
+      "youtubePrivacy": "private"
+    }
+  ],
+  "skipped": [
+    {
+      "txnId": "20035551-1",
+      "date": "2026-10-25",
+      "reason": "problems: Minor wording issue: the description says 'reported a joint purchase ... on September 28, 2026', which could be read as the report date. The next sentence gives the correct filing date (October 19, 2026), so this is not a factual mismatch. Rewording to 'a joint purchase ... made September 28, 2026' would be clearer."
+    }
+  ],
+  "firstUploadCheck": {
+    "videoId": "GLCF2kvhLUw",
+    "checkedAt": "2026-10-25T19:18:55.139Z",
+    "locked": true,
+    "detail": "status stayed private after asking for unlisted"
+  }
+}
