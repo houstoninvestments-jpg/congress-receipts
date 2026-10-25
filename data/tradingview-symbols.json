@@ -6,5 +6,9 @@
   "EL": {
     "path": "/symbols/NYSE-EL/",
     "checkedAt": "2026-10-25T19:18:51.204Z"
+  },
+  "CACI": {
+    "path": "/symbols/NYSE-CACI/",
+    "checkedAt": "2026-10-25T23:34:29.475Z"
   }
 }

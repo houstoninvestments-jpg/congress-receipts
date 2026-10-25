@@ -1,5 +1,5 @@
 {
-  "nextNumber": 2,
+  "nextNumber": 3,
   "receipts": [
     {
       "number": 1,
@@ -81,6 +81,87 @@
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "GLCF2kvhLUw",
       "youtubePrivacy": "private"
+    },
+    {
+      "number": 2,
+      "date": "2026-10-25",
+      "txnId": "20035585-1",
+      "docId": "20035585",
+      "bioguide": "M001136",
+      "party": "Republican",
+      "facts": {
+        "memberName": "Lisa C. McClain",
+        "memberTitle": "Rep.",
+        "memberNoun": "congresswoman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "MI",
+        "stateName": "Michigan",
+        "district": 9,
+        "owner": "a spouse",
+        "company": "CACI International",
+        "companyFull": "CACI International, Inc.",
+        "ticker": "CACI",
+        "amountText": "$15,001 - $50,000",
+        "amountMin": 15001,
+        "amountMax": 50000,
+        "amountMid": 32501,
+        "tradeDate": "2026-09-14",
+        "filedDate": "2026-10-12",
+        "daysToFile": 28,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "CACI",
+            "start": {
+              "date": "2026-09-14",
+              "close": 637.16
+            },
+            "end": {
+              "date": "2026-10-23",
+              "close": 633.98
+            },
+            "changePct": -0.5
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-09-14",
+              "close": 760.88
+            },
+            "end": {
+              "date": "2026-10-23",
+              "close": 759.97
+            },
+            "changePct": -0.1
+          }
+        },
+        "excessPts": -0.4,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035585.pdf"
+      },
+      "script": {
+        "hook": "This congresswoman's spouse bought up to $50K of CACI International. Receipt's in.",
+        "receiptSay": "Rep. Lisa C. McClain, Republican of Michigan. Trade date September 14, 2026. Filed Oct 12.",
+        "resultSay": "Since then, CACI International is down 0.5%. The S&P 500 is down 0.1%.",
+        "stampSay": "That lost to the market by 0.4 points.",
+        "title": "Receipt No. 002: Rep. Lisa C. McClain's spouse bought CACI International",
+        "description": "Rep. Lisa C. McClain (R-MI) reported that her spouse bought CACI International (CACI) worth $15,001 - $50,000 on September 14, 2026. The report was filed October 12, 2026."
+      },
+      "slug": "002-lisa-c-mcclain-caci",
+      "cta": "soft",
+      "hookVariant": "receipt-in",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "4UTcs9eAhQw",
+      "youtubePrivacy": "public"
     }
   ],
   "skipped": [
@@ -92,8 +173,8 @@
   ],
   "firstUploadCheck": {
     "videoId": "GLCF2kvhLUw",
-    "checkedAt": "2026-10-25T19:18:55.139Z",
-    "locked": true,
-    "detail": "status stayed private after asking for unlisted"
+    "checkedAt": "2026-10-25T23:31:43.013Z",
+    "locked": false,
+    "detail": "lock lifted: private test video could be made unlisted; uploads are not locked"
   }
 }
