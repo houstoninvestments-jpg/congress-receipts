@@ -176,11 +176,14 @@ jobs:
         run: |
           base="${{ steps.site.outputs.base_url }}"
           ok=""
+          # Wait up to 3 minutes for the new deploy on the home page, then each other page once.
+          tries="1 2 3 4 5 6 7 8 9 10 11 12"
           for page in "" "receipts/" "scoreboard/" "how/" "privacy/" "terms/"; do
-            for i in 1 2 3 4 5 6 7 8 9 10; do
+            for i in $tries; do
               code=$(curl -s -o /dev/null -w "%{http_code}" "$base/$page") && [ "$code" = "200" ] && break
               sleep 15
             done
+            tries="1 2"
             if [ "$code" = "200" ]; then ok="$ok /$page"; else echo "::error title=Live check::$base/$page answered $code"; exit 1; fi
           done
           curl -s "$base/" | grep -q "Not financial advice. Facts from public filings." || { echo "::error title=Live check::home page is missing the not-advice line"; exit 1; }
