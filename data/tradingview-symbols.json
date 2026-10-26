@@ -10,5 +10,9 @@
   "CACI": {
     "path": "/symbols/NYSE-CACI/",
     "checkedAt": "2026-10-25T23:34:29.475Z"
+  },
+  "BE": {
+    "path": "/symbols/NYSE-BE/",
+    "checkedAt": "2026-10-26T08:10:56.037Z"
   }
 }

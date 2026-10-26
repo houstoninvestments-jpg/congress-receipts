@@ -400,5 +400,42 @@
         "usd": 0.00909
       }
     ]
+  },
+  {
+    "at": "2026-10-26T08:10:59.981Z",
+    "date": "2026-10-26",
+    "dryRun": false,
+    "status": "published",
+    "receipt": 3,
+    "usd": 0.0964,
+    "calls": [
+      {
+        "role": "writer",
+        "model": "claude-fable-5-1",
+        "input": 1607,
+        "output": 1227,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.07742
+      },
+      {
+        "role": "checker-a",
+        "model": "claude-opus-5-5",
+        "input": 1323,
+        "output": 199,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.00927
+      },
+      {
+        "role": "checker-b",
+        "model": "claude-opus-5-5",
+        "input": 1287,
+        "output": 230,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.00975
+      }
+    ]
   }
 ]
