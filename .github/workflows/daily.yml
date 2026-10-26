@@ -1,13 +1,11 @@
 name: Daily Receipt
 
 on:
-  schedule:
-    # Three slots a day, a ceiling not a quota: each posts only if a trade passes every check.
-    # About 9:37am, 2:37pm and 7:37pm Pacific (an hour earlier in winter; GitHub cron runs on UTC).
-    # Scam or Not runs at 14:23 UTC, so these never overlap it.
-    - cron: "37 16 * * *"
-    - cron: "37 21 * * *"
-    - cron: "37 2 * * *"
+  # No GitHub schedule: GitHub's cron can start hours late. A Cloudflare timer
+  # (Scam-Check-Shorts-channel repo, timer/worker.js) starts this job on time at
+  # 16:37, 21:37 and 02:37 UTC through workflow_dispatch with no inputs, which is a
+  # live run (dry_run defaults to false). Three slots a day is a ceiling, not a
+  # quota: each posts only if a trade passes every check.
   workflow_dispatch:
     inputs:
       dry_run:
