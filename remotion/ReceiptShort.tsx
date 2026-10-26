@@ -173,7 +173,12 @@ export const ReceiptShort: React.FC<ReceiptProps> = (p) => {
             <SideBox name="DEMOCRATS" s={p.scoreboard.dem} />
             <SideBox name="REPUBLICANS" s={p.scoreboard.rep} />
           </div>
-          <div style={{ textAlign: "center", fontSize: 76, fontWeight: 900, marginTop: 20 }}>{p.closer}</div>
+          {/* "Topic: question" breaks after the colon, so no word is left alone on a line. */}
+          <div style={{ textAlign: "center", fontSize: 70, fontWeight: 900, marginTop: 20, lineHeight: 1.12 }}>
+            {p.closer.split(/(?<=:)\s+/).map((part, i) => (
+              <div key={i} style={{ color: i === 0 && p.closer.includes(":") ? C.dim : C.ink, fontSize: i === 0 && p.closer.includes(":") ? 52 : 70 }}>{part}</div>
+            ))}
+          </div>
           {p.cta !== "none" ? (
             <div style={{ textAlign: "center", fontSize: p.cta === "direct" ? 38 : 32, fontWeight: 700, color: p.cta === "direct" ? C.ink : C.dim }}>
               {p.cta === "direct" ? "See the filing and the math: link on our channel." : "Every receipt is on our site."}

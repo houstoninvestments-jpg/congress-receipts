@@ -33,7 +33,7 @@ One GitHub Actions job (`.github/workflows/daily.yml`), three slots a day (about
 5. **Voice**: Kokoro `am_michael`, en-us, speed 0.95, in dry and live runs.
 6. **Render** (`remotion/`). Hook, the filing card ("From official filing"),
    result bars, stamp (BEAT THE MARKET, LOST TO THE MARKET, FILED LATE),
-   3-second scoreboard, "Ban it, or keep it?". Pixel checks: nothing changes
+   3-second scoreboard, "Congress trading stocks: ban it, or keep it?". Pixel checks: nothing changes
    on the filing card once it's up, and the stamp never covers the result.
 7. **Publish** (`src/publish`). Resumable upload, `containsSyntheticMedia`,
    first upload private plus lock test, thumbnail from frame 0.

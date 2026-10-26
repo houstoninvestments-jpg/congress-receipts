@@ -105,13 +105,13 @@ You get FACTS (from the filing and a cited price source) and a finished SCRIPT. 
 Say "skip" if any number differs from FACTS, any claim is not in FACTS, the owner is wrong (a spouse's trade said to be the member's), or anything hints at why the member traded or what they knew.
 Say "skip" for any advice to buy, sell, copy or follow a trade.
 List every problem that matters. An empty list means you would publish it as is. Do not list style preferences.
-The closer "Ban it, or keep it?" asks viewers about the policy of members trading stocks. It is fixed and not a claim.`;
+The closer "${config().channel.closer}" asks viewers about the policy of members of Congress trading stocks. It is fixed and not a claim.`;
 
 const CHECK_B = `You are an independent second reviewer for a neutral news channel. Assume the script may be wrong. You have not seen anyone else's review.
 1. Compare every number, date, name, party and state in SCRIPT with FACTS. Any mismatch means "skip".
 2. Read it as a viewer from either party. Would anything feel slanted, suggest wrongdoing, or hint at motive or hidden knowledge? Then "skip".
 3. Any trading advice, or anything a viewer could take as a signal to trade? Then "skip".
-Be strict. If in doubt, "skip". List only problems that matter. The closer "Ban it, or keep it?" is fixed.`;
+Be strict. If in doubt, "skip". List only problems that matter. The closer "${config().channel.closer}" is fixed.`;
 
 function checkPrompt(s: Script, f: Facts) {
   return `FACTS\n${JSON.stringify(factsForModel(f), null, 2)}\n\nSCRIPT\n${JSON.stringify({ ...s, closer: config().channel.closer }, null, 2)}`;
