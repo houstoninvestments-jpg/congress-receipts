@@ -14,5 +14,9 @@
   "BE": {
     "path": "/symbols/NYSE-BE/",
     "checkedAt": "2026-10-26T08:10:56.037Z"
+  },
+  "SNOW": {
+    "path": "/symbols/NYSE-SNOW/",
+    "checkedAt": "2026-10-26T21:12:58.797Z"
   }
 }
