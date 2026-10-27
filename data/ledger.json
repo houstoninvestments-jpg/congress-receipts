@@ -1,5 +1,5 @@
 {
-  "nextNumber": 5,
+  "nextNumber": 6,
   "receipts": [
     {
       "number": 1,
@@ -323,6 +323,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "hls28dxrCls",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 5,
+      "date": "2026-10-26",
+      "txnId": "20035622-35",
+      "docId": "20035622",
+      "bioguide": "C001123",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Gilbert Ray Cisneros, Jr.",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "CA",
+        "stateName": "California",
+        "district": 31,
+        "owner": "the member",
+        "company": "NXP Semiconductors",
+        "companyFull": "NXP Semiconductors N.V.",
+        "ticker": "NXPI",
+        "amountText": "$15,001 - $50,000",
+        "amountMin": 15001,
+        "amountMax": 50000,
+        "amountMid": 32501,
+        "tradeDate": "2026-09-09",
+        "filedDate": "2026-10-12",
+        "daysToFile": 33,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "NXPI",
+            "start": {
+              "date": "2026-09-09",
+              "close": 223.32
+            },
+            "end": {
+              "date": "2026-10-26",
+              "close": 245.83
+            },
+            "changePct": 10.1
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-09-09",
+              "close": 762.4
+            },
+            "end": {
+              "date": "2026-10-26",
+              "close": 765.37
+            },
+            "changePct": 0.4
+          }
+        },
+        "excessPts": 9.7,
+        "stamp": "BEAT THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $50K of NXP Semiconductors. Here's what happened next.",
+        "receiptSay": "Rep. Gilbert Ray Cisneros, Jr., Democrat of California. Trade date September 9, 2026. Filed October 12, 2026.",
+        "resultSay": "Since then, NXP Semiconductors is up 10.1%. The S&P 500 is up 0.4%.",
+        "stampSay": "That beat the market by 9.7 points.",
+        "title": "Receipt No. 005: Rep. Gilbert Ray Cisneros, Jr. bought NXP Semiconductors",
+        "description": "Rep. Gilbert Ray Cisneros, Jr. (D-CA) reported buying NXP Semiconductors (NXPI) worth $15,001 - $50,000 on September 9, 2026. The report was filed October 12, 2026."
+      },
+      "slug": "005-gilbert-ray-cisneros-jr-nxpi",
+      "cta": "soft",
+      "hookVariant": "what-next",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "Eh2Z7SwAUwg",
       "youtubePrivacy": "public"
     }
   ],

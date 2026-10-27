@@ -13,38 +13,38 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "402 purchases qualify, 92 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":116,\"not a purchase\":685,\"thinly traded foreign share (over the counter)\":4,\"member featured in the last 7 days\":12,\"filer not matched to one sitting member\":7}"
+      "detail": "375 purchases qualify, 354 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":116,\"not a purchase\":685,\"thinly traded foreign share (over the counter)\":4,\"member featured in the last 7 days\":38,\"filer not matched to one sitting member\":7}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Maria Elvira Salazar / SNOW: code checks and both reviews passed"
+      "detail": "Gilbert Ray Cisneros, Jr. / NXPI: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 35.6s"
+      "detail": "AI voice (Kokoro open model), 36.7s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-26/receipt-004.mp4 (1080x1920, 35.58s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-26/receipt-005.mp4 (1080x1920, 36.72s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded hls28dxrCls as public"
+      "detail": "uploaded Eh2Z7SwAUwg as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Maria Elvira Salazar (R-FL) bought SNOW $15,001 - $50,000, traded 2026-09-04, filed 2026-10-07, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf",
-    "result": "SNOW -0.7% vs SPY -0.6% (2026-09-04 to 2026-10-26), stamp LOST TO THE MARKET",
+    "receipt": "Rep. Gilbert Ray Cisneros, Jr. (D-CA) bought NXPI $15,001 - $50,000, traded 2026-09-09, filed 2026-10-12, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf",
+    "result": "NXPI 10.1% vs SPY 0.4% (2026-09-09 to 2026-10-26), stamp BEAT THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 004: Rep. Maria Elvira Salazar bought Snowflake",
-    "upload": "hls28dxrCls, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0482 over 3 model calls (writer claude-fable-5-1 1596+235 tok; checker-a claude-opus-5-5 1305+183 tok; checker-b claude-opus-5-5 1269+325 tok)"
+    "title": "Receipt No. 005: Rep. Gilbert Ray Cisneros, Jr. bought NXP Semiconductors",
+    "upload": "Eh2Z7SwAUwg, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0505 over 3 model calls (writer claude-fable-5-1 1627+252 tok; checker-a claude-opus-5-5 1363+201 tok; checker-b claude-opus-5-5 1323+343 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-26/receipt-004.mp4",
-  "receipt": 4,
-  "youtubeId": "hls28dxrCls"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-26/receipt-005.mp4",
+  "receipt": 5,
+  "youtubeId": "Eh2Z7SwAUwg"
 }
