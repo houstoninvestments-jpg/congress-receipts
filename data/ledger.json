@@ -1,5 +1,5 @@
 {
-  "nextNumber": 6,
+  "nextNumber": 7,
   "receipts": [
     {
       "number": 1,
@@ -404,6 +404,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "Eh2Z7SwAUwg",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 6,
+      "date": "2026-10-27",
+      "txnId": "20035660-1",
+      "docId": "20035660",
+      "bioguide": "T000490",
+      "party": "Republican",
+      "facts": {
+        "memberName": "David J. Taylor",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "OH",
+        "stateName": "Ohio",
+        "district": 2,
+        "owner": "the member",
+        "company": "AT&T",
+        "companyFull": "AT&T Inc.",
+        "ticker": "T",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-10-09",
+        "filedDate": "2026-10-15",
+        "daysToFile": 6,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "T",
+            "start": {
+              "date": "2026-10-09",
+              "close": 22.18
+            },
+            "end": {
+              "date": "2026-10-26",
+              "close": 20.85
+            },
+            "changePct": -6
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-10-09",
+              "close": 778.57
+            },
+            "end": {
+              "date": "2026-10-26",
+              "close": 765.37
+            },
+            "changePct": -1.7
+          }
+        },
+        "excessPts": -4.3,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035660.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of AT&T. The receipt is in.",
+        "receiptSay": "Rep. David J. Taylor, Republican of Ohio. Trade date October 9, 2026. Filed October 15, 2026.",
+        "resultSay": "Since then, AT&T is down 6.0%. The S&P 500 is down 1.7%.",
+        "stampSay": "That lost to the market by 4.3 points.",
+        "title": "Receipt No. 006: Rep. David J. Taylor bought AT&T",
+        "description": "Rep. David J. Taylor (R-OH) reported buying AT&T (T) worth $1,001 - $15,000 on October 9, 2026. The report was filed October 15, 2026."
+      },
+      "slug": "006-david-j-taylor-t",
+      "cta": "direct",
+      "hookVariant": "receipt-in",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "fps-Bde8T2I",
       "youtubePrivacy": "public"
     }
   ],

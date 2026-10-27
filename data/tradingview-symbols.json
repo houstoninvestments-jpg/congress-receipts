@@ -22,5 +22,9 @@
   "NXPI": {
     "path": "/symbols/NASDAQ-NXPI/",
     "checkedAt": "2026-10-27T02:39:32.775Z"
+  },
+  "T": {
+    "path": "/symbols/NYSE-T/",
+    "checkedAt": "2026-10-27T16:39:13.786Z"
   }
 }
