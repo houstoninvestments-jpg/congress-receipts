@@ -13,38 +13,38 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "237 purchases qualify, 76 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":116,\"not a purchase\":685,\"member featured in the last 7 days\":175,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
+      "detail": "212 purchases qualify, 197 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":116,\"not a purchase\":685,\"member featured in the last 7 days\":199,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "David J. Taylor / T: code checks and both reviews passed"
+      "detail": "Cleo Fields / NVDA: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 34.3s"
+      "detail": "AI voice (Kokoro open model), 33.6s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-27/receipt-006.mp4 (1080x1920, 34.35s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-27/receipt-007.mp4 (1080x1920, 33.62s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded fps-Bde8T2I as public"
+      "detail": "uploaded PjR1aP0KoXI as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. David J. Taylor (R-OH) bought T $1,001 - $15,000, traded 2026-10-09, filed 2026-10-15, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035660.pdf",
-    "result": "T -6% vs SPY -1.7% (2026-10-09 to 2026-10-26), stamp LOST TO THE MARKET",
+    "receipt": "Rep. Cleo Fields (D-LA) bought NVDA $1,001 - $15,000, traded 2026-10-01, filed 2026-10-22, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf",
+    "result": "NVDA -5.6% vs SPY 0.7% (2026-10-01 to 2026-10-27), stamp LOST TO THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 006: Rep. David J. Taylor bought AT&T",
-    "upload": "fps-Bde8T2I, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0471 over 3 model calls (writer claude-fable-5-1 1569+215 tok; checker-b claude-opus-5-5 1250+241 tok; checker-a claude-opus-5-5 1290+283 tok)"
+    "title": "Receipt No. 007: Rep. Cleo Fields bought NVIDIA",
+    "upload": "PjR1aP0KoXI, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0446 over 3 model calls (writer claude-fable-5-1 1589+232 tok; checker-a claude-opus-5-5 1313+156 tok; checker-b claude-opus-5-5 1273+182 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-27/receipt-006.mp4",
-  "receipt": 6,
-  "youtubeId": "fps-Bde8T2I"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-27/receipt-007.mp4",
+  "receipt": 7,
+  "youtubeId": "PjR1aP0KoXI"
 }

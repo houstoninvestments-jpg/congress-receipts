@@ -1,5 +1,5 @@
 {
-  "nextNumber": 7,
+  "nextNumber": 8,
   "receipts": [
     {
       "number": 1,
@@ -485,6 +485,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "fps-Bde8T2I",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 7,
+      "date": "2026-10-27",
+      "txnId": "20035669-1",
+      "docId": "20035669",
+      "bioguide": "F000110",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Cleo Fields",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "LA",
+        "stateName": "Louisiana",
+        "district": 6,
+        "owner": "the member",
+        "company": "NVIDIA",
+        "companyFull": "NVIDIA Corporation",
+        "ticker": "NVDA",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-10-01",
+        "filedDate": "2026-10-22",
+        "daysToFile": 21,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "NVDA",
+            "start": {
+              "date": "2026-10-01",
+              "close": 230.86
+            },
+            "end": {
+              "date": "2026-10-27",
+              "close": 217.94
+            },
+            "changePct": -5.6
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-10-01",
+              "close": 763.99
+            },
+            "end": {
+              "date": "2026-10-27",
+              "close": 769.66
+            },
+            "changePct": 0.7
+          }
+        },
+        "excessPts": -6.3,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of NVIDIA. Let's see how it did.",
+        "receiptSay": "Rep. Cleo Fields, Democrat of Louisiana. Trade date October 1, 2026. Filed October 22, 2026.",
+        "resultSay": "Since then, NVIDIA is down 5.6%. The S&P 500 is up 0.7%.",
+        "stampSay": "That lost to the market by 6.3 points.",
+        "title": "Receipt No. 007: Rep. Cleo Fields bought NVIDIA",
+        "description": "Rep. Cleo Fields (D-LA) reported buying NVIDIA (NVDA) worth $1,001 - $15,000 on October 1, 2026. The report was filed October 22, 2026."
+      },
+      "slug": "007-cleo-fields-nvda",
+      "cta": "none",
+      "hookVariant": "since-then",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "PjR1aP0KoXI",
       "youtubePrivacy": "public"
     }
   ],
