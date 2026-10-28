@@ -34,5 +34,9 @@
   "GS": {
     "path": "/symbols/NYSE-GS/",
     "checkedAt": "2026-10-28T02:39:52.341Z"
+  },
+  "HUBB": {
+    "path": "/symbols/NYSE-HUBB/",
+    "checkedAt": "2026-10-28T16:41:03.313Z"
   }
 }

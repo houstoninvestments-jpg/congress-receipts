@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "dryRun": false,
   "status": "published",
   "warnings": [],
@@ -13,38 +13,38 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "198 purchases qualify, 57 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":116,\"not a purchase\":685,\"member featured in the last 7 days\":212,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
+      "detail": "182 purchases qualify, 172 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":116,\"not a purchase\":685,\"member featured in the last 7 days\":227,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Michael A. Rulli / GS: code checks and both reviews passed"
+      "detail": "April McClain Delaney / HUBB: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 34.0s"
+      "detail": "AI voice (Kokoro open model), 34.2s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-27/receipt-008.mp4 (1080x1920, 34.05s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-28/receipt-009.mp4 (1080x1920, 34.18s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded Ed9mTSKQadc as public"
+      "detail": "uploaded i_RjYuL2sxs as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Michael A. Rulli (R-OH) bought GS $1,001 - $15,000, traded 2026-09-03, filed 2026-10-02, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035558.pdf",
-    "result": "GS -12.2% vs SPY -0.5% (2026-09-03 to 2026-10-27), stamp LOST TO THE MARKET",
+    "receipt": "Rep. April McClain Delaney (D-MD) bought HUBB $15,001 - $50,000, traded 2026-08-19, filed 2026-09-09, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf",
+    "result": "HUBB -8.7% vs SPY 0.1% (2026-08-19 to 2026-10-27), stamp LOST TO THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 008: Rep. Michael A. Rulli bought Goldman Sachs",
-    "upload": "Ed9mTSKQadc, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0469 over 3 model calls (writer claude-fable-5-1 1602+233 tok; checker-b claude-opus-5-5 1288+176 tok; checker-a claude-opus-5-5 1328+261 tok)"
+    "title": "Receipt No. 009: Rep. April McClain Delaney's child bought Hubbell",
+    "upload": "i_RjYuL2sxs, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0936 over 3 model calls (writer claude-fable-5-1 1603+1200 tok; checker-b claude-opus-5-5 1294+182 tok; checker-a claude-opus-5-5 1334+172 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-27/receipt-008.mp4",
-  "receipt": 8,
-  "youtubeId": "Ed9mTSKQadc"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-28/receipt-009.mp4",
+  "receipt": 9,
+  "youtubeId": "i_RjYuL2sxs"
 }

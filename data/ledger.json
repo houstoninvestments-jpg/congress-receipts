@@ -1,5 +1,5 @@
 {
-  "nextNumber": 9,
+  "nextNumber": 10,
   "receipts": [
     {
       "number": 1,
@@ -647,6 +647,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "Ed9mTSKQadc",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 9,
+      "date": "2026-10-28",
+      "txnId": "20035408-20",
+      "docId": "20035408",
+      "bioguide": "M001232",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "April McClain Delaney",
+        "memberTitle": "Rep.",
+        "memberNoun": "congresswoman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "MD",
+        "stateName": "Maryland",
+        "district": 6,
+        "owner": "a dependent child",
+        "company": "Hubbell",
+        "companyFull": "Hubbell Inc",
+        "ticker": "HUBB",
+        "amountText": "$15,001 - $50,000",
+        "amountMin": 15001,
+        "amountMax": 50000,
+        "amountMid": 32501,
+        "tradeDate": "2026-08-19",
+        "filedDate": "2026-09-09",
+        "daysToFile": 21,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "HUBB",
+            "start": {
+              "date": "2026-08-19",
+              "close": 475.64
+            },
+            "end": {
+              "date": "2026-10-27",
+              "close": 434.28
+            },
+            "changePct": -8.7
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-08-19",
+              "close": 769.06
+            },
+            "end": {
+              "date": "2026-10-27",
+              "close": 769.66
+            },
+            "changePct": 0.1
+          }
+        },
+        "excessPts": -8.8,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf"
+      },
+      "script": {
+        "hook": "This congresswoman's dependent child bought up to $50K of Hubbell. Here's what happened.",
+        "receiptSay": "Rep. April McClain Delaney, Democrat of Maryland. Trade date August 19, 2026. Filed September 9, 2026.",
+        "resultSay": "Since then, Hubbell is down 8.7%. The S&P 500 is up 0.1%.",
+        "stampSay": "That lost to the market by 8.8 points.",
+        "title": "Receipt No. 009: Rep. April McClain Delaney's child bought Hubbell",
+        "description": "Rep. April McClain Delaney (D-MD) reported a dependent child bought Hubbell (HUBB) worth $15,001 - $50,000. The trade was dated August 19, 2026, and filed September 9, 2026."
+      },
+      "slug": "009-april-mcclain-delaney-hubb",
+      "cta": "direct",
+      "hookVariant": "what-next",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "i_RjYuL2sxs",
       "youtubePrivacy": "public"
     }
   ],
