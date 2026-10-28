@@ -38,5 +38,9 @@
   "HUBB": {
     "path": "/symbols/NYSE-HUBB/",
     "checkedAt": "2026-10-28T16:41:03.313Z"
+  },
+  "KO": {
+    "path": "/symbols/NYSE-KO/",
+    "checkedAt": "2026-10-28T21:40:34.299Z"
   }
 }

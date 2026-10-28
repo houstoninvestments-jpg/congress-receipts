@@ -1,5 +1,5 @@
 {
-  "nextNumber": 10,
+  "nextNumber": 11,
   "receipts": [
     {
       "number": 1,
@@ -729,6 +729,87 @@
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "i_RjYuL2sxs",
       "youtubePrivacy": "public"
+    },
+    {
+      "number": 10,
+      "date": "2026-10-28",
+      "txnId": "20035491-15",
+      "docId": "20035491",
+      "bioguide": "H001082",
+      "party": "Republican",
+      "facts": {
+        "memberName": "Kevin Hern",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "OK",
+        "stateName": "Oklahoma",
+        "district": 1,
+        "owner": "jointly",
+        "company": "Coca-Cola Company",
+        "companyFull": "Coca-Cola Company",
+        "ticker": "KO",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-08-31",
+        "filedDate": "2026-09-25",
+        "daysToFile": 25,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "KO",
+            "start": {
+              "date": "2026-08-31",
+              "close": 88.67
+            },
+            "end": {
+              "date": "2026-10-28",
+              "close": 91.73
+            },
+            "changePct": 3.5
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-08-31",
+              "close": 767.05
+            },
+            "end": {
+              "date": "2026-10-28",
+              "close": 772.31
+            },
+            "changePct": 0.7
+          }
+        },
+        "excessPts": 2.8,
+        "stamp": "BEAT THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of Coca-Cola Company jointly. Here's what happened next.",
+        "receiptSay": "Rep. Kevin Hern, Republican of Oklahoma. Trade date August 31, 2026. Filed September 25, 2026.",
+        "resultSay": "Since then, Coca-Cola Company is up 3.5%. The S&P 500 is up 0.7%.",
+        "stampSay": "That beat the market by 2.8 points.",
+        "title": "Receipt No. 010: Rep. Kevin Hern bought Coca-Cola Company",
+        "description": "Rep. Kevin Hern (R-OK) reported a joint purchase of Coca-Cola Company (KO) worth $1,001 - $15,000 on August 31, 2026. The report was filed September 25, 2026."
+      },
+      "slug": "010-kevin-hern-ko",
+      "cta": "none",
+      "hookVariant": "what-next",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "At5fQvsLZhM",
+      "youtubePrivacy": "public"
     }
   ],
   "skipped": [
@@ -736,6 +817,11 @@
       "txnId": "20035551-1",
       "date": "2026-10-25",
       "reason": "problems: Minor wording issue: the description says 'reported a joint purchase ... on September 28, 2026', which could be read as the report date. The next sentence gives the correct filing date (October 19, 2026), so this is not a factual mismatch. Rewording to 'a joint purchase ... made September 28, 2026' would be clearer."
+    },
+    {
+      "txnId": "20035491-14",
+      "date": "2026-10-28",
+      "reason": "problems: Minor wording issue, not a factual mismatch: in the description, 'reported a joint purchase ... on August 31, 2026' could be misread as the report date. August 31 is the trade date and the filing was September 25. The next sentence clarifies this. 'made a joint purchase ... on August 31, 2026' would be cleaner."
     }
   ],
   "firstUploadCheck": {
