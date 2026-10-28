@@ -30,5 +30,9 @@
   "NVDA": {
     "path": "/symbols/NASDAQ-NVDA/",
     "checkedAt": "2026-10-27T21:39:46.029Z"
+  },
+  "GS": {
+    "path": "/symbols/NYSE-GS/",
+    "checkedAt": "2026-10-28T02:39:52.341Z"
   }
 }

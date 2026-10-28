@@ -1,1 +1,13 @@
-{}
+{
+  "4UTcs9eAhQw": {
+    "videoId": "4UTcs9eAhQw",
+    "number": 2,
+    "hookVariant": "receipt-in",
+    "cta": "soft",
+    "views": 112,
+    "averageViewPercentage": 59.589999999999996,
+    "holdAt10": 1.0454999999999999,
+    "scored": true,
+    "measuredAt": "2026-10-28T02:40:00.315Z"
+  }
+}

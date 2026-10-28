@@ -13,5 +13,10 @@
       "pattern": "This congressman bought up to $15K of Merck. Let's see how it did."
     }
   ],
-  "stats": {}
+  "stats": {
+    "receipt-in": {
+      "n": 1,
+      "sum": 0.7979
+    }
+  }
 }

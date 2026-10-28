@@ -13,38 +13,38 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "212 purchases qualify, 197 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":116,\"not a purchase\":685,\"member featured in the last 7 days\":199,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
+      "detail": "198 purchases qualify, 57 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":116,\"not a purchase\":685,\"member featured in the last 7 days\":212,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Cleo Fields / NVDA: code checks and both reviews passed"
+      "detail": "Michael A. Rulli / GS: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 33.6s"
+      "detail": "AI voice (Kokoro open model), 34.0s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-27/receipt-007.mp4 (1080x1920, 33.62s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-27/receipt-008.mp4 (1080x1920, 34.05s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded PjR1aP0KoXI as public"
+      "detail": "uploaded Ed9mTSKQadc as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Cleo Fields (D-LA) bought NVDA $1,001 - $15,000, traded 2026-10-01, filed 2026-10-22, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf",
-    "result": "NVDA -5.6% vs SPY 0.7% (2026-10-01 to 2026-10-27), stamp LOST TO THE MARKET",
+    "receipt": "Rep. Michael A. Rulli (R-OH) bought GS $1,001 - $15,000, traded 2026-09-03, filed 2026-10-02, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035558.pdf",
+    "result": "GS -12.2% vs SPY -0.5% (2026-09-03 to 2026-10-27), stamp LOST TO THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 007: Rep. Cleo Fields bought NVIDIA",
-    "upload": "PjR1aP0KoXI, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0446 over 3 model calls (writer claude-fable-5-1 1589+232 tok; checker-a claude-opus-5-5 1313+156 tok; checker-b claude-opus-5-5 1273+182 tok)"
+    "title": "Receipt No. 008: Rep. Michael A. Rulli bought Goldman Sachs",
+    "upload": "Ed9mTSKQadc, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0469 over 3 model calls (writer claude-fable-5-1 1602+233 tok; checker-b claude-opus-5-5 1288+176 tok; checker-a claude-opus-5-5 1328+261 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-27/receipt-007.mp4",
-  "receipt": 7,
-  "youtubeId": "PjR1aP0KoXI"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-27/receipt-008.mp4",
+  "receipt": 8,
+  "youtubeId": "Ed9mTSKQadc"
 }

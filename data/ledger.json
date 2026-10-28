@@ -1,5 +1,5 @@
 {
-  "nextNumber": 8,
+  "nextNumber": 9,
   "receipts": [
     {
       "number": 1,
@@ -566,6 +566,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "PjR1aP0KoXI",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 8,
+      "date": "2026-10-27",
+      "txnId": "20035558-1",
+      "docId": "20035558",
+      "bioguide": "R000619",
+      "party": "Republican",
+      "facts": {
+        "memberName": "Michael A. Rulli",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "OH",
+        "stateName": "Ohio",
+        "district": 6,
+        "owner": "the member",
+        "company": "Goldman Sachs",
+        "companyFull": "Goldman Sachs Group, Inc.",
+        "ticker": "GS",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-09-03",
+        "filedDate": "2026-10-02",
+        "daysToFile": 29,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "GS",
+            "start": {
+              "date": "2026-09-03",
+              "close": 1037.9301
+            },
+            "end": {
+              "date": "2026-10-27",
+              "close": 911.77
+            },
+            "changePct": -12.2
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-09-03",
+              "close": 773.17
+            },
+            "end": {
+              "date": "2026-10-27",
+              "close": 769.66
+            },
+            "changePct": -0.5
+          }
+        },
+        "excessPts": -11.7,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035558.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of Goldman Sachs. Here's what happened next.",
+        "receiptSay": "Rep. Michael A. Rulli, Republican of Ohio. Trade date September 3, 2026. Filed October 2, 2026.",
+        "resultSay": "Since then, Goldman Sachs is down 12.2%. The S&P 500 is down 0.5%.",
+        "stampSay": "That lost to the market by 11.7 points.",
+        "title": "Receipt No. 008: Rep. Michael A. Rulli bought Goldman Sachs",
+        "description": "Rep. Michael A. Rulli (R-OH) reported buying Goldman Sachs (GS) worth $1,001 - $15,000 on September 3, 2026. The report was filed October 2, 2026."
+      },
+      "slug": "008-michael-a-rulli-gs",
+      "cta": "soft",
+      "hookVariant": "what-next",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "Ed9mTSKQadc",
       "youtubePrivacy": "public"
     }
   ],

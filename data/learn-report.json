@@ -1,5 +1,19 @@
 {
-  "updatedAt": "2026-10-27T21:39:53.247Z",
-  "byHook": {},
-  "byCta": {}
+  "updatedAt": "2026-10-28T02:40:01.412Z",
+  "byHook": {
+    "receipt-in": {
+      "videos": 1,
+      "views": 112,
+      "avgWatchPct": 59.6,
+      "avgReward": 0.798
+    }
+  },
+  "byCta": {
+    "soft": {
+      "videos": 1,
+      "views": 112,
+      "avgWatchPct": 59.6,
+      "avgReward": 0.798
+    }
+  }
 }
