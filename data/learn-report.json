@@ -1,19 +1,25 @@
 {
-  "updatedAt": "2026-10-28T21:40:41.565Z",
+  "updatedAt": "2026-10-29T02:40:01.438Z",
   "byHook": {
     "receipt-in": {
       "videos": 1,
       "views": 112,
       "avgWatchPct": 59.6,
       "avgReward": 0.798
+    },
+    "what-next": {
+      "videos": 1,
+      "views": 57,
+      "avgWatchPct": 51.4,
+      "avgReward": 0.757
     }
   },
   "byCta": {
     "soft": {
-      "videos": 1,
-      "views": 112,
-      "avgWatchPct": 59.6,
-      "avgReward": 0.798
+      "videos": 2,
+      "views": 169,
+      "avgWatchPct": 55.5,
+      "avgReward": 0.777
     }
   }
 }

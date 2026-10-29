@@ -1,5 +1,5 @@
 {
-  "nextNumber": 11,
+  "nextNumber": 12,
   "receipts": [
     {
       "number": 1,
@@ -809,6 +809,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "At5fQvsLZhM",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 11,
+      "date": "2026-10-28",
+      "txnId": "20035635-1",
+      "docId": "20035635",
+      "bioguide": "L000560",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Rick Larsen",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "WA",
+        "stateName": "Washington",
+        "district": 2,
+        "owner": "the member",
+        "company": "Analog Devices",
+        "companyFull": "Analog Devices, Inc.",
+        "ticker": "ADI",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-10-08",
+        "filedDate": "2026-10-12",
+        "daysToFile": 4,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "ADI",
+            "start": {
+              "date": "2026-10-08",
+              "close": 405.93
+            },
+            "end": {
+              "date": "2026-10-28",
+              "close": 428.27
+            },
+            "changePct": 5.5
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-10-08",
+              "close": 773.93
+            },
+            "end": {
+              "date": "2026-10-28",
+              "close": 772.31
+            },
+            "changePct": -0.2
+          }
+        },
+        "excessPts": 5.7,
+        "stamp": "BEAT THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of Analog Devices. Let's see how it did.",
+        "receiptSay": "Rep. Rick Larsen, Democrat of Washington. Trade date October 8, 2026. Filed October 12, 2026.",
+        "resultSay": "Since then, Analog Devices is up 5.5%. The S&P 500 is down 0.2%.",
+        "stampSay": "That beat the market by 5.7 points.",
+        "title": "Receipt No. 011: Rep. Rick Larsen bought Analog Devices",
+        "description": "Rep. Rick Larsen (D-WA) reported buying Analog Devices (ADI) worth $1,001 - $15,000 on October 8, 2026. The report was filed October 12, 2026."
+      },
+      "slug": "011-rick-larsen-adi",
+      "cta": "soft",
+      "hookVariant": "since-then",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "6tJrjf-ImzM",
       "youtubePrivacy": "public"
     }
   ],

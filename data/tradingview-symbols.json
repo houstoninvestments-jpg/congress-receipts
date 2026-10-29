@@ -42,5 +42,9 @@
   "KO": {
     "path": "/symbols/NYSE-KO/",
     "checkedAt": "2026-10-28T21:40:34.299Z"
+  },
+  "ADI": {
+    "path": "/symbols/NASDAQ-ADI/",
+    "checkedAt": "2026-10-29T02:39:51.382Z"
   }
 }

@@ -9,5 +9,38 @@
     "holdAt10": 1.0454999999999999,
     "scored": true,
     "measuredAt": "2026-10-28T02:40:00.315Z"
+  },
+  "Dq4oGiFDqeY": {
+    "videoId": "Dq4oGiFDqeY",
+    "number": 3,
+    "hookVariant": "since-then",
+    "cta": "direct",
+    "views": 10,
+    "averageViewPercentage": 72.5,
+    "holdAt10": null,
+    "scored": false,
+    "measuredAt": "2026-10-29T02:39:59.341Z"
+  },
+  "hls28dxrCls": {
+    "videoId": "hls28dxrCls",
+    "number": 4,
+    "hookVariant": "what-next",
+    "cta": "none",
+    "views": 15,
+    "averageViewPercentage": 36.48,
+    "holdAt10": null,
+    "scored": false,
+    "measuredAt": "2026-10-29T02:39:59.341Z"
+  },
+  "Eh2Z7SwAUwg": {
+    "videoId": "Eh2Z7SwAUwg",
+    "number": 5,
+    "hookVariant": "what-next",
+    "cta": "soft",
+    "views": 57,
+    "averageViewPercentage": 51.38,
+    "holdAt10": 1,
+    "scored": true,
+    "measuredAt": "2026-10-29T02:39:59.341Z"
   }
 }

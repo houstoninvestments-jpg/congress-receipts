@@ -8,48 +8,43 @@
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 442 reports in the Clerk's index, 5 new parsed"
+      "detail": "439 House members; 442 reports in the Clerk's index, 0 new parsed"
     },
     {
       "step": "pick",
       "ok": true,
-      "detail": "122 purchases qualify, 41 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":118,\"not a purchase\":720,\"member featured in the last 7 days\":286,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
-    },
-    {
-      "step": "check",
-      "ok": false,
-      "detail": "Kevin Hern / CB: problems: Minor wording issue, not a factual mismatch: in the description, 'reported a joint purchase ... on August 31, 2026' could be misread as the report date. August 31 is the trade date and the filing was September 25. The next sentence clarifies this. 'made a joint purchase ... on August 31, 2026' would be cleaner."
+      "detail": "120 purchases qualify, 110 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":118,\"not a purchase\":720,\"member featured in the last 7 days\":286,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Kevin Hern / KO: code checks and both reviews passed"
+      "detail": "Rick Larsen / ADI: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 35.8s"
+      "detail": "AI voice (Kokoro open model), 34.5s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-28/receipt-010.mp4 (1080x1920, 35.82s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-28/receipt-011.mp4 (1080x1920, 34.52s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded At5fQvsLZhM as public"
+      "detail": "uploaded 6tJrjf-ImzM as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Kevin Hern (R-OK) bought KO $1,001 - $15,000, traded 2026-08-31, filed 2026-09-25, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf",
-    "result": "KO 3.5% vs SPY 0.7% (2026-08-31 to 2026-10-28), stamp BEAT THE MARKET",
+    "receipt": "Rep. Rick Larsen (D-WA) bought ADI $1,001 - $15,000, traded 2026-10-08, filed 2026-10-12, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf",
+    "result": "ADI 5.5% vs SPY -0.2% (2026-10-08 to 2026-10-28), stamp BEAT THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 010: Rep. Kevin Hern bought Coca-Cola Company",
-    "upload": "At5fQvsLZhM, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.1686 over 7 model calls (writer claude-fable-5-1 1577+226 tok; checker-a claude-opus-5-5 1302+250 tok; checker-b claude-opus-5-5 1262+483 tok; writer claude-fable-5-1 1599+905 tok; writer-retry claude-fable-5-1 1922+241 tok; checker-a claude-opus-5-5 1329+314 tok; checker-b claude-opus-5-5 1289+368 tok)"
+    "title": "Receipt No. 011: Rep. Rick Larsen bought Analog Devices",
+    "upload": "6tJrjf-ImzM, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0478 over 3 model calls (writer claude-fable-5-1 1581+223 tok; checker-a claude-opus-5-5 1305+218 tok; checker-b claude-opus-5-5 1265+311 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-28/receipt-010.mp4",
-  "receipt": 10,
-  "youtubeId": "At5fQvsLZhM"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-28/receipt-011.mp4",
+  "receipt": 11,
+  "youtubeId": "6tJrjf-ImzM"
 }
