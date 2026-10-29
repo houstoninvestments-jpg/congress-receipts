@@ -50,5 +50,9 @@
   "AVGO": {
     "path": "/symbols/NASDAQ-AVGO/",
     "checkedAt": "2026-10-29T16:40:19.444Z"
+  },
+  "HD": {
+    "path": "/symbols/NYSE-HD/",
+    "checkedAt": "2026-10-29T21:39:41.107Z"
   }
 }

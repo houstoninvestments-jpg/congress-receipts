@@ -13,38 +13,38 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "116 purchases qualify, 39 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":118,\"not a purchase\":720,\"member featured in the last 7 days\":289,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
+      "detail": "112 purchases qualify, 102 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":118,\"not a purchase\":720,\"member featured in the last 7 days\":292,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Rick W. Allen / AVGO: code checks and both reviews passed"
+      "detail": "Lloyd Doggett / HD: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 32.4s"
+      "detail": "AI voice (Kokoro open model), 32.8s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-29/receipt-012.mp4 (1080x1920, 32.38s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-29/receipt-013.mp4 (1080x1920, 32.77s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded 1GErwbE80QU as public"
+      "detail": "uploaded oxxucTCIIAM as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Rick W. Allen (R-GA) bought AVGO $1,001 - $15,000, traded 2026-08-12, filed 2026-09-22, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf",
-    "result": "AVGO -15.4% vs SPY 0% (2026-08-12 to 2026-10-28), stamp LOST TO THE MARKET",
+    "receipt": "Rep. Lloyd Doggett (D-TX) bought HD $1,001 - $15,000, traded 2026-09-17, filed 2026-10-05, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf",
+    "result": "HD 8.8% vs SPY 0.9% (2026-09-17 to 2026-10-29), stamp BEAT THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 012: Rep. Rick W. Allen's spouse bought Broadcom",
-    "upload": "1GErwbE80QU, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0828 over 3 model calls (writer claude-fable-5-1 1585+889 tok; checker-a claude-opus-5-5 1317+237 tok; checker-b claude-opus-5-5 1277+371 tok)"
+    "title": "Receipt No. 013: Rep. Lloyd Doggett bought Home Depot",
+    "upload": "oxxucTCIIAM, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0460 over 3 model calls (writer claude-fable-5-1 1580+228 tok; checker-a claude-opus-5-5 1305+212 tok; checker-b claude-opus-5-5 1265+214 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-29/receipt-012.mp4",
-  "receipt": 12,
-  "youtubeId": "1GErwbE80QU"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-29/receipt-013.mp4",
+  "receipt": 13,
+  "youtubeId": "oxxucTCIIAM"
 }

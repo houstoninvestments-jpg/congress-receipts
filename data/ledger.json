@@ -1,5 +1,5 @@
 {
-  "nextNumber": 13,
+  "nextNumber": 14,
   "receipts": [
     {
       "number": 1,
@@ -971,6 +971,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "1GErwbE80QU",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 13,
+      "date": "2026-10-29",
+      "txnId": "20035580-1",
+      "docId": "20035580",
+      "bioguide": "D000399",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Lloyd Doggett",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "TX",
+        "stateName": "Texas",
+        "district": 37,
+        "owner": "the member",
+        "company": "Home Depot",
+        "companyFull": "Home Depot, Inc.",
+        "ticker": "HD",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-09-17",
+        "filedDate": "2026-10-05",
+        "daysToFile": 18,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "HD",
+            "start": {
+              "date": "2026-09-17",
+              "close": 302.51
+            },
+            "end": {
+              "date": "2026-10-29",
+              "close": 328.98
+            },
+            "changePct": 8.8
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-09-17",
+              "close": 762.6
+            },
+            "end": {
+              "date": "2026-10-29",
+              "close": 769.36
+            },
+            "changePct": 0.9
+          }
+        },
+        "excessPts": 7.9,
+        "stamp": "BEAT THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of Home Depot. Let's see how it did.",
+        "receiptSay": "Rep. Lloyd Doggett, Democrat of Texas. Trade date September 17, 2026. Filed October 5, 2026.",
+        "resultSay": "Since then, Home Depot is up 8.8%. The S&P 500 is up 0.9%.",
+        "stampSay": "That beat the market by 7.9 points.",
+        "title": "Receipt No. 013: Rep. Lloyd Doggett bought Home Depot",
+        "description": "Rep. Lloyd Doggett (D-TX) reported buying Home Depot (HD) worth $1,001 - $15,000 on September 17, 2026. The report was filed October 5, 2026."
+      },
+      "slug": "013-lloyd-doggett-hd",
+      "cta": "none",
+      "hookVariant": "since-then",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "oxxucTCIIAM",
       "youtubePrivacy": "public"
     }
   ],

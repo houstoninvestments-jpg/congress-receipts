@@ -19,18 +19,18 @@
     "averageViewPercentage": 72.5,
     "holdAt10": null,
     "scored": false,
-    "measuredAt": "2026-10-29T16:40:27.080Z"
+    "measuredAt": "2026-10-29T21:39:49.624Z"
   },
   "hls28dxrCls": {
     "videoId": "hls28dxrCls",
     "number": 4,
     "hookVariant": "what-next",
     "cta": "none",
-    "views": 15,
-    "averageViewPercentage": 36.48,
-    "holdAt10": null,
+    "views": 19,
+    "averageViewPercentage": 35.95,
+    "holdAt10": 1,
     "scored": false,
-    "measuredAt": "2026-10-29T16:40:27.080Z"
+    "measuredAt": "2026-10-29T21:39:49.624Z"
   },
   "Eh2Z7SwAUwg": {
     "videoId": "Eh2Z7SwAUwg",
