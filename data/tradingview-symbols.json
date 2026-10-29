@@ -46,5 +46,9 @@
   "ADI": {
     "path": "/symbols/NASDAQ-ADI/",
     "checkedAt": "2026-10-29T02:39:51.382Z"
+  },
+  "AVGO": {
+    "path": "/symbols/NASDAQ-AVGO/",
+    "checkedAt": "2026-10-29T16:40:19.444Z"
   }
 }

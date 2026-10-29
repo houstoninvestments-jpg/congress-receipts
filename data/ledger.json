@@ -1,5 +1,5 @@
 {
-  "nextNumber": 12,
+  "nextNumber": 13,
   "receipts": [
     {
       "number": 1,
@@ -890,6 +890,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "6tJrjf-ImzM",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 12,
+      "date": "2026-10-29",
+      "txnId": "20035492-1",
+      "docId": "20035492",
+      "bioguide": "A000372",
+      "party": "Republican",
+      "facts": {
+        "memberName": "Rick W. Allen",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "GA",
+        "stateName": "Georgia",
+        "district": 12,
+        "owner": "a spouse",
+        "company": "Broadcom",
+        "companyFull": "Broadcom Inc.",
+        "ticker": "AVGO",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-08-12",
+        "filedDate": "2026-09-22",
+        "daysToFile": 41,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "AVGO",
+            "start": {
+              "date": "2026-08-12",
+              "close": 416.05
+            },
+            "end": {
+              "date": "2026-10-28",
+              "close": 351.81
+            },
+            "changePct": -15.4
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-08-12",
+              "close": 772.49
+            },
+            "end": {
+              "date": "2026-10-28",
+              "close": 772.31
+            },
+            "changePct": 0
+          }
+        },
+        "excessPts": -15.4,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf"
+      },
+      "script": {
+        "hook": "This congressman's spouse bought up to $15K of Broadcom. How did it do?",
+        "receiptSay": "Rep. Rick W. Allen, Republican of Georgia. Trade date August 12, 2026. Filed September 22, 2026.",
+        "resultSay": "Since then, Broadcom is down 15.4%. The S&P 500 is flat.",
+        "stampSay": "That lost to the market by 15.4 points.",
+        "title": "Receipt No. 012: Rep. Rick W. Allen's spouse bought Broadcom",
+        "description": "Rep. Rick W. Allen (R-GA) reported a spouse's purchase of Broadcom (AVGO) worth $1,001 - $15,000 on August 12, 2026. The report was filed September 22, 2026."
+      },
+      "slug": "012-rick-w-allen-avgo",
+      "cta": "direct",
+      "hookVariant": "since-then",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "1GErwbE80QU",
       "youtubePrivacy": "public"
     }
   ],

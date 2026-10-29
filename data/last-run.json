@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "dryRun": false,
   "status": "published",
   "warnings": [],
@@ -13,38 +13,38 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "120 purchases qualify, 110 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":118,\"not a purchase\":720,\"member featured in the last 7 days\":286,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
+      "detail": "116 purchases qualify, 39 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":118,\"not a purchase\":720,\"member featured in the last 7 days\":289,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Rick Larsen / ADI: code checks and both reviews passed"
+      "detail": "Rick W. Allen / AVGO: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 34.5s"
+      "detail": "AI voice (Kokoro open model), 32.4s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-28/receipt-011.mp4 (1080x1920, 34.52s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-29/receipt-012.mp4 (1080x1920, 32.38s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded 6tJrjf-ImzM as public"
+      "detail": "uploaded 1GErwbE80QU as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Rick Larsen (D-WA) bought ADI $1,001 - $15,000, traded 2026-10-08, filed 2026-10-12, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf",
-    "result": "ADI 5.5% vs SPY -0.2% (2026-10-08 to 2026-10-28), stamp BEAT THE MARKET",
+    "receipt": "Rep. Rick W. Allen (R-GA) bought AVGO $1,001 - $15,000, traded 2026-08-12, filed 2026-09-22, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf",
+    "result": "AVGO -15.4% vs SPY 0% (2026-08-12 to 2026-10-28), stamp LOST TO THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 011: Rep. Rick Larsen bought Analog Devices",
-    "upload": "6tJrjf-ImzM, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0478 over 3 model calls (writer claude-fable-5-1 1581+223 tok; checker-a claude-opus-5-5 1305+218 tok; checker-b claude-opus-5-5 1265+311 tok)"
+    "title": "Receipt No. 012: Rep. Rick W. Allen's spouse bought Broadcom",
+    "upload": "1GErwbE80QU, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0828 over 3 model calls (writer claude-fable-5-1 1585+889 tok; checker-a claude-opus-5-5 1317+237 tok; checker-b claude-opus-5-5 1277+371 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-28/receipt-011.mp4",
-  "receipt": 11,
-  "youtubeId": "6tJrjf-ImzM"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-29/receipt-012.mp4",
+  "receipt": 12,
+  "youtubeId": "1GErwbE80QU"
 }
