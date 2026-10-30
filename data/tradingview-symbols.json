@@ -58,5 +58,9 @@
   "ACN": {
     "path": "/symbols/NYSE-ACN/",
     "checkedAt": "2026-10-30T02:40:16.191Z"
+  },
+  "NFLX": {
+    "path": "/symbols/NASDAQ-NFLX/",
+    "checkedAt": "2026-10-30T16:39:50.188Z"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "dryRun": false,
   "status": "published",
   "warnings": [],
@@ -8,43 +8,43 @@
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 446 reports in the Clerk's index, 4 new parsed"
+      "detail": "439 House members; 446 reports in the Clerk's index, 0 new parsed"
     },
     {
       "step": "pick",
       "ok": true,
-      "detail": "102 purchases qualify, 35 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":118,\"not a purchase\":723,\"member featured in the last 7 days\":301,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
+      "detail": "96 purchases qualify, 88 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":117,\"not a purchase\":721,\"member featured in the last 7 days\":304,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Scott Franklin / ACN: code checks and both reviews passed"
+      "detail": "Byron Donalds / NFLX: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 33.9s"
+      "detail": "AI voice (Kokoro open model), 33.7s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-29/receipt-014.mp4 (1080x1920, 33.94s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-30/receipt-015.mp4 (1080x1920, 33.71s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded qz9GxQ1fXt8 as public"
+      "detail": "uploaded hP6IcqjUO3M as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Scott Franklin (R-FL) bought ACN $1,001 - $15,000, traded 2026-08-26, filed 2026-09-17, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf",
-    "result": "ACN 36.3% vs SPY 0.4% (2026-08-26 to 2026-10-29), stamp BEAT THE MARKET",
+    "receipt": "Rep. Byron Donalds (R-FL) bought NFLX $1,001 - $15,000, traded 2026-08-12, filed 2026-09-15, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035420.pdf",
+    "result": "NFLX -16.4% vs SPY -0.4% (2026-08-12 to 2026-10-29), stamp LOST TO THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 014: Rep. Scott Franklin bought Accenture",
-    "upload": "qz9GxQ1fXt8, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0521 over 3 model calls (writer claude-fable-5-1 1566+221 tok; checker-a claude-opus-5-5 1288+340 tok; checker-b claude-opus-5-5 1248+423 tok)"
+    "title": "Receipt No. 015: Rep. Byron Donalds's spouse bought Netflix",
+    "upload": "hP6IcqjUO3M, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0870 over 3 model calls (writer claude-fable-5-1 1584+997 tok; checker-a claude-opus-5-5 1317+296 tok; checker-b claude-opus-5-5 1277+249 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-29/receipt-014.mp4",
-  "receipt": 14,
-  "youtubeId": "qz9GxQ1fXt8"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-30/receipt-015.mp4",
+  "receipt": 15,
+  "youtubeId": "hP6IcqjUO3M"
 }
