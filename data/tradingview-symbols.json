@@ -54,5 +54,9 @@
   "HD": {
     "path": "/symbols/NYSE-HD/",
     "checkedAt": "2026-10-29T21:39:41.107Z"
+  },
+  "ACN": {
+    "path": "/symbols/NYSE-ACN/",
+    "checkedAt": "2026-10-30T02:40:16.191Z"
   }
 }

@@ -1059,6 +1059,66 @@
     ],
     "parsedAt": "2026-10-25T04:19:48.957Z"
   },
+  "9116389": {
+    "filing": {
+      "docId": "9116389",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Diana",
+      "last": "Harshbarger",
+      "suffix": "",
+      "stateDst": "TN01",
+      "filingDate": "2026-10-27",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116389.pdf"
+    },
+    "status": "scanned",
+    "filedDateOnForm": null,
+    "transactions": [],
+    "problems": [
+      "no text layer (paper filing scanned as an image)"
+    ],
+    "parsedAt": "2026-10-30T02:38:46.197Z"
+  },
+  "9116390": {
+    "filing": {
+      "docId": "9116390",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Diana",
+      "last": "Harshbarger",
+      "suffix": "",
+      "stateDst": "TN01",
+      "filingDate": "2026-10-27",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116390.pdf"
+    },
+    "status": "scanned",
+    "filedDateOnForm": null,
+    "transactions": [],
+    "problems": [
+      "no text layer (paper filing scanned as an image)"
+    ],
+    "parsedAt": "2026-10-30T02:38:46.197Z"
+  },
+  "9116391": {
+    "filing": {
+      "docId": "9116391",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Diana",
+      "last": "Harshbarger",
+      "suffix": "",
+      "stateDst": "TN01",
+      "filingDate": "2026-10-27",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116391.pdf"
+    },
+    "status": "scanned",
+    "filedDateOnForm": null,
+    "transactions": [],
+    "problems": [
+      "no text layer (paper filing scanned as an image)"
+    ],
+    "parsedAt": "2026-10-30T02:38:46.197Z"
+  },
   "20019182": {
     "filing": {
       "docId": "20019182",
@@ -62437,6 +62497,70 @@
     ],
     "problems": [],
     "parsedAt": "2026-10-25T04:19:48.957Z"
+  },
+  "20035710": {
+    "filing": {
+      "docId": "20035710",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Kevin",
+      "last": "Hern",
+      "suffix": "",
+      "stateDst": "OK01",
+      "filingDate": "2026-10-28",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035710.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-10-28",
+    "transactions": [
+      {
+        "id": "20035710-1",
+        "docId": "20035710",
+        "row": 1,
+        "owner": "JT",
+        "asset": "ASML Holding N.V. - New York Registry Shares (ASML) [ST]",
+        "ticker": "ASML",
+        "assetType": "ST",
+        "type": "S (partial)",
+        "tradeDate": "2026-10-23",
+        "notifiedDate": "2026-10-27",
+        "amountMin": 15001,
+        "amountMax": 50000,
+        "amountText": "$15,001 - $50,000"
+      },
+      {
+        "id": "20035710-2",
+        "docId": "20035710",
+        "row": 2,
+        "owner": "",
+        "asset": "Seagate Technology Holdings PLC - Ordinary Shares (STX) [ST]",
+        "ticker": "STX",
+        "assetType": "ST",
+        "type": "S (partial)",
+        "tradeDate": "2026-10-23",
+        "notifiedDate": "2026-10-27",
+        "amountMin": 15001,
+        "amountMax": 50000,
+        "amountText": "$15,001 - $50,000"
+      },
+      {
+        "id": "20035710-3",
+        "docId": "20035710",
+        "row": 3,
+        "owner": "JT",
+        "asset": "Texas Instruments Incorporated - Common Stock (TXN) [ST]",
+        "ticker": "TXN",
+        "assetType": "ST",
+        "type": "S (partial)",
+        "tradeDate": "2026-10-14",
+        "notifiedDate": "2026-10-27",
+        "amountMin": 15001,
+        "amountMax": 50000,
+        "amountText": "$15,001 - $50,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-10-30T02:38:46.197Z"
   },
   "20035714": {
     "filing": {

@@ -15,12 +15,16 @@
   ],
   "stats": {
     "receipt-in": {
-      "n": 1,
-      "sum": 0.7979
+      "n": 2,
+      "sum": 1.5686
     },
     "what-next": {
       "n": 1,
       "sum": 0.7569
+    },
+    "since-then": {
+      "n": 1,
+      "sum": 0.831
     }
   }
 }

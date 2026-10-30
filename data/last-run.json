@@ -8,43 +8,43 @@
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 442 reports in the Clerk's index, 0 new parsed"
+      "detail": "439 House members; 446 reports in the Clerk's index, 4 new parsed"
     },
     {
       "step": "pick",
       "ok": true,
-      "detail": "112 purchases qualify, 102 after the party-balance and repeat rules; set aside: {\"filing scanned\":53,\"not a listed stock with a ticker\":118,\"not a purchase\":720,\"member featured in the last 7 days\":292,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
+      "detail": "102 purchases qualify, 35 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":118,\"not a purchase\":723,\"member featured in the last 7 days\":301,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Lloyd Doggett / HD: code checks and both reviews passed"
+      "detail": "Scott Franklin / ACN: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 32.8s"
+      "detail": "AI voice (Kokoro open model), 33.9s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-29/receipt-013.mp4 (1080x1920, 32.77s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-29/receipt-014.mp4 (1080x1920, 33.94s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded oxxucTCIIAM as public"
+      "detail": "uploaded qz9GxQ1fXt8 as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Lloyd Doggett (D-TX) bought HD $1,001 - $15,000, traded 2026-09-17, filed 2026-10-05, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf",
-    "result": "HD 8.8% vs SPY 0.9% (2026-09-17 to 2026-10-29), stamp BEAT THE MARKET",
+    "receipt": "Rep. Scott Franklin (R-FL) bought ACN $1,001 - $15,000, traded 2026-08-26, filed 2026-09-17, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf",
+    "result": "ACN 36.3% vs SPY 0.4% (2026-08-26 to 2026-10-29), stamp BEAT THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 013: Rep. Lloyd Doggett bought Home Depot",
-    "upload": "oxxucTCIIAM, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0460 over 3 model calls (writer claude-fable-5-1 1580+228 tok; checker-a claude-opus-5-5 1305+212 tok; checker-b claude-opus-5-5 1265+214 tok)"
+    "title": "Receipt No. 014: Rep. Scott Franklin bought Accenture",
+    "upload": "qz9GxQ1fXt8, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0521 over 3 model calls (writer claude-fable-5-1 1566+221 tok; checker-a claude-opus-5-5 1288+340 tok; checker-b claude-opus-5-5 1248+423 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-29/receipt-013.mp4",
-  "receipt": 13,
-  "youtubeId": "oxxucTCIIAM"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-29/receipt-014.mp4",
+  "receipt": 14,
+  "youtubeId": "qz9GxQ1fXt8"
 }

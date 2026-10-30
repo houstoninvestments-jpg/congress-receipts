@@ -1,5 +1,5 @@
 {
-  "nextNumber": 14,
+  "nextNumber": 15,
   "receipts": [
     {
       "number": 1,
@@ -1052,6 +1052,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "oxxucTCIIAM",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 14,
+      "date": "2026-10-29",
+      "txnId": "20035450-1",
+      "docId": "20035450",
+      "bioguide": "F000472",
+      "party": "Republican",
+      "facts": {
+        "memberName": "Scott Franklin",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "FL",
+        "stateName": "Florida",
+        "district": 18,
+        "owner": "the member",
+        "company": "Accenture",
+        "companyFull": "Accenture plc",
+        "ticker": "ACN",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-08-26",
+        "filedDate": "2026-09-17",
+        "daysToFile": 22,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "ACN",
+            "start": {
+              "date": "2026-08-26",
+              "close": 181.38
+            },
+            "end": {
+              "date": "2026-10-29",
+              "close": 247.22
+            },
+            "changePct": 36.3
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-08-26",
+              "close": 766.08
+            },
+            "end": {
+              "date": "2026-10-29",
+              "close": 769.36
+            },
+            "changePct": 0.4
+          }
+        },
+        "excessPts": 35.9,
+        "stamp": "BEAT THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of Accenture. Let's see how it did.",
+        "receiptSay": "Rep. Scott Franklin, Republican of Florida. Trade date August 26, 2026. Filed September 17, 2026.",
+        "resultSay": "Since then, Accenture is up 36.3%. The S&P 500 is up 0.4%.",
+        "stampSay": "That beat the market by 35.9 points.",
+        "title": "Receipt No. 014: Rep. Scott Franklin bought Accenture",
+        "description": "Rep. Scott Franklin (R-FL) reported buying Accenture (ACN) worth $1,001 - $15,000 on August 26, 2026. The report was filed September 17, 2026."
+      },
+      "slug": "014-scott-franklin-acn",
+      "cta": "soft",
+      "hookVariant": "since-then",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "qz9GxQ1fXt8",
       "youtubePrivacy": "public"
     }
   ],
