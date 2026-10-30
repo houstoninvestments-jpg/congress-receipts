@@ -15,22 +15,22 @@
     "number": 3,
     "hookVariant": "since-then",
     "cta": "direct",
-    "views": 10,
+    "views": 11,
     "averageViewPercentage": 72.5,
     "holdAt10": null,
     "scored": false,
-    "measuredAt": "2026-10-30T16:39:57.799Z"
+    "measuredAt": "2026-10-30T21:40:27.722Z"
   },
   "hls28dxrCls": {
     "videoId": "hls28dxrCls",
     "number": 4,
     "hookVariant": "what-next",
     "cta": "none",
-    "views": 19,
-    "averageViewPercentage": 35.95,
+    "views": 21,
+    "averageViewPercentage": 34.55,
     "holdAt10": 1,
     "scored": false,
-    "measuredAt": "2026-10-30T16:39:57.799Z"
+    "measuredAt": "2026-10-30T21:40:27.722Z"
   },
   "Eh2Z7SwAUwg": {
     "videoId": "Eh2Z7SwAUwg",
@@ -70,10 +70,10 @@
     "number": 8,
     "hookVariant": "what-next",
     "cta": "soft",
-    "views": 40,
-    "averageViewPercentage": 26.68,
-    "holdAt10": 1,
-    "scored": false,
-    "measuredAt": "2026-10-30T16:39:57.799Z"
+    "views": 64,
+    "averageViewPercentage": 52.5,
+    "holdAt10": 1.1818,
+    "scored": true,
+    "measuredAt": "2026-10-30T21:40:27.722Z"
   }
 }

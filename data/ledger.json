@@ -1,5 +1,5 @@
 {
-  "nextNumber": 16,
+  "nextNumber": 17,
   "receipts": [
     {
       "number": 1,
@@ -1215,6 +1215,87 @@
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "hP6IcqjUO3M",
       "youtubePrivacy": "public"
+    },
+    {
+      "number": 16,
+      "date": "2026-10-30",
+      "txnId": "20035455-7",
+      "docId": "20035455",
+      "bioguide": "G000583",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Josh Gottheimer",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "NJ",
+        "stateName": "New Jersey",
+        "district": 5,
+        "owner": "jointly",
+        "company": "Restaurant Brands International",
+        "companyFull": "Restaurant Brands International Inc.",
+        "ticker": "QSR",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-08-06",
+        "filedDate": "2026-09-14",
+        "daysToFile": 39,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "QSR",
+            "start": {
+              "date": "2026-08-06",
+              "close": 72.92
+            },
+            "end": {
+              "date": "2026-10-30",
+              "close": 72.41
+            },
+            "changePct": -0.7
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-08-06",
+              "close": 768.56
+            },
+            "end": {
+              "date": "2026-10-30",
+              "close": 755.72
+            },
+            "changePct": -1.7
+          }
+        },
+        "excessPts": 1,
+        "stamp": "BEAT THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of Restaurant Brands International. How'd it do?",
+        "receiptSay": "Rep. Josh Gottheimer, Democrat of New Jersey. Joint purchase, trade date August 6, 2026. Filed September 14, 2026.",
+        "resultSay": "Since then, Restaurant Brands International is down 0.7%. The S&P 500 is down 1.7%.",
+        "stampSay": "That beat the market by 1.0 points.",
+        "title": "Receipt No. 016: Rep. Josh Gottheimer bought Restaurant Brands International",
+        "description": "Rep. Josh Gottheimer (D-NJ) reported a joint purchase of Restaurant Brands International (QSR) worth $1,001 - $15,000 on August 6, 2026. The report was filed September 14, 2026."
+      },
+      "slug": "016-josh-gottheimer-qsr",
+      "cta": "none",
+      "hookVariant": "since-then",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "6FVOfCF2UPw",
+      "youtubePrivacy": "public"
     }
   ],
   "skipped": [
@@ -1227,6 +1308,16 @@
       "txnId": "20035491-14",
       "date": "2026-10-28",
       "reason": "problems: Minor wording issue, not a factual mismatch: in the description, 'reported a joint purchase ... on August 31, 2026' could be misread as the report date. August 31 is the trade date and the filing was September 25. The next sentence clarifies this. 'made a joint purchase ... on August 31, 2026' would be cleaner."
+    },
+    {
+      "txnId": "20035455-1",
+      "date": "2026-10-30",
+      "reason": "problems: Minor wording issue, not a factual mismatch: the description says 'reported a joint purchase ... on August 6, 2026', which could be read as the report date. August 6 is the trade date; the next sentence correctly gives the filing date as September 14. Consider rewording to 'a joint purchase ... made on August 6, 2026'."
+    },
+    {
+      "txnId": "20035455-6",
+      "date": "2026-10-30",
+      "reason": "problems: Minor wording issue, not a factual mismatch: the description says the purchase was 'reported ... on August 6, 2026', which could be read as the report date. August 6 is the trade date, and the next sentence correctly gives the filing date as September 14. Consider changing it to 'a joint purchase ... made on August 6, 2026'."
     }
   ],
   "firstUploadCheck": {
