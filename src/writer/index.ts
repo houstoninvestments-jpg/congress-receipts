@@ -46,7 +46,7 @@ export function templateScript(f: Facts, number: number, hookId = "what-next"): 
   const joint = f.owner === "jointly" ? " jointly" : "";
   return {
     hook: `${whoBought(f)} bought ${amountWords(f)} of ${f.company}${joint}. ${HOOK_ENDINGS[hookId] ?? HOOK_ENDINGS["what-next"]}`,
-    receiptSay: `${f.memberTitle} ${f.memberName}, ${f.party} of ${f.stateName}. Trade date ${longDate(f.tradeDate)}. Filed ${shortDate(f.filedDate)}.`,
+    receiptSay: `${f.memberTitle} ${f.memberName}, ${f.party} of ${f.stateName}. Trade date ${shortDate(f.tradeDate)}. Filed ${shortDate(f.filedDate)}.`, // years are on the card; said aloud they only add time
     resultSay: f.prices ? `Since then, ${f.company} is ${moveWords(f.prices.stock.changePct)}. The S&P 500 is ${moveWords(f.prices.market.changePct)}.` : PRICE_PENDING_LINE,
     stampSay: stampLine(f),
     title: videoTitle(f, number),

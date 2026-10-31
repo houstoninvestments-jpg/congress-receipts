@@ -17,9 +17,9 @@
   },
   "voice": {
     "provider": "kokoro",
-    "kokoroVoice": "am_michael",
-    "lang": "en-us",
-    "speed": 0.95
+    "kokoroVoice": "bm_george",
+    "lang": "en-gb",
+    "speed": 1.1
   },
   "ctaStates": [
     "none",

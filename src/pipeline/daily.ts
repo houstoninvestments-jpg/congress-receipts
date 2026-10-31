@@ -16,6 +16,7 @@ import { templateScript, videoTitle, write } from "../writer/index.js";
 import { check, mechanicalCheck, spokenLines } from "../checker/index.js";
 import { loadHooks, pickHook } from "../learn/hooks.js";
 import { synthesize } from "../voice/index.js";
+import { spokenText } from "../voice/spoken.js";
 import { assertShort, extractCover, prepareTimeline, probe, readWindowChecks, renderShort } from "../render/index.js";
 import { checkSymbols } from "../site/affiliate.js";
 import { publishShort, recheckLock, uploadRequest, type Uploader } from "../publish/youtube.js";
@@ -209,10 +210,22 @@ export async function runDaily(opts: RunOptions): Promise<RunReport> {
     report.summary.result = facts.prices ? `${facts.ticker} ${facts.prices.stock.changePct}% vs SPY ${facts.prices.market.changePct}% (${facts.prices.stock.start.date} to ${facts.prices.stock.end.date}), stamp ${facts.stamp}` : `no licensed price source yet; stamp ${facts.stamp ?? "none"}`;
 
     // 3. Voice and render
-    const lines = spokenLines(script).map((text, i) => ({ id: ["hook", "receipt", "result", "stamp", "closer"][i], text }));
+    // The voice reads numbers and money as words; the screen and captions keep the figures.
+    const lines = spokenLines(script).map((text, i) => ({ id: ["hook", "receipt", "result", "stamp", "closer"][i], text, say: spokenText(text, { ticker: facts.ticker, company: facts.company }) }));
     const voice = synthesize(lines, join(work, "audio"));
     const publicDir = join(work, "public");
-    const timeline = prepareTimeline(voice, publicDir);
+    let timeline;
+    try {
+      timeline = prepareTimeline(voice, publicDir);
+    } catch (e) {
+      // Backstop for the length check: a voice track that would push the video to 40 seconds is skipped, not cut.
+      step("voice", false, String(e));
+      if (!opts.dryRun) ledger.skipped.push({ txnId: r.txnId, date, reason: `too long when read: ${String(e)}` });
+      saveLedger(ledger);
+      report.status = "skipped";
+      report.warnings.push(`skipped: ${String(e)}`);
+      return report;
+    }
     step("voice", true, `${voice.label}, ${(timeline.total / timeline.fps).toFixed(1)}s`);
     const props = receiptProps(r, ledger, { testLabel: opts.dryRun ? "TEST RENDER" : "", voiceLabel: "AI voice", timeline });
     writeJson(join(work, "props.json"), props);

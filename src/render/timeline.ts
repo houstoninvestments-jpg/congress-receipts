@@ -1,4 +1,5 @@
 import type { VoiceSegment, Word } from "../voice/index.js";
+import { spokenText } from "../voice/spoken.js";
 
 export const FPS = 30;
 export const MAX_SECONDS = 39.5; // the brief: under 40 seconds
@@ -38,8 +39,10 @@ export function captionChunks(seg: VoiceSegment, startSec: number, maxWords = 4)
     seg.words && seg.words.length
       ? seg.words
       : (() => {
+          // No timings from the voice: spread the on-screen words by how long each takes to say
+          // ("$50K" is said "fifty thousand dollars", so it gets that much time).
           const ws = seg.text.split(/\s+/).filter(Boolean);
-          const weight = ws.map((w) => w.length + 2);
+          const weight = ws.map((w) => spokenText(w).length + 2);
           const totalW = weight.reduce((a, b) => a + b, 0);
           let t = 0;
           return ws.map((w, i) => {

@@ -5,10 +5,20 @@ import { config } from "../lib/config.js";
 import { checkReadability, fkGrade } from "../lib/readability.js";
 import { allowedNumbers, longDate, moveWords, shortDate } from "../receipt/facts.js";
 import { PRICE_PENDING_LINE, factsForModel } from "../writer/index.js";
+import { spokenText } from "../voice/spoken.js";
 
 export const MIN_CONFIDENCE = 0.8;
-/** About 2.6 spoken words a second; the video must stay under 40 seconds with its silent beats. */
-export const MAX_SPOKEN_WORDS = 72;
+/**
+ * Counted as the voice says them ("$50K" is three words: "fifty thousand dollars").
+ * bm_george at speed 1.1 says about 2.9 words a second; with the silent beats the video
+ * must still end under 40 seconds (buildTimeline enforces that hard limit after the voice).
+ */
+export const MAX_SPOKEN_WORDS = 88;
+/**
+ * The real limit is time. bm_george at 1.1 reads about 15 characters of spoken text a second,
+ * plus about 3.2 seconds of fixed pauses. 520 characters is about 37.5 seconds: under 40 with room.
+ */
+export const MAX_SPOKEN_CHARS = 520;
 
 /**
  * Words that may never appear in a script, title, description or web page.
@@ -89,7 +99,9 @@ export function mechanicalCheck(s: Script, f: Facts, number: number): Mechanical
   if (f.stamp === "LOST TO THE MARKET" && !/\blost\b|\btrailed\b/i.test(s.stampSay)) problems.push("stamp line: must say it lost to the market");
 
   const lines = spokenLines(s);
-  const words = lines.join(" ").split(/\s+/).length;
+  const said = spokenText(lines.join(" "), { ticker: f.ticker, company: f.company });
+  const words = said.split(/\s+/).length;
+  if (said.length > MAX_SPOKEN_CHARS) problems.push(`script is ${said.length} characters when read aloud; limit is ${MAX_SPOKEN_CHARS} to stay under 40 seconds`);
   if (words > MAX_SPOKEN_WORDS) problems.push(`script has ${words} spoken words; limit is ${MAX_SPOKEN_WORDS} to stay under 40 seconds`);
   // Numbers and names lift the reading grade without making a line hard; grade the words only.
   const plain = (l: string) => l.replace(/\$?\d[\d,.]*%?/g, "ten").replace(new RegExp(f.company.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "g"), "it").replace(new RegExp(f.memberName, "g"), "Sam");
