@@ -1,5 +1,5 @@
 {
-  "nextNumber": 17,
+  "nextNumber": 18,
   "receipts": [
     {
       "number": 1,
@@ -1295,6 +1295,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "6FVOfCF2UPw",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 17,
+      "date": "2026-10-30",
+      "txnId": "20035431-4",
+      "docId": "20035431",
+      "bioguide": "K000398",
+      "party": "Republican",
+      "facts": {
+        "memberName": "Thomas H. Kean, Jr.",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "NJ",
+        "stateName": "New Jersey",
+        "district": 7,
+        "owner": "the member",
+        "company": "Linde",
+        "companyFull": "Linde plc",
+        "ticker": "LIN",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-08-10",
+        "filedDate": "2026-09-12",
+        "daysToFile": 33,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "LIN",
+            "start": {
+              "date": "2026-08-10",
+              "close": 492.46
+            },
+            "end": {
+              "date": "2026-10-30",
+              "close": 514.24
+            },
+            "changePct": 4.4
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-08-10",
+              "close": 773.03
+            },
+            "end": {
+              "date": "2026-10-30",
+              "close": 755.72
+            },
+            "changePct": -2.2
+          }
+        },
+        "excessPts": 6.6,
+        "stamp": "BEAT THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035431.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of Linde. Let's see how it did.",
+        "receiptSay": "Rep. Thomas H. Kean, Jr., Republican of New Jersey. Trade date August 10, 2026. Filed September 12, 2026.",
+        "resultSay": "Since then, Linde is up 4.4%. The S&P 500 is down 2.2%.",
+        "stampSay": "That beat the market by 6.6 points.",
+        "title": "Receipt No. 017: Rep. Thomas H. Kean, Jr. bought Linde",
+        "description": "Rep. Thomas H. Kean, Jr. (R-NJ) reported buying Linde (LIN) worth $1,001 - $15,000 on August 10, 2026. The report was filed September 12, 2026."
+      },
+      "slug": "017-thomas-h-kean-jr-lin",
+      "cta": "soft",
+      "hookVariant": "since-then",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "Hvl2e8W56V8",
       "youtubePrivacy": "public"
     }
   ],

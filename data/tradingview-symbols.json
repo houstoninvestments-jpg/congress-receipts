@@ -66,5 +66,9 @@
   "QSR": {
     "path": "/symbols/NYSE-QSR/",
     "checkedAt": "2026-10-30T21:40:21.156Z"
+  },
+  "LIN": {
+    "path": "/symbols/NASDAQ-LIN/",
+    "checkedAt": "2026-10-31T02:40:07.708Z"
   }
 }

@@ -8,53 +8,43 @@
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 446 reports in the Clerk's index, 0 new parsed"
+      "detail": "439 House members; 447 reports in the Clerk's index, 1 new parsed"
     },
     {
       "step": "pick",
       "ok": true,
-      "detail": "92 purchases qualify, 57 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":117,\"not a purchase\":721,\"member featured in the last 7 days\":307,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
-    },
-    {
-      "step": "check",
-      "ok": false,
-      "detail": "Josh Gottheimer / AMAT: problems: Minor wording issue, not a factual mismatch: the description says 'reported a joint purchase ... on August 6, 2026', which could be read as the report date. August 6 is the trade date; the next sentence correctly gives the filing date as September 14. Consider rewording to 'a joint purchase ... made on August 6, 2026'."
-    },
-    {
-      "step": "check",
-      "ok": false,
-      "detail": "Josh Gottheimer / RSG: problems: Minor wording issue, not a factual mismatch: the description says the purchase was 'reported ... on August 6, 2026', which could be read as the report date. August 6 is the trade date, and the next sentence correctly gives the filing date as September 14. Consider changing it to 'a joint purchase ... made on August 6, 2026'."
+      "detail": "81 purchases qualify, 75 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":117,\"not a purchase\":724,\"member featured in the last 7 days\":320,\"thinly traded foreign share (over the counter)\":4,\"filer not matched to one sitting member\":7}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Josh Gottheimer / QSR: code checks and both reviews passed"
+      "detail": "Thomas H. Kean, Jr. / LIN: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 36.6s"
+      "detail": "AI voice (Kokoro open model), 33.3s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-30/receipt-016.mp4 (1080x1920, 36.65s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-30/receipt-017.mp4 (1080x1920, 33.3s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded 6FVOfCF2UPw as public"
+      "detail": "uploaded Hvl2e8W56V8 as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Josh Gottheimer (D-NJ) bought QSR $1,001 - $15,000, traded 2026-08-06, filed 2026-09-14, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf",
-    "result": "QSR -0.7% vs SPY -1.7% (2026-08-06 to 2026-10-30), stamp BEAT THE MARKET",
+    "receipt": "Rep. Thomas H. Kean, Jr. (R-NJ) bought LIN $1,001 - $15,000, traded 2026-08-10, filed 2026-09-12, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035431.pdf",
+    "result": "LIN 4.4% vs SPY -2.2% (2026-08-10 to 2026-10-30), stamp BEAT THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 016: Rep. Josh Gottheimer bought Restaurant Brands International",
-    "upload": "6FVOfCF2UPw, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.2819 over 9 model calls (writer claude-fable-5-1 1601+245 tok; checker-a claude-opus-5-5 1332+243 tok; checker-b claude-opus-5-5 1292+577 tok; writer claude-fable-5-1 1591+966 tok; checker-a claude-opus-5-5 1324+347 tok; checker-b claude-opus-5-5 1284+418 tok; writer claude-fable-5-1 1610+1929 tok; checker-b claude-opus-5-5 1305+275 tok; checker-a claude-opus-5-5 1345+408 tok)"
+    "title": "Receipt No. 017: Rep. Thomas H. Kean, Jr. bought Linde",
+    "upload": "Hvl2e8W56V8, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0477 over 3 model calls (writer claude-fable-5-1 1586+234 tok; checker-a claude-opus-5-5 1314+200 tok; checker-b claude-opus-5-5 1274+291 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-30/receipt-016.mp4",
-  "receipt": 16,
-  "youtubeId": "6FVOfCF2UPw"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-30/receipt-017.mp4",
+  "receipt": 17,
+  "youtubeId": "Hvl2e8W56V8"
 }

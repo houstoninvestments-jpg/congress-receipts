@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T21:40:29.541Z",
+  "updatedAt": "2026-10-31T02:40:19.990Z",
   "byHook": {
     "receipt-in": {
       "videos": 2,
@@ -8,36 +8,36 @@
       "avgReward": 0.784
     },
     "what-next": {
-      "videos": 2,
-      "views": 121,
-      "avgWatchPct": 51.9,
-      "avgReward": 0.76
+      "videos": 4,
+      "views": 1622,
+      "avgWatchPct": 56.6,
+      "avgReward": 0.783
     },
     "since-then": {
-      "videos": 1,
-      "views": 120,
-      "avgWatchPct": 66.2,
-      "avgReward": 0.831
+      "videos": 2,
+      "views": 235,
+      "avgWatchPct": 59.7,
+      "avgReward": 0.799
     }
   },
   "byCta": {
     "soft": {
-      "videos": 3,
-      "views": 233,
-      "avgWatchPct": 54.5,
-      "avgReward": 0.772
-    },
-    "direct": {
-      "videos": 1,
-      "views": 50,
-      "avgWatchPct": 60,
+      "videos": 4,
+      "views": 348,
+      "avgWatchPct": 54.2,
       "avgReward": 0.771
     },
+    "direct": {
+      "videos": 2,
+      "views": 378,
+      "avgWatchPct": 56.1,
+      "avgReward": 0.766
+    },
     "none": {
-      "videos": 1,
-      "views": 120,
-      "avgWatchPct": 66.2,
-      "avgReward": 0.831
+      "videos": 2,
+      "views": 1293,
+      "avgWatchPct": 68.3,
+      "avgReward": 0.842
     }
   }
 }
