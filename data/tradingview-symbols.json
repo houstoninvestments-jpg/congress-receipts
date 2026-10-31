@@ -74,5 +74,9 @@
   "AMAT": {
     "path": "/symbols/NASDAQ-AMAT/",
     "checkedAt": "2026-10-31T16:40:00.797Z"
+  },
+  "DDOG": {
+    "path": "/symbols/NASDAQ-DDOG/",
+    "checkedAt": "2026-10-31T22:53:41.134Z"
   }
 }
