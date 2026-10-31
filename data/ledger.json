@@ -1,5 +1,5 @@
 {
-  "nextNumber": 19,
+  "nextNumber": 20,
   "receipts": [
     {
       "number": 1,
@@ -1457,6 +1457,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "wGk8_ILqFwY",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 19,
+      "date": "2026-10-31",
+      "txnId": "20035367-2",
+      "docId": "20035367",
+      "bioguide": "M001239",
+      "party": "Republican",
+      "facts": {
+        "memberName": "John J. McGuire III",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "VA",
+        "stateName": "Virginia",
+        "district": 5,
+        "owner": "a spouse",
+        "company": "NVIDIA",
+        "companyFull": "NVIDIA Corporation",
+        "ticker": "NVDA",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-08-18",
+        "filedDate": "2026-09-02",
+        "daysToFile": 15,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "NVDA",
+            "start": {
+              "date": "2026-08-18",
+              "close": 219.74
+            },
+            "end": {
+              "date": "2026-10-30",
+              "close": 204.64
+            },
+            "changePct": -6.9
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-08-18",
+              "close": 767.45
+            },
+            "end": {
+              "date": "2026-10-30",
+              "close": 755.72
+            },
+            "changePct": -1.5
+          }
+        },
+        "excessPts": -5.4,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035367.pdf"
+      },
+      "script": {
+        "hook": "This congressman's spouse bought up to $15K of NVIDIA. Let's see how it did.",
+        "receiptSay": "Rep. John J. McGuire III, Republican of Virginia. Trade date August 18, 2026. Filed September 2, 2026.",
+        "resultSay": "Since then, NVIDIA is down 6.9%. The S&P 500 is down 1.5%.",
+        "stampSay": "That lost to the market by 5.4 points.",
+        "title": "Receipt No. 019: Rep. John J. McGuire III's spouse bought NVIDIA",
+        "description": "Rep. John J. McGuire III (R-VA) reported that his spouse bought NVIDIA (NVDA) worth $1,001 - $15,000 on August 18, 2026. The report was filed September 2, 2026."
+      },
+      "slug": "019-john-j-mcguire-iii-nvda",
+      "cta": "none",
+      "hookVariant": "since-then",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "EhoVxFuzQXg",
       "youtubePrivacy": "public"
     }
   ],
