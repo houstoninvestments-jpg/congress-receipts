@@ -70,5 +70,9 @@
   "LIN": {
     "path": "/symbols/NASDAQ-LIN/",
     "checkedAt": "2026-10-31T02:40:07.708Z"
+  },
+  "AMAT": {
+    "path": "/symbols/NASDAQ-AMAT/",
+    "checkedAt": "2026-10-31T16:40:00.797Z"
   }
 }

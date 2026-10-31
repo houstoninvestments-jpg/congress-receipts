@@ -1,5 +1,5 @@
 {
-  "nextNumber": 18,
+  "nextNumber": 19,
   "receipts": [
     {
       "number": 1,
@@ -1376,6 +1376,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "Hvl2e8W56V8",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 18,
+      "date": "2026-10-31",
+      "txnId": "20035243-1",
+      "docId": "20035243",
+      "bioguide": "M001217",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Jared Moskowitz",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "FL",
+        "stateName": "Florida",
+        "district": 23,
+        "owner": "the member",
+        "company": "Applied Materials",
+        "companyFull": "Applied Materials, Inc.",
+        "ticker": "AMAT",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-07-13",
+        "filedDate": "2026-08-27",
+        "daysToFile": 45,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "AMAT",
+            "start": {
+              "date": "2026-07-13",
+              "close": 575.39
+            },
+            "end": {
+              "date": "2026-10-30",
+              "close": 390.09
+            },
+            "changePct": -32.2
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-07-13",
+              "close": 749.17
+            },
+            "end": {
+              "date": "2026-10-30",
+              "close": 755.72
+            },
+            "changePct": 0.9
+          }
+        },
+        "excessPts": -33.1,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035243.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of Applied Materials. The receipt is in.",
+        "receiptSay": "Rep. Jared Moskowitz, Democrat of Florida. Trade date July 13, 2026. Filed August 27, 2026.",
+        "resultSay": "Since then, Applied Materials is down 32.2%. The S&P 500 is up 0.9%.",
+        "stampSay": "That lost to the market by 33.1 points.",
+        "title": "Receipt No. 018: Rep. Jared Moskowitz bought Applied Materials",
+        "description": "Rep. Jared Moskowitz (D-FL) reported buying Applied Materials (AMAT) worth $1,001 - $15,000 on July 13, 2026. The report was filed August 27, 2026."
+      },
+      "slug": "018-jared-moskowitz-amat",
+      "cta": "direct",
+      "hookVariant": "receipt-in",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "wGk8_ILqFwY",
       "youtubePrivacy": "public"
     }
   ],
