@@ -1601,6 +1601,46 @@
       "txnId": "20035035-23",
       "date": "2026-10-31",
       "reason": "prices: Error: marketstack SPY -> 429"
+    },
+    {
+      "txnId": "20035551-3",
+      "date": "2026-11-01",
+      "reason": "problems: Minor wording issue, not a factual mismatch: the description's 'reported a joint purchase ... on September 28, 2026' could be read as the report date. The next sentence correctly gives the filing date as October 19, 2026, but 'a joint purchase made on September 28, 2026' would be clearer."
+    },
+    {
+      "txnId": "20035035-24",
+      "date": "2026-11-01",
+      "reason": "prices: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+    },
+    {
+      "txnId": "20035035-27",
+      "date": "2026-11-01",
+      "reason": "prices: Error: EQIX: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "txnId": "20035035-28",
+      "date": "2026-11-01",
+      "reason": "prices: Error: marketstack FFIV -> 429"
+    },
+    {
+      "txnId": "20035035-3",
+      "date": "2026-11-01",
+      "reason": "prices: Error: marketstack AOS -> 429"
+    },
+    {
+      "txnId": "20035035-32",
+      "date": "2026-11-01",
+      "reason": "prices: Error: marketstack FISV -> 429"
+    },
+    {
+      "txnId": "20035035-33",
+      "date": "2026-11-01",
+      "reason": "prices: Error: GEN: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "txnId": "20035035-36",
+      "date": "2026-11-01",
+      "reason": "prices: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
     }
   ],
   "firstUploadCheck": {

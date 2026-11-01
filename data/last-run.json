@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "dryRun": false,
   "status": "skipped",
   "warnings": [
@@ -15,50 +15,50 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "52 purchases qualify, 38 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":115,\"not a purchase\":699,\"member featured in the last 7 days\":305,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
+      "detail": "54 purchases qualify, 33 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":115,\"not a purchase\":699,\"member featured in the last 7 days\":295,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
     },
     {
       "step": "check",
       "ok": false,
-      "detail": "Ed Case / AAPL: problems: Minor wording point, not disqualifying: the description says 'reported a spouse purchase ... on August 13, 2026', which could be read as the report date. The next sentence gives the correct filing date (August 18), and the trade date of August 13 matches FACTS."
+      "detail": "Jonathan L. Jackson / GH: problems: Minor wording issue, not a factual mismatch: the description's 'reported a joint purchase ... on September 28, 2026' could be read as the report date. The next sentence correctly gives the filing date as October 19, 2026, but 'a joint purchase made on September 28, 2026' would be clearer."
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "AEE: Error: AEE: -100% in one day on 2026-06-09; looks like bad data"
+      "detail": "DE: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "BA: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+      "detail": "EQIX: Error: EQIX: -100% in one day on 2026-06-09; looks like bad data"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "CARR: Error: marketstack CARR -> 429"
+      "detail": "FFIV: Error: marketstack FFIV -> 429"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "CMS: Error: marketstack CMS -> 429"
+      "detail": "AOS: Error: marketstack AOS -> 429"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "CL: Error: CL: -100% in one day on 2026-06-09; looks like bad data"
+      "detail": "FISV: Error: marketstack FISV -> 429"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "DVA: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+      "detail": "GEN: Error: GEN: -100% in one day on 2026-06-09; looks like bad data"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "SRE: Error: marketstack SPY -> 429"
+      "detail": "HON: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
     }
   ],
   "summary": {
-    "modelCost": "$0.0698 over 3 model calls (writer claude-fable-5-1 1573+605 tok; checker-a claude-opus-5-5 1308+200 tok; checker-b claude-opus-5-5 1268+476 tok)"
+    "modelCost": "$0.0543 over 3 model calls (writer claude-fable-5-1 1595+230 tok; checker-a claude-opus-5-5 1321+242 tok; checker-b claude-opus-5-5 1281+582 tok)"
   }
 }
