@@ -4,7 +4,7 @@ import { join } from "node:path";
 import { config } from "../lib/config.js";
 import { env, path } from "../lib/util.js";
 
-/** Founder decision: this channel's voice is Kokoro "bm_george" (British English), speed 1.1, in dry and live runs. No ElevenLabs. */
+/** Founder decision: this channel's voice is Kokoro "bm_george" with the American setting (en-us), speed 1.1, in dry and live runs. No ElevenLabs. */
 
 export interface Word {
   word: string;

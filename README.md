@@ -30,7 +30,7 @@ One GitHub Actions job (`.github/workflows/daily.yml`), three slots a day (about
    **Checker**: code gates first (banned words, every number must match the
    filing or the prices, party, state, dates, owner, under 40 seconds, grade 8
    reading), then two independent `claude-opus-5-5` reviews. Unsure means skip.
-5. **Voice**: Kokoro `bm_george` (British English), speed 1.1, in dry and live runs.
+5. **Voice**: Kokoro `bm_george` with the American setting (en-us), speed 1.1, in dry and live runs.
    Numbers and money are turned into words before the voice reads them
    (`src/voice/spoken.ts`); the screen and captions keep the figures.
 6. **Render** (`remotion/`). Hook, the filing card ("From official filing"),

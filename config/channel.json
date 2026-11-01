@@ -18,7 +18,7 @@
   "voice": {
     "provider": "kokoro",
     "kokoroVoice": "bm_george",
-    "lang": "en-gb",
+    "lang": "en-us",
     "speed": 1.1
   },
   "ctaStates": [
