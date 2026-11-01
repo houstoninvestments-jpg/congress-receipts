@@ -15,50 +15,50 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "54 purchases qualify, 33 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":115,\"not a purchase\":699,\"member featured in the last 7 days\":295,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
-    },
-    {
-      "step": "check",
-      "ok": false,
-      "detail": "Jonathan L. Jackson / GH: problems: Minor wording issue, not a factual mismatch: the description's 'reported a joint purchase ... on September 28, 2026' could be read as the report date. The next sentence correctly gives the filing date as October 19, 2026, but 'a joint purchase made on September 28, 2026' would be clearer."
+      "detail": "46 purchases qualify, 25 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":115,\"not a purchase\":699,\"member featured in the last 7 days\":295,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "DE: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+      "detail": "IP: Error: IP: -100% in one day on 2026-06-09; looks like bad data"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "EQIX: Error: EQIX: -100% in one day on 2026-06-09; looks like bad data"
+      "detail": "ADBE: Error: ADBE: -100% in one day on 2026-06-09; looks like bad data"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "FFIV: Error: marketstack FFIV -> 429"
+      "detail": "KEY: Error: KEY: -100% in one day on 2026-06-09; looks like bad data"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "AOS: Error: marketstack AOS -> 429"
+      "detail": "KR: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "FISV: Error: marketstack FISV -> 429"
+      "detail": "LYB: Error: LYB: -100% in one day on 2026-06-09; looks like bad data"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "GEN: Error: GEN: -100% in one day on 2026-06-09; looks like bad data"
+      "detail": "MKC: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "HON: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+      "detail": "TAP: Error: TAP: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "step": "prices",
+      "ok": false,
+      "detail": "MDLZ: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
     }
   ],
   "summary": {
-    "modelCost": "$0.0543 over 3 model calls (writer claude-fable-5-1 1595+230 tok; checker-a claude-opus-5-5 1321+242 tok; checker-b claude-opus-5-5 1281+582 tok)"
+    "modelCost": "$0 (no model calls)"
   }
 }

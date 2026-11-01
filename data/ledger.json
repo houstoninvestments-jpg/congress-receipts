@@ -1641,6 +1641,46 @@
       "txnId": "20035035-36",
       "date": "2026-11-01",
       "reason": "prices: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+    },
+    {
+      "txnId": "20035035-37",
+      "date": "2026-11-01",
+      "reason": "prices: Error: IP: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "txnId": "20035035-4",
+      "date": "2026-11-01",
+      "reason": "prices: Error: ADBE: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "txnId": "20035035-40",
+      "date": "2026-11-01",
+      "reason": "prices: Error: KEY: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "txnId": "20035035-41",
+      "date": "2026-11-01",
+      "reason": "prices: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+    },
+    {
+      "txnId": "20035035-44",
+      "date": "2026-11-01",
+      "reason": "prices: Error: LYB: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "txnId": "20035035-45",
+      "date": "2026-11-01",
+      "reason": "prices: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+    },
+    {
+      "txnId": "20035035-49",
+      "date": "2026-11-01",
+      "reason": "prices: Error: TAP: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "txnId": "20035035-50",
+      "date": "2026-11-01",
+      "reason": "prices: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
     }
   ],
   "firstUploadCheck": {
