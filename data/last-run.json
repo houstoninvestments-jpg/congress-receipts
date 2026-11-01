@@ -1,8 +1,10 @@
 {
   "date": "2026-10-31",
   "dryRun": false,
-  "status": "published",
-  "warnings": [],
+  "status": "skipped",
+  "warnings": [
+    "no trade passed every check today; skipped"
+  ],
   "errors": [],
   "steps": [
     {
@@ -13,38 +15,50 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "55 purchases qualify, 55 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":115,\"not a purchase\":699,\"member featured in the last 7 days\":303,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
+      "detail": "52 purchases qualify, 38 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":115,\"not a purchase\":699,\"member featured in the last 7 days\":305,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
     },
     {
       "step": "check",
-      "ok": true,
-      "detail": "John J. McGuire III / NVDA: code checks and both reviews passed"
+      "ok": false,
+      "detail": "Ed Case / AAPL: problems: Minor wording point, not disqualifying: the description says 'reported a spouse purchase ... on August 13, 2026', which could be read as the report date. The next sentence gives the correct filing date (August 18), and the trade date of August 13 matches FACTS."
     },
     {
-      "step": "voice",
-      "ok": true,
-      "detail": "AI voice (Kokoro open model), 34.8s"
+      "step": "prices",
+      "ok": false,
+      "detail": "AEE: Error: AEE: -100% in one day on 2026-06-09; looks like bad data"
     },
     {
-      "step": "render",
-      "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-31/receipt-019.mp4 (1080x1920, 34.84s)"
+      "step": "prices",
+      "ok": false,
+      "detail": "BA: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
     },
     {
-      "step": "publish",
-      "ok": true,
-      "detail": "uploaded EhoVxFuzQXg as public"
+      "step": "prices",
+      "ok": false,
+      "detail": "CARR: Error: marketstack CARR -> 429"
+    },
+    {
+      "step": "prices",
+      "ok": false,
+      "detail": "CMS: Error: marketstack CMS -> 429"
+    },
+    {
+      "step": "prices",
+      "ok": false,
+      "detail": "CL: Error: CL: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "step": "prices",
+      "ok": false,
+      "detail": "DVA: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+    },
+    {
+      "step": "prices",
+      "ok": false,
+      "detail": "SRE: Error: marketstack SPY -> 429"
     }
   ],
   "summary": {
-    "receipt": "Rep. John J. McGuire III (R-VA) bought NVDA $1,001 - $15,000, traded 2026-08-18, filed 2026-09-02, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035367.pdf",
-    "result": "NVDA -6.9% vs SPY -1.5% (2026-08-18 to 2026-10-30), stamp LOST TO THE MARKET",
-    "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 019: Rep. John J. McGuire III's spouse bought NVIDIA",
-    "upload": "EhoVxFuzQXg, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0627 over 3 model calls (writer claude-fable-5-1 1598+562 tok; checker-a claude-opus-5-5 1332+193 tok; checker-b claude-opus-5-5 1292+214 tok)"
-  },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-10-31/receipt-019.mp4",
-  "receipt": 19,
-  "youtubeId": "EhoVxFuzQXg"
+    "modelCost": "$0.0698 over 3 model calls (writer claude-fable-5-1 1573+605 tok; checker-a claude-opus-5-5 1308+200 tok; checker-b claude-opus-5-5 1268+476 tok)"
+  }
 }
