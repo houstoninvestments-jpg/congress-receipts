@@ -1,5 +1,5 @@
 {
-  "nextNumber": 20,
+  "nextNumber": 21,
   "receipts": [
     {
       "number": 1,
@@ -1538,6 +1538,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "EhoVxFuzQXg",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 20,
+      "date": "2026-11-02",
+      "txnId": "20035622-37",
+      "docId": "20035622",
+      "bioguide": "C001123",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Gilbert Ray Cisneros, Jr.",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "CA",
+        "stateName": "California",
+        "district": 31,
+        "owner": "the member",
+        "company": "ON Semiconductor",
+        "companyFull": "ON Semiconductor Corporation",
+        "ticker": "ON",
+        "amountText": "$15,001 - $50,000",
+        "amountMin": 15001,
+        "amountMax": 50000,
+        "amountMid": 32501,
+        "tradeDate": "2026-09-28",
+        "filedDate": "2026-10-12",
+        "daysToFile": 14,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "ON",
+            "start": {
+              "date": "2026-09-28",
+              "close": 75.65
+            },
+            "end": {
+              "date": "2026-10-30",
+              "close": 71.67
+            },
+            "changePct": -5.3
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-09-28",
+              "close": 765.61
+            },
+            "end": {
+              "date": "2026-10-30",
+              "close": 755.72
+            },
+            "changePct": -1.3
+          }
+        },
+        "excessPts": -4,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $50K of ON Semiconductor. The receipt is in.",
+        "receiptSay": "Rep. Gilbert Ray Cisneros, Jr., Democrat of California. Trade date September 28, 2026. Filed October 12, 2026.",
+        "resultSay": "Since then, ON Semiconductor is down 5.3%. The S&P 500 is down 1.3%.",
+        "stampSay": "That lost to the market by 4.0 points.",
+        "title": "Receipt No. 020: Rep. Gilbert Ray Cisneros, Jr. bought ON Semiconductor",
+        "description": "Rep. Gilbert Ray Cisneros, Jr. (D-CA) reported buying ON Semiconductor (ON) worth $15,001 - $50,000 on September 28, 2026. The report was filed October 12, 2026."
+      },
+      "slug": "020-gilbert-ray-cisneros-jr-on",
+      "cta": "soft",
+      "hookVariant": "receipt-in",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "Q85letIoAnA",
       "youtubePrivacy": "public"
     }
   ],
