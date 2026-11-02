@@ -15,47 +15,47 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "46 purchases qualify, 25 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":115,\"not a purchase\":699,\"member featured in the last 7 days\":295,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
+      "detail": "38 purchases qualify, 17 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":115,\"not a purchase\":699,\"member featured in the last 7 days\":295,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "IP: Error: IP: -100% in one day on 2026-06-09; looks like bad data"
+      "detail": "MNST: Error: MNST: -50% in one day on 2026-08-06; looks like bad data"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "ADBE: Error: ADBE: -100% in one day on 2026-06-09; looks like bad data"
+      "detail": "PAYX: Error: PAYX: -100% in one day on 2026-06-09; looks like bad data"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "KEY: Error: KEY: -100% in one day on 2026-06-09; looks like bad data"
+      "detail": "PAYC: Error: marketstack SPY -> 429"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "KR: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+      "detail": "PEG: Error: marketstack SPY -> 429"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "LYB: Error: LYB: -100% in one day on 2026-06-09; looks like bad data"
+      "detail": "DGX: Error: marketstack SPY -> 429"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "MKC: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+      "detail": "ROL: Error: marketstack SPY -> 429"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "TAP: Error: TAP: -100% in one day on 2026-06-09; looks like bad data"
+      "detail": "NOW: Error: marketstack NOW -> 429"
     },
     {
       "step": "prices",
       "ok": false,
-      "detail": "MDLZ: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+      "detail": "CI: Error: CI: -100% in one day on 2026-06-09; looks like bad data"
     }
   ],
   "summary": {

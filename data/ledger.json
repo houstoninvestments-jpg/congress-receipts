@@ -1681,6 +1681,46 @@
       "txnId": "20035035-50",
       "date": "2026-11-01",
       "reason": "prices: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+    },
+    {
+      "txnId": "20035035-53",
+      "date": "2026-11-01",
+      "reason": "prices: Error: MNST: -50% in one day on 2026-08-06; looks like bad data"
+    },
+    {
+      "txnId": "20035035-54",
+      "date": "2026-11-01",
+      "reason": "prices: Error: PAYX: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "txnId": "20035035-57",
+      "date": "2026-11-01",
+      "reason": "prices: Error: marketstack SPY -> 429"
+    },
+    {
+      "txnId": "20035035-58",
+      "date": "2026-11-01",
+      "reason": "prices: Error: marketstack SPY -> 429"
+    },
+    {
+      "txnId": "20035035-61",
+      "date": "2026-11-01",
+      "reason": "prices: Error: marketstack SPY -> 429"
+    },
+    {
+      "txnId": "20035035-62",
+      "date": "2026-11-01",
+      "reason": "prices: Error: marketstack SPY -> 429"
+    },
+    {
+      "txnId": "20035035-65",
+      "date": "2026-11-01",
+      "reason": "prices: Error: marketstack NOW -> 429"
+    },
+    {
+      "txnId": "20035035-66",
+      "date": "2026-11-01",
+      "reason": "prices: Error: CI: -100% in one day on 2026-06-09; looks like bad data"
     }
   ],
   "firstUploadCheck": {
