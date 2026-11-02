@@ -56761,6 +56761,85 @@
     "problems": [],
     "parsedAt": "2026-10-25T04:19:48.957Z"
   },
+  "20035484": {
+    "filing": {
+      "docId": "20035484",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "John J Mr",
+      "last": "McGuire",
+      "suffix": "III",
+      "stateDst": "VA05",
+      "filingDate": "2026-11-01",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035484.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-11-01",
+    "transactions": [
+      {
+        "id": "20035484-1",
+        "docId": "20035484",
+        "row": 1,
+        "owner": "SP",
+        "asset": "Broadcom Inc. - Common Stock (AVGO) [ST]",
+        "ticker": "AVGO",
+        "assetType": "ST",
+        "type": "S (partial)",
+        "tradeDate": "2026-09-24",
+        "notifiedDate": "2026-10-02",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035484-2",
+        "docId": "20035484",
+        "row": 2,
+        "owner": "SP",
+        "asset": "Micron Technology, Inc. - Common Stock (MU) [ST]",
+        "ticker": "MU",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-09-24",
+        "notifiedDate": "2026-10-02",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035484-3",
+        "docId": "20035484",
+        "row": 3,
+        "owner": "SP",
+        "asset": "Micron Technology, Inc. - Common Stock (MU) [ST]",
+        "ticker": "MU",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-09-25",
+        "notifiedDate": "2026-10-02",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035484-4",
+        "docId": "20035484",
+        "row": 4,
+        "owner": "SP",
+        "asset": "Micron Technology, Inc. - Common Stock (MU) [ST]",
+        "ticker": "MU",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-10-01",
+        "notifiedDate": "2026-10-02",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-11-02T21:38:34.959Z"
+  },
   "20035487": {
     "filing": {
       "docId": "20035487",
@@ -60882,6 +60961,115 @@
     "problems": [],
     "parsedAt": "2026-10-25T04:19:48.957Z"
   },
+  "20035591": {
+    "filing": {
+      "docId": "20035591",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Thomas H.",
+      "last": "Kean",
+      "suffix": "Jr",
+      "stateDst": "NJ07",
+      "filingDate": "2026-10-30",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035591.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-10-30",
+    "transactions": [
+      {
+        "id": "20035591-1",
+        "docId": "20035591",
+        "row": 1,
+        "owner": "",
+        "asset": "Abbott Laboratories Common Stock (ABT) [ST]",
+        "ticker": "ABT",
+        "assetType": "ST",
+        "type": "S (partial)",
+        "tradeDate": "2026-09-17",
+        "notifiedDate": "2026-10-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035591-2",
+        "docId": "20035591",
+        "row": 2,
+        "owner": "",
+        "asset": "ESAB Corporation Common Stock (ESAB) [ST]",
+        "ticker": "ESAB",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-09-29",
+        "notifiedDate": "2026-10-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035591-3",
+        "docId": "20035591",
+        "row": 3,
+        "owner": "",
+        "asset": "Johnson & Johnson Common Stock (JNJ) [ST]",
+        "ticker": "JNJ",
+        "assetType": "ST",
+        "type": "S (partial)",
+        "tradeDate": "2026-09-30",
+        "notifiedDate": "2026-10-07",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035591-4",
+        "docId": "20035591",
+        "row": 4,
+        "owner": "",
+        "asset": "Mondelez International, Inc. - Class A Common Stock (MDLZ) [ST]",
+        "ticker": "MDLZ",
+        "assetType": "ST",
+        "type": "S (partial)",
+        "tradeDate": "2026-09-23",
+        "notifiedDate": "2026-10-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035591-5",
+        "docId": "20035591",
+        "row": 5,
+        "owner": "",
+        "asset": "Stryker Corporation Common Stock (SYK) [ST]",
+        "ticker": "SYK",
+        "assetType": "ST",
+        "type": "S (partial)",
+        "tradeDate": "2026-09-30",
+        "notifiedDate": "2026-10-07",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035591-6",
+        "docId": "20035591",
+        "row": 6,
+        "owner": "",
+        "asset": "Texas Instruments Incorporated - Common Stock (TXN) [ST]",
+        "ticker": "TXN",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-09-17",
+        "notifiedDate": "2026-10-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-11-02T21:38:34.959Z"
+  },
   "20035622": {
     "filing": {
       "docId": "20035622",
@@ -62783,5 +62971,59 @@
     ],
     "problems": [],
     "parsedAt": "2026-10-31T02:38:45.802Z"
+  },
+  "20035734": {
+    "filing": {
+      "docId": "20035734",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Carol Devine",
+      "last": "Miller",
+      "suffix": "",
+      "stateDst": "WV01",
+      "filingDate": "2026-10-30",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035734.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-10-30",
+    "transactions": [],
+    "problems": [
+      "row 1 (Honeywell Aerospace Inc. - Common Stock (HONA) [ST): amount not a standard range: \"$710.52\""
+    ],
+    "parsedAt": "2026-11-02T21:38:34.959Z"
+  },
+  "20035743": {
+    "filing": {
+      "docId": "20035743",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Donald Sternoff",
+      "last": "Beyer",
+      "suffix": "Jr",
+      "stateDst": "VA08",
+      "filingDate": "2026-11-01",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035743.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-11-01",
+    "transactions": [
+      {
+        "id": "20035743-1",
+        "docId": "20035743",
+        "row": 1,
+        "owner": "JT",
+        "asset": "California CMNTY VAR 11/01/54 [GS]",
+        "ticker": null,
+        "assetType": "GS",
+        "type": "P",
+        "tradeDate": "2026-10-07",
+        "notifiedDate": "2026-11-01",
+        "amountMin": 15001,
+        "amountMax": 50000,
+        "amountText": "$15,001 - $50,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-11-02T21:38:34.959Z"
   }
 }

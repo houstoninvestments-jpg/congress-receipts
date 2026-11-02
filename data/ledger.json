@@ -1,5 +1,5 @@
 {
-  "nextNumber": 21,
+  "nextNumber": 22,
   "receipts": [
     {
       "number": 1,
@@ -1619,6 +1619,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "Q85letIoAnA",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 21,
+      "date": "2026-11-02",
+      "txnId": "20035143-3",
+      "docId": "20035143",
+      "bioguide": "P000197",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Nancy Pelosi",
+        "memberTitle": "Rep.",
+        "memberNoun": "congresswoman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "CA",
+        "stateName": "California",
+        "district": 11,
+        "owner": "a spouse",
+        "company": "Bloom Energy",
+        "companyFull": "Bloom Energy Corporation",
+        "ticker": "BE",
+        "amountText": "$500,001 - $1,000,000",
+        "amountMin": 500001,
+        "amountMax": 1000000,
+        "amountMid": 750001,
+        "tradeDate": "2026-07-28",
+        "filedDate": "2026-08-21",
+        "daysToFile": 24,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "BE",
+            "start": {
+              "date": "2026-07-28",
+              "close": 166.84
+            },
+            "end": {
+              "date": "2026-10-30",
+              "close": 203.17
+            },
+            "changePct": 21.8
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-07-28",
+              "close": 740.86
+            },
+            "end": {
+              "date": "2026-10-30",
+              "close": 755.72
+            },
+            "changePct": 2
+          }
+        },
+        "excessPts": 19.8,
+        "stamp": "BEAT THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf"
+      },
+      "script": {
+        "hook": "A congresswoman's spouse bought up to $1M of Bloom Energy. Receipt is in.",
+        "receiptSay": "Rep. Nancy Pelosi, Democrat of California. Her spouse made the trade. Trade date July 28. Filed August 21.",
+        "resultSay": "Since then, Bloom Energy is up 21.8%. The S&P 500 is up 2.0%.",
+        "stampSay": "That beat the market by 19.8 points.",
+        "title": "Receipt No. 021: Rep. Nancy Pelosi's spouse bought Bloom Energy",
+        "description": "Rep. Nancy Pelosi (D-CA) reported a spouse's purchase of Bloom Energy (BE) worth $500,001 - $1,000,000. The trade was July 28, 2026, and was filed August 21, 2026."
+      },
+      "slug": "021-nancy-pelosi-be",
+      "cta": "direct",
+      "hookVariant": "receipt-in",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "s4pRNjVw1UI",
       "youtubePrivacy": "public"
     }
   ],
