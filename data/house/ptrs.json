@@ -63025,5 +63025,39 @@
     ],
     "problems": [],
     "parsedAt": "2026-11-02T21:38:34.959Z"
+  },
+  "20035751": {
+    "filing": {
+      "docId": "20035751",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Ann",
+      "last": "Wagner",
+      "suffix": "",
+      "stateDst": "MO02",
+      "filingDate": "2026-11-02",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035751.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-11-02",
+    "transactions": [
+      {
+        "id": "20035751-1",
+        "docId": "20035751",
+        "row": 1,
+        "owner": "JT",
+        "asset": "American Expr Natl Bank CD [GS]",
+        "ticker": null,
+        "assetType": "GS",
+        "type": "S (partial)",
+        "tradeDate": "2026-10-20",
+        "notifiedDate": "2026-10-21",
+        "amountMin": 100001,
+        "amountMax": 250000,
+        "amountText": "$100,001 - $250,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-11-03T21:38:48.394Z"
   }
 }

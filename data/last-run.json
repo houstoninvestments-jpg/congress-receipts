@@ -8,43 +8,48 @@
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 451 reports in the Clerk's index, 0 new parsed"
+      "detail": "439 House members; 452 reports in the Clerk's index, 1 new parsed"
     },
     {
       "step": "pick",
       "ok": true,
-      "detail": "104 purchases qualify, 83 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":704,\"member featured in the last 7 days\":223,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
+      "detail": "77 purchases qualify, 18 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":705,\"member featured in the last 7 days\":249,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
+    },
+    {
+      "step": "prices",
+      "ok": false,
+      "detail": "NVDA: NVDA and SPY windows differ"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "David J. Taylor / T: code checks and both reviews passed"
+      "detail": "Cleo Fields / TSM: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 31.6s"
+      "detail": "AI voice (Kokoro open model), 34.2s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-03/receipt-023.mp4 (1080x1920, 31.57s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-03/receipt-024.mp4 (1080x1920, 34.22s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded QU3kfCjX8jM as public"
+      "detail": "uploaded bPUBVv0wClg as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. David J. Taylor (R-OH) bought T $1,001 - $15,000, traded 2026-10-15, filed 2026-10-29, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035727.pdf",
-    "result": "T -8.8% vs SPY -2.6% (2026-10-15 to 2026-11-02), stamp LOST TO THE MARKET",
+    "receipt": "Rep. Cleo Fields (D-LA) bought TSM $1,001 - $15,000, traded 2026-10-09, filed 2026-10-22, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf",
+    "result": "TSM -12.1% vs SPY -3.4% (2026-10-09 to 2026-11-02), stamp LOST TO THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 023: Rep. David J. Taylor bought AT&T",
-    "upload": "QU3kfCjX8jM, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0427 over 3 model calls (writer claude-fable-5-1 1569+217 tok; checker-a claude-opus-5-5 1287+137 tok; checker-b claude-opus-5-5 1247+164 tok)"
+    "title": "Receipt No. 024: Rep. Cleo Fields bought Taiwan Semiconductor Manufacturing Company",
+    "upload": "bPUBVv0wClg, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.1422 over 4 model calls (writer claude-fable-5-1 1651+1127 tok; writer-retry claude-fable-5-1 1997+637 tok; checker-b claude-opus-5-5 1345+169 tok; checker-a claude-opus-5-5 1385+160 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-03/receipt-023.mp4",
-  "receipt": 23,
-  "youtubeId": "QU3kfCjX8jM"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-03/receipt-024.mp4",
+  "receipt": 24,
+  "youtubeId": "bPUBVv0wClg"
 }

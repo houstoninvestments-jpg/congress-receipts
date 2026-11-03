@@ -86,5 +86,9 @@
   "OLN": {
     "path": "/symbols/NYSE-OLN/",
     "checkedAt": "2026-11-03T02:40:03.391Z"
+  },
+  "TSM": {
+    "path": "/symbols/NYSE-TSM/",
+    "checkedAt": "2026-11-03T21:40:20.403Z"
   }
 }

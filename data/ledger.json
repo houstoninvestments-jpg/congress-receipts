@@ -1,5 +1,5 @@
 {
-  "nextNumber": 24,
+  "nextNumber": 25,
   "receipts": [
     {
       "number": 1,
@@ -1863,6 +1863,87 @@
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "QU3kfCjX8jM",
       "youtubePrivacy": "public"
+    },
+    {
+      "number": 24,
+      "date": "2026-11-03",
+      "txnId": "20035669-4",
+      "docId": "20035669",
+      "bioguide": "F000110",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Cleo Fields",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "LA",
+        "stateName": "Louisiana",
+        "district": 6,
+        "owner": "the member",
+        "company": "Taiwan Semiconductor Manufacturing Company",
+        "companyFull": "Taiwan Semiconductor Manufacturing Company Ltd.",
+        "ticker": "TSM",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-10-09",
+        "filedDate": "2026-10-22",
+        "daysToFile": 13,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "TSM",
+            "start": {
+              "date": "2026-10-09",
+              "close": 453.31
+            },
+            "end": {
+              "date": "2026-11-02",
+              "close": 398.63
+            },
+            "changePct": -12.1
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-10-09",
+              "close": 778.57
+            },
+            "end": {
+              "date": "2026-11-02",
+              "close": 752.1
+            },
+            "changePct": -3.4
+          }
+        },
+        "excessPts": -8.7,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of Taiwan Semiconductor Manufacturing Company. Receipt is in.",
+        "receiptSay": "Rep. Cleo Fields, Democrat of Louisiana. Trade date Oct 9. Filed Oct 22.",
+        "resultSay": "Since then, Taiwan Semiconductor Manufacturing Company is down 12.1%. The S&P 500 is down 3.4%.",
+        "stampSay": "That lost to the market by 8.7 points.",
+        "title": "Receipt No. 024: Rep. Cleo Fields bought Taiwan Semiconductor Manufacturing Company",
+        "description": "Rep. Cleo Fields (D-LA) reported buying Taiwan Semiconductor Manufacturing Company (TSM) worth $1,001 - $15,000 on October 9, 2026. The report was filed October 22, 2026."
+      },
+      "slug": "024-cleo-fields-tsm",
+      "cta": "direct",
+      "hookVariant": "receipt-in",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "bPUBVv0wClg",
+      "youtubePrivacy": "public"
     }
   ],
   "skipped": [
@@ -2045,6 +2126,11 @@
       "txnId": "20035035-66",
       "date": "2026-11-01",
       "reason": "prices: Error: CI: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "txnId": "20035669-2",
+      "date": "2026-11-03",
+      "reason": "prices: NVDA and SPY windows differ"
     }
   ],
   "firstUploadCheck": {
