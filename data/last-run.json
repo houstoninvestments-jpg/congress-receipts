@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "dryRun": false,
   "status": "published",
   "warnings": [],
@@ -13,38 +13,38 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "56 purchases qualify, 46 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":704,\"member featured in the last 7 days\":272,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
+      "detail": "104 purchases qualify, 83 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":704,\"member featured in the last 7 days\":223,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Lisa C. McClain / OLN: code checks and both reviews passed"
+      "detail": "David J. Taylor / T: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 31.3s"
+      "detail": "AI voice (Kokoro open model), 31.6s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-02/receipt-022.mp4 (1080x1920, 31.34s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-03/receipt-023.mp4 (1080x1920, 31.57s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded Vkq6fB0ZgPE as public"
+      "detail": "uploaded QU3kfCjX8jM as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Lisa C. McClain (R-MI) bought OLN $15,001 - $50,000, traded 2026-09-14, filed 2026-10-12, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035585.pdf",
-    "result": "OLN 7.5% vs SPY -1.2% (2026-09-14 to 2026-11-02), stamp BEAT THE MARKET",
+    "receipt": "Rep. David J. Taylor (R-OH) bought T $1,001 - $15,000, traded 2026-10-15, filed 2026-10-29, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035727.pdf",
+    "result": "T -8.8% vs SPY -2.6% (2026-10-15 to 2026-11-02), stamp LOST TO THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 022: Rep. Lisa C. McClain's spouse bought Olin",
-    "upload": "Vkq6fB0ZgPE, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0488 over 3 model calls (writer claude-fable-5-1 1583+269 tok; checker-a claude-opus-5-5 1322+146 tok; checker-b claude-opus-5-5 1282+308 tok)"
+    "title": "Receipt No. 023: Rep. David J. Taylor bought AT&T",
+    "upload": "QU3kfCjX8jM, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0427 over 3 model calls (writer claude-fable-5-1 1569+217 tok; checker-a claude-opus-5-5 1287+137 tok; checker-b claude-opus-5-5 1247+164 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-02/receipt-022.mp4",
-  "receipt": 22,
-  "youtubeId": "Vkq6fB0ZgPE"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-03/receipt-023.mp4",
+  "receipt": 23,
+  "youtubeId": "QU3kfCjX8jM"
 }
