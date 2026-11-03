@@ -82,5 +82,9 @@
   "ON": {
     "path": "/symbols/NASDAQ-ON/",
     "checkedAt": "2026-11-02T16:39:47.083Z"
+  },
+  "OLN": {
+    "path": "/symbols/NYSE-OLN/",
+    "checkedAt": "2026-11-03T02:40:03.391Z"
   }
 }

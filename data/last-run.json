@@ -8,43 +8,43 @@
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 451 reports in the Clerk's index, 4 new parsed"
+      "detail": "439 House members; 451 reports in the Clerk's index, 0 new parsed"
     },
     {
       "step": "pick",
       "ok": true,
-      "detail": "58 purchases qualify, 11 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":704,\"member featured in the last 7 days\":271,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
+      "detail": "56 purchases qualify, 46 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":704,\"member featured in the last 7 days\":272,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Nancy Pelosi / BE: code checks and both reviews passed"
+      "detail": "Lisa C. McClain / OLN: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 31.2s"
+      "detail": "AI voice (Kokoro open model), 31.3s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-02/receipt-021.mp4 (1080x1920, 31.21s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-02/receipt-022.mp4 (1080x1920, 31.34s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded s4pRNjVw1UI as public"
+      "detail": "uploaded Vkq6fB0ZgPE as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Nancy Pelosi (D-CA) bought BE $500,001 - $1,000,000, traded 2026-07-28, filed 2026-08-21, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf",
-    "result": "BE 21.8% vs SPY 2% (2026-07-28 to 2026-10-30), stamp BEAT THE MARKET",
+    "receipt": "Rep. Lisa C. McClain (R-MI) bought OLN $15,001 - $50,000, traded 2026-09-14, filed 2026-10-12, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035585.pdf",
+    "result": "OLN 7.5% vs SPY -1.2% (2026-09-14 to 2026-11-02), stamp BEAT THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 021: Rep. Nancy Pelosi's spouse bought Bloom Energy",
-    "upload": "s4pRNjVw1UI, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.1132 over 3 model calls (writer claude-fable-5-1 1601+1486 tok; checker-a claude-opus-5-5 1344+283 tok; checker-b claude-opus-5-5 1304+331 tok)"
+    "title": "Receipt No. 022: Rep. Lisa C. McClain's spouse bought Olin",
+    "upload": "Vkq6fB0ZgPE, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0488 over 3 model calls (writer claude-fable-5-1 1583+269 tok; checker-a claude-opus-5-5 1322+146 tok; checker-b claude-opus-5-5 1282+308 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-02/receipt-021.mp4",
-  "receipt": 21,
-  "youtubeId": "s4pRNjVw1UI"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-02/receipt-022.mp4",
+  "receipt": 22,
+  "youtubeId": "Vkq6fB0ZgPE"
 }
