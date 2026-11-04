@@ -8,48 +8,43 @@
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 452 reports in the Clerk's index, 1 new parsed"
+      "detail": "439 House members; 452 reports in the Clerk's index, 0 new parsed"
     },
     {
       "step": "pick",
       "ok": true,
-      "detail": "77 purchases qualify, 18 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":705,\"member featured in the last 7 days\":249,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
-    },
-    {
-      "step": "prices",
-      "ok": false,
-      "detail": "NVDA: NVDA and SPY windows differ"
+      "detail": "64 purchases qualify, 54 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":705,\"member featured in the last 7 days\":260,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Cleo Fields / TSM: code checks and both reviews passed"
+      "detail": "Maria Elvira Salazar / MRK: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 34.2s"
+      "detail": "AI voice (Kokoro open model), 30.4s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-03/receipt-024.mp4 (1080x1920, 34.22s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-03/receipt-025.mp4 (1080x1920, 30.42s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded bPUBVv0wClg as public"
+      "detail": "uploaded r5Tn4Dx0G3o as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Cleo Fields (D-LA) bought TSM $1,001 - $15,000, traded 2026-10-09, filed 2026-10-22, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035669.pdf",
-    "result": "TSM -12.1% vs SPY -3.4% (2026-10-09 to 2026-11-02), stamp LOST TO THE MARKET",
+    "receipt": "Rep. Maria Elvira Salazar (R-FL) bought MRK $15,001 - $50,000, traded 2026-08-19, filed 2026-09-09, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf",
+    "result": "MRK -4.9% vs SPY -1.9% (2026-08-19 to 2026-11-03), stamp LOST TO THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 024: Rep. Cleo Fields bought Taiwan Semiconductor Manufacturing Company",
-    "upload": "bPUBVv0wClg, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.1422 over 4 model calls (writer claude-fable-5-1 1651+1127 tok; writer-retry claude-fable-5-1 1997+637 tok; checker-b claude-opus-5-5 1345+169 tok; checker-a claude-opus-5-5 1385+160 tok)"
+    "title": "Receipt No. 025: Rep. Maria Elvira Salazar bought Merck & Company",
+    "upload": "r5Tn4Dx0G3o, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0461 over 3 model calls (writer claude-fable-5-1 1598+225 tok; checker-b claude-opus-5-5 1278+211 tok; checker-a claude-opus-5-5 1318+212 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-03/receipt-024.mp4",
-  "receipt": 24,
-  "youtubeId": "bPUBVv0wClg"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-03/receipt-025.mp4",
+  "receipt": 25,
+  "youtubeId": "r5Tn4Dx0G3o"
 }

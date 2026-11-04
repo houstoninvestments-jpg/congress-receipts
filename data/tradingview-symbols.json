@@ -90,5 +90,9 @@
   "TSM": {
     "path": "/symbols/NYSE-TSM/",
     "checkedAt": "2026-11-03T21:40:20.403Z"
+  },
+  "MRK": {
+    "path": "/symbols/NYSE-MRK/",
+    "checkedAt": "2026-11-04T02:39:47.834Z"
   }
 }
