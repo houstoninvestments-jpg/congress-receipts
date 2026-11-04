@@ -1,5 +1,5 @@
 {
-  "nextNumber": 26,
+  "nextNumber": 27,
   "receipts": [
     {
       "number": 1,
@@ -2025,6 +2025,87 @@
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "r5Tn4Dx0G3o",
       "youtubePrivacy": "public"
+    },
+    {
+      "number": 26,
+      "date": "2026-11-04",
+      "txnId": "20035408-33",
+      "docId": "20035408",
+      "bioguide": "M001232",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "April McClain Delaney",
+        "memberTitle": "Rep.",
+        "memberNoun": "congresswoman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "MD",
+        "stateName": "Maryland",
+        "district": 6,
+        "owner": "a dependent child",
+        "company": "Liberty Media Corporation - Series C Liberty Formula One",
+        "companyFull": "Liberty Media Corporation - Series C Liberty Formula One",
+        "ticker": "FWONK",
+        "amountText": "$15,001 - $50,000",
+        "amountMin": 15001,
+        "amountMax": 50000,
+        "amountMid": 32501,
+        "tradeDate": "2026-08-03",
+        "filedDate": "2026-09-09",
+        "daysToFile": 37,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "FWONK",
+            "start": {
+              "date": "2026-08-03",
+              "close": 97.74
+            },
+            "end": {
+              "date": "2026-11-03",
+              "close": 95.56
+            },
+            "changePct": -2.2
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-08-03",
+              "close": 757.67
+            },
+            "end": {
+              "date": "2026-11-03",
+              "close": 754.35
+            },
+            "changePct": -0.4
+          }
+        },
+        "excessPts": -1.8,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf"
+      },
+      "script": {
+        "hook": "This congresswoman's dependent child bought up to $50K of Liberty Media Corporation - Series C Liberty Formula One. The receipt is in.",
+        "receiptSay": "Rep. April McClain Delaney, Democrat of Maryland. Trade date Aug 3. Filed Sep 9.",
+        "resultSay": "Since then, Liberty Media Corporation - Series C Liberty Formula One is down 2.2%. The S&P 500 is down 0.4%.",
+        "stampSay": "That lost to the market by 1.8 points.",
+        "title": "Receipt No. 026: Rep. April McClain Delaney's child bought Liberty Media Corporation - Series C Lib…",
+        "description": "Rep. April McClain Delaney (D-MD) reported her dependent child buying Liberty Media Corporation - Series C Liberty Formula One (FWONK) worth $15,001 - $50,000 on August 3, 2026. The report was filed September 9, 2026."
+      },
+      "slug": "026-april-mcclain-delaney-fwonk",
+      "cta": "soft",
+      "hookVariant": "receipt-in",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "2qKhprNnwNQ",
+      "youtubePrivacy": "public"
     }
   ],
   "skipped": [
@@ -2212,6 +2293,11 @@
       "txnId": "20035669-2",
       "date": "2026-11-03",
       "reason": "prices: NVDA and SPY windows differ"
+    },
+    {
+      "txnId": "20035408-30",
+      "date": "2026-11-04",
+      "reason": "code check: script is 547 characters when read aloud; limit is 520 to stay under 40 seconds"
     }
   ],
   "firstUploadCheck": {
