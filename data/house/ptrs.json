@@ -63059,5 +63059,39 @@
     ],
     "problems": [],
     "parsedAt": "2026-11-03T21:38:48.394Z"
+  },
+  "20035763": {
+    "filing": {
+      "docId": "20035763",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Robert E.",
+      "last": "Latta",
+      "suffix": "",
+      "stateDst": "OH05",
+      "filingDate": "2026-11-03",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035763.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-11-03",
+    "transactions": [
+      {
+        "id": "20035763-1",
+        "docId": "20035763",
+        "row": 1,
+        "owner": "SP",
+        "asset": "Farmers & Merchants Bancorp, Inc. (FMAO) [ST]",
+        "ticker": "FMAO",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-10-20",
+        "notifiedDate": "2026-10-20",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-11-04T21:38:33.324Z"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "nextNumber": 27,
+  "nextNumber": 28,
   "receipts": [
     {
       "number": 1,
@@ -2105,6 +2105,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "2qKhprNnwNQ",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 27,
+      "date": "2026-11-04",
+      "txnId": "20035635-4",
+      "docId": "20035635",
+      "bioguide": "L000560",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Rick Larsen",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "WA",
+        "stateName": "Washington",
+        "district": 2,
+        "owner": "the member",
+        "company": "Williams-Sonoma",
+        "companyFull": "Williams-Sonoma, Inc.",
+        "ticker": "WSM",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-10-08",
+        "filedDate": "2026-10-12",
+        "daysToFile": 4,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "WSM",
+            "start": {
+              "date": "2026-10-08",
+              "close": 239
+            },
+            "end": {
+              "date": "2026-11-03",
+              "close": 253.7
+            },
+            "changePct": 6.2
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-10-08",
+              "close": 773.93
+            },
+            "end": {
+              "date": "2026-11-03",
+              "close": 754.35
+            },
+            "changePct": -2.5
+          }
+        },
+        "excessPts": 8.7,
+        "stamp": "BEAT THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of Williams-Sonoma. Here's what happened next.",
+        "receiptSay": "Rep. Rick Larsen, Democrat of Washington. Trade date October 8. Filed October 12.",
+        "resultSay": "Since then, Williams-Sonoma is up 6.2%. The S&P 500 is down 2.5%.",
+        "stampSay": "That beat the market by 8.7 points.",
+        "title": "Receipt No. 027: Rep. Rick Larsen bought Williams-Sonoma",
+        "description": "Rep. Rick Larsen (D-WA) reported buying Williams-Sonoma (WSM) worth $1,001 - $15,000 on October 8, 2026. The report was filed October 12, 2026."
+      },
+      "slug": "027-rick-larsen-wsm",
+      "cta": "direct",
+      "hookVariant": "what-next",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "BhJRyQJbB8A",
       "youtubePrivacy": "public"
     }
   ],

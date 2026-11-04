@@ -98,5 +98,9 @@
   "FWONK": {
     "path": "/symbols/NASDAQ-FWONK/",
     "checkedAt": "2026-11-04T16:43:13.995Z"
+  },
+  "WSM": {
+    "path": "/symbols/NYSE-WSM/",
+    "checkedAt": "2026-11-04T21:39:49.121Z"
   }
 }

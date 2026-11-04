@@ -8,48 +8,43 @@
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 452 reports in the Clerk's index, 0 new parsed"
+      "detail": "439 House members; 453 reports in the Clerk's index, 1 new parsed"
     },
     {
       "step": "pick",
       "ok": true,
-      "detail": "100 purchases qualify, 71 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":705,\"member featured in the last 7 days\":219,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
-    },
-    {
-      "step": "check",
-      "ok": false,
-      "detail": "April McClain Delaney / FWONK: code check: script is 547 characters when read aloud; limit is 520 to stay under 40 seconds"
+      "detail": "42 purchases qualify, 12 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":705,\"member featured in the last 7 days\":276,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "April McClain Delaney / FWONK: code checks and both reviews passed"
+      "detail": "Rick Larsen / WSM: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 37.0s"
+      "detail": "AI voice (Kokoro open model), 29.7s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-04/receipt-026.mp4 (1080x1920, 36.97s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-04/receipt-027.mp4 (1080x1920, 29.74s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded 2qKhprNnwNQ as public"
+      "detail": "uploaded BhJRyQJbB8A as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. April McClain Delaney (D-MD) bought FWONK $15,001 - $50,000, traded 2026-08-03, filed 2026-09-09, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf",
-    "result": "FWONK -2.2% vs SPY -0.4% (2026-08-03 to 2026-11-03), stamp LOST TO THE MARKET",
-    "readWindow": "filing card untouched (0.01% changed), result untouched by the stamp (0.01%)",
-    "title": "Receipt No. 026: Rep. April McClain Delaney's child bought Liberty Media Corporation - Series C Lib…",
-    "upload": "2qKhprNnwNQ, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.2931 over 6 model calls (writer claude-fable-5-1 1681+1232 tok; writer-retry claude-fable-5-1 2042+803 tok; writer claude-fable-5-1 1681+1095 tok; writer-retry claude-fable-5-1 2036+826 tok; checker-b claude-opus-5-5 1382+210 tok; checker-a claude-opus-5-5 1422+273 tok)"
+    "receipt": "Rep. Rick Larsen (D-WA) bought WSM $1,001 - $15,000, traded 2026-10-08, filed 2026-10-12, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf",
+    "result": "WSM 6.2% vs SPY -2.5% (2026-10-08 to 2026-11-03), stamp BEAT THE MARKET",
+    "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
+    "title": "Receipt No. 027: Rep. Rick Larsen bought Williams-Sonoma",
+    "upload": "BhJRyQJbB8A, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0483 over 3 model calls (writer claude-fable-5-1 1596+224 tok; checker-a claude-opus-5-5 1315+178 tok; checker-b claude-opus-5-5 1275+361 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-04/receipt-026.mp4",
-  "receipt": 26,
-  "youtubeId": "2qKhprNnwNQ"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-04/receipt-027.mp4",
+  "receipt": 27,
+  "youtubeId": "BhJRyQJbB8A"
 }
