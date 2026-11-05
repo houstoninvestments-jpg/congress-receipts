@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-04T21:39:58.327Z",
+  "updatedAt": "2026-11-05T02:40:13.200Z",
   "byHook": {
     "receipt-in": {
-      "videos": 3,
-      "views": 251,
-      "avgWatchPct": 51.6,
-      "avgReward": 0.748
+      "videos": 6,
+      "views": 1148,
+      "avgWatchPct": 58.3,
+      "avgReward": 0.783
     },
     "what-next": {
       "videos": 4,
@@ -22,22 +22,22 @@
   },
   "byCta": {
     "soft": {
-      "videos": 6,
-      "views": 883,
-      "avgWatchPct": 51.6,
-      "avgReward": 0.757
+      "videos": 7,
+      "views": 1254,
+      "avgWatchPct": 49.9,
+      "avgReward": 0.748
     },
     "direct": {
-      "videos": 5,
-      "views": 694,
-      "avgWatchPct": 50.5,
-      "avgReward": 0.747
+      "videos": 6,
+      "views": 802,
+      "avgWatchPct": 50.6,
+      "avgReward": 0.748
     },
     "none": {
-      "videos": 5,
-      "views": 2181,
-      "avgWatchPct": 55.8,
-      "avgReward": 0.779
+      "videos": 6,
+      "views": 2599,
+      "avgWatchPct": 63.9,
+      "avgReward": 0.816
     }
   }
 }

@@ -8,43 +8,43 @@
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 453 reports in the Clerk's index, 1 new parsed"
+      "detail": "439 House members; 453 reports in the Clerk's index, 0 new parsed"
     },
     {
       "step": "pick",
       "ok": true,
-      "detail": "42 purchases qualify, 12 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":705,\"member featured in the last 7 days\":276,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
+      "detail": "39 purchases qualify, 39 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":705,\"member featured in the last 7 days\":278,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Rick Larsen / WSM: code checks and both reviews passed"
+      "detail": "Robert E. Latta / FMAO: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 29.7s"
+      "detail": "AI voice (Kokoro open model), 34.1s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-04/receipt-027.mp4 (1080x1920, 29.74s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-04/receipt-028.mp4 (1080x1920, 34.11s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded BhJRyQJbB8A as public"
+      "detail": "uploaded G0TshgH8wjA as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Rick Larsen (D-WA) bought WSM $1,001 - $15,000, traded 2026-10-08, filed 2026-10-12, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035635.pdf",
-    "result": "WSM 6.2% vs SPY -2.5% (2026-10-08 to 2026-11-03), stamp BEAT THE MARKET",
+    "receipt": "Rep. Robert E. Latta (R-OH) bought FMAO $1,001 - $15,000, traded 2026-10-20, filed 2026-11-03, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035763.pdf",
+    "result": "FMAO 5.4% vs SPY -0.3% (2026-10-20 to 2026-11-04), stamp BEAT THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 027: Rep. Rick Larsen bought Williams-Sonoma",
-    "upload": "BhJRyQJbB8A, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0483 over 3 model calls (writer claude-fable-5-1 1596+224 tok; checker-a claude-opus-5-5 1315+178 tok; checker-b claude-opus-5-5 1275+361 tok)"
+    "title": "Receipt No. 028: Rep. Robert E. Latta's spouse bought Farmers & Merchants Bancorp",
+    "upload": "G0TshgH8wjA, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.1054 over 3 model calls (writer claude-fable-5-1 1634+1392 tok; checker-a claude-opus-5-5 1377+208 tok; checker-b claude-opus-5-5 1337+223 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-04/receipt-027.mp4",
-  "receipt": 27,
-  "youtubeId": "BhJRyQJbB8A"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-04/receipt-028.mp4",
+  "receipt": 28,
+  "youtubeId": "G0TshgH8wjA"
 }

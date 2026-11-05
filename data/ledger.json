@@ -1,5 +1,5 @@
 {
-  "nextNumber": 28,
+  "nextNumber": 29,
   "receipts": [
     {
       "number": 1,
@@ -2186,6 +2186,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "BhJRyQJbB8A",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 28,
+      "date": "2026-11-04",
+      "txnId": "20035763-1",
+      "docId": "20035763",
+      "bioguide": "L000566",
+      "party": "Republican",
+      "facts": {
+        "memberName": "Robert E. Latta",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "OH",
+        "stateName": "Ohio",
+        "district": 5,
+        "owner": "a spouse",
+        "company": "Farmers & Merchants Bancorp",
+        "companyFull": "Farmers & Merchants Bancorp, Inc.",
+        "ticker": "FMAO",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-10-20",
+        "filedDate": "2026-11-03",
+        "daysToFile": 14,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "FMAO",
+            "start": {
+              "date": "2026-10-20",
+              "close": 35.55
+            },
+            "end": {
+              "date": "2026-11-04",
+              "close": 37.48
+            },
+            "changePct": 5.4
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-10-20",
+              "close": 769.05
+            },
+            "end": {
+              "date": "2026-11-04",
+              "close": 766.81
+            },
+            "changePct": -0.3
+          }
+        },
+        "excessPts": 5.7,
+        "stamp": "BEAT THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035763.pdf"
+      },
+      "script": {
+        "hook": "Congressman's spouse bought up to $15K of Farmers & Merchants Bancorp. Receipt's in.",
+        "receiptSay": "Rep. Robert E. Latta, Republican of Ohio. Trade date October 20, 2026. Filed November 3, 2026.",
+        "resultSay": "Since then, Farmers & Merchants Bancorp is up 5.4%. The S&P 500 is down 0.3%.",
+        "stampSay": "That beat the market by 5.7 points.",
+        "title": "Receipt No. 028: Rep. Robert E. Latta's spouse bought Farmers & Merchants Bancorp",
+        "description": "Rep. Robert E. Latta (R-OH) reported that his spouse bought Farmers & Merchants Bancorp (FMAO) worth $1,001 - $15,000 on October 20, 2026. The report was filed November 3, 2026."
+      },
+      "slug": "028-robert-e-latta-fmao",
+      "cta": "none",
+      "hookVariant": "receipt-in",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "G0TshgH8wjA",
       "youtubePrivacy": "public"
     }
   ],

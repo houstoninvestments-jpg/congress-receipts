@@ -102,5 +102,9 @@
   "WSM": {
     "path": "/symbols/NYSE-WSM/",
     "checkedAt": "2026-11-04T21:39:49.121Z"
+  },
+  "FMAO": {
+    "path": "/symbols/NASDAQ-FMAO/",
+    "checkedAt": "2026-11-05T02:40:02.487Z"
   }
 }
