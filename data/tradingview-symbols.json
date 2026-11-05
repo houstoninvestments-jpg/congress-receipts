@@ -106,5 +106,9 @@
   "FMAO": {
     "path": "/symbols/NASDAQ-FMAO/",
     "checkedAt": "2026-11-05T02:40:02.487Z"
+  },
+  "IBM": {
+    "path": "/symbols/NYSE-IBM/",
+    "checkedAt": "2026-11-05T16:40:41.580Z"
   }
 }

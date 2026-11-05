@@ -1,5 +1,5 @@
 {
-  "nextNumber": 29,
+  "nextNumber": 30,
   "receipts": [
     {
       "number": 1,
@@ -2267,6 +2267,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "G0TshgH8wjA",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 29,
+      "date": "2026-11-05",
+      "txnId": "20035580-2",
+      "docId": "20035580",
+      "bioguide": "D000399",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Lloyd Doggett",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "TX",
+        "stateName": "Texas",
+        "district": 37,
+        "owner": "the member",
+        "company": "International Business Machines",
+        "companyFull": "International Business Machines Corporation",
+        "ticker": "IBM",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-09-10",
+        "filedDate": "2026-10-05",
+        "daysToFile": 25,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "IBM",
+            "start": {
+              "date": "2026-09-10",
+              "close": 234.02
+            },
+            "end": {
+              "date": "2026-11-04",
+              "close": 254.32
+            },
+            "changePct": 8.7
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-09-10",
+              "close": 757.83
+            },
+            "end": {
+              "date": "2026-11-04",
+              "close": 766.81
+            },
+            "changePct": 1.2
+          }
+        },
+        "excessPts": 7.5,
+        "stamp": "BEAT THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of International Business Machines. Here's what happened next.",
+        "receiptSay": "Rep. Lloyd Doggett, Democrat of Texas. Trade date September 10. Filed October 5.",
+        "resultSay": "Since then, International Business Machines is up 8.7%. The S&P 500 is up 1.2%.",
+        "stampSay": "That beat the market by 7.5 points.",
+        "title": "Receipt No. 029: Rep. Lloyd Doggett bought International Business Machines",
+        "description": "Rep. Lloyd Doggett (D-TX) reported buying International Business Machines (IBM) worth $1,001 - $15,000 on September 10, 2026. The report was filed October 5, 2026."
+      },
+      "slug": "029-lloyd-doggett-ibm",
+      "cta": "soft",
+      "hookVariant": "what-next",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "MLDl_5mF7Yk",
       "youtubePrivacy": "public"
     }
   ],

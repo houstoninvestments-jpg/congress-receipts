@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "dryRun": false,
   "status": "published",
   "warnings": [],
@@ -13,38 +13,38 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "39 purchases qualify, 39 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":705,\"member featured in the last 7 days\":278,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
+      "detail": "50 purchases qualify, 49 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":684,\"member featured in the last 7 days\":250,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Robert E. Latta / FMAO: code checks and both reviews passed"
+      "detail": "Lloyd Doggett / IBM: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 34.1s"
+      "detail": "AI voice (Kokoro open model), 31.1s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-04/receipt-028.mp4 (1080x1920, 34.11s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-05/receipt-029.mp4 (1080x1920, 31.15s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded G0TshgH8wjA as public"
+      "detail": "uploaded MLDl_5mF7Yk as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Robert E. Latta (R-OH) bought FMAO $1,001 - $15,000, traded 2026-10-20, filed 2026-11-03, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035763.pdf",
-    "result": "FMAO 5.4% vs SPY -0.3% (2026-10-20 to 2026-11-04), stamp BEAT THE MARKET",
+    "receipt": "Rep. Lloyd Doggett (D-TX) bought IBM $1,001 - $15,000, traded 2026-09-10, filed 2026-10-05, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf",
+    "result": "IBM 8.7% vs SPY 1.2% (2026-09-10 to 2026-11-04), stamp BEAT THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 028: Rep. Robert E. Latta's spouse bought Farmers & Merchants Bancorp",
-    "upload": "G0TshgH8wjA, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.1054 over 3 model calls (writer claude-fable-5-1 1634+1392 tok; checker-a claude-opus-5-5 1377+208 tok; checker-b claude-opus-5-5 1337+223 tok)"
+    "title": "Receipt No. 029: Rep. Lloyd Doggett bought International Business Machines",
+    "upload": "MLDl_5mF7Yk, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0459 over 3 model calls (writer claude-fable-5-1 1586+219 tok; checker-a claude-opus-5-5 1304+141 tok; checker-b claude-opus-5-5 1264+300 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-04/receipt-028.mp4",
-  "receipt": 28,
-  "youtubeId": "G0TshgH8wjA"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-05/receipt-029.mp4",
+  "receipt": 29,
+  "youtubeId": "MLDl_5mF7Yk"
 }
