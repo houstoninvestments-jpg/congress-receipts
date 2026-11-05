@@ -1,5 +1,5 @@
 {
-  "nextNumber": 30,
+  "nextNumber": 31,
   "receipts": [
     {
       "number": 1,
@@ -2348,6 +2348,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "MLDl_5mF7Yk",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 30,
+      "date": "2026-11-05",
+      "txnId": "20035492-3",
+      "docId": "20035492",
+      "bioguide": "A000372",
+      "party": "Republican",
+      "facts": {
+        "memberName": "Rick W. Allen",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "GA",
+        "stateName": "Georgia",
+        "district": 12,
+        "owner": "a spouse",
+        "company": "Taiwan Semiconductor Manufacturing Company",
+        "companyFull": "Taiwan Semiconductor Manufacturing Company Ltd.",
+        "ticker": "TSM",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-08-12",
+        "filedDate": "2026-09-22",
+        "daysToFile": 41,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "TSM",
+            "start": {
+              "date": "2026-08-12",
+              "close": 429.15
+            },
+            "end": {
+              "date": "2026-11-04",
+              "close": 395.75
+            },
+            "changePct": -7.8
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-08-12",
+              "close": 772.49
+            },
+            "end": {
+              "date": "2026-11-04",
+              "close": 766.81
+            },
+            "changePct": -0.7
+          }
+        },
+        "excessPts": -7.1,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf"
+      },
+      "script": {
+        "hook": "Congressman's spouse bought up to $15K of Taiwan Semiconductor Manufacturing Company. What happened?",
+        "receiptSay": "Rep. Rick W. Allen, Republican of Georgia. The filing lists a spouse as owner. Trade date Aug 12. Filed Sep 22.",
+        "resultSay": "Since then, Taiwan Semiconductor Manufacturing Company is down 7.8%. The S&P 500 is down 0.7%.",
+        "stampSay": "That lost to the market by 7.1 points.",
+        "title": "Receipt No. 030: Rep. Rick W. Allen's spouse bought Taiwan Semiconductor Manufacturing Company",
+        "description": "Rep. Rick W. Allen (R-GA) reported a spouse's purchase of Taiwan Semiconductor Manufacturing Company (TSM) worth $1,001 - $15,000. The trade was dated August 12, 2026 and filed September 22, 2026."
+      },
+      "slug": "030-rick-w-allen-tsm",
+      "cta": "direct",
+      "hookVariant": "what-next",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "cDePgK66Neg",
       "youtubePrivacy": "public"
     }
   ],

@@ -13,38 +13,38 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "50 purchases qualify, 49 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":684,\"member featured in the last 7 days\":250,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
+      "detail": "45 purchases qualify, 35 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":684,\"member featured in the last 7 days\":254,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Lloyd Doggett / IBM: code checks and both reviews passed"
+      "detail": "Rick W. Allen / TSM: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 31.1s"
+      "detail": "AI voice (Kokoro open model), 37.1s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-05/receipt-029.mp4 (1080x1920, 31.15s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-05/receipt-030.mp4 (1080x1920, 37.08s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded MLDl_5mF7Yk as public"
+      "detail": "uploaded cDePgK66Neg as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Lloyd Doggett (D-TX) bought IBM $1,001 - $15,000, traded 2026-09-10, filed 2026-10-05, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf",
-    "result": "IBM 8.7% vs SPY 1.2% (2026-09-10 to 2026-11-04), stamp BEAT THE MARKET",
-    "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 029: Rep. Lloyd Doggett bought International Business Machines",
-    "upload": "MLDl_5mF7Yk, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0459 over 3 model calls (writer claude-fable-5-1 1586+219 tok; checker-a claude-opus-5-5 1304+141 tok; checker-b claude-opus-5-5 1264+300 tok)"
+    "receipt": "Rep. Rick W. Allen (R-GA) bought TSM $1,001 - $15,000, traded 2026-08-12, filed 2026-09-22, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf",
+    "result": "TSM -7.8% vs SPY -0.7% (2026-08-12 to 2026-11-04), stamp LOST TO THE MARKET",
+    "readWindow": "filing card untouched (0.01% changed), result untouched by the stamp (0.01%)",
+    "title": "Receipt No. 030: Rep. Rick W. Allen's spouse bought Taiwan Semiconductor Manufacturing Company",
+    "upload": "cDePgK66Neg, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.2270 over 4 model calls (writer claude-fable-5-1 1662+1919 tok; writer-retry claude-fable-5-1 2039+1519 tok; checker-a claude-opus-5-5 1419+153 tok; checker-b claude-opus-5-5 1379+193 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-05/receipt-029.mp4",
-  "receipt": 29,
-  "youtubeId": "MLDl_5mF7Yk"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-05/receipt-030.mp4",
+  "receipt": 30,
+  "youtubeId": "cDePgK66Neg"
 }
