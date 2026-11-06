@@ -19,7 +19,7 @@
     "averageViewPercentage": 72.5,
     "holdAt10": null,
     "scored": false,
-    "measuredAt": "2026-11-05T21:40:41.030Z"
+    "measuredAt": "2026-11-06T02:40:03.942Z"
   },
   "hls28dxrCls": {
     "videoId": "hls28dxrCls",
@@ -30,7 +30,7 @@
     "averageViewPercentage": 34.55,
     "holdAt10": 1,
     "scored": false,
-    "measuredAt": "2026-11-05T21:40:41.030Z"
+    "measuredAt": "2026-11-06T02:40:03.942Z"
   },
   "Eh2Z7SwAUwg": {
     "videoId": "Eh2Z7SwAUwg",
@@ -229,5 +229,38 @@
     "holdAt10": 1.6706,
     "scored": true,
     "measuredAt": "2026-11-05T02:40:10.403Z"
+  },
+  "QU3kfCjX8jM": {
+    "videoId": "QU3kfCjX8jM",
+    "number": 23,
+    "hookVariant": "what-next",
+    "cta": "soft",
+    "views": 220,
+    "averageViewPercentage": 42.35,
+    "holdAt10": 1.0270000000000001,
+    "scored": true,
+    "measuredAt": "2026-11-06T02:40:03.942Z"
+  },
+  "bPUBVv0wClg": {
+    "videoId": "bPUBVv0wClg",
+    "number": 24,
+    "hookVariant": "receipt-in",
+    "cta": "direct",
+    "views": 11,
+    "averageViewPercentage": 57.24,
+    "holdAt10": null,
+    "scored": false,
+    "measuredAt": "2026-11-06T02:40:03.942Z"
+  },
+  "r5Tn4Dx0G3o": {
+    "videoId": "r5Tn4Dx0G3o",
+    "number": 25,
+    "hookVariant": "what-next",
+    "cta": "none",
+    "views": 137,
+    "averageViewPercentage": 56.32,
+    "holdAt10": 1.075,
+    "scored": true,
+    "measuredAt": "2026-11-06T02:40:03.942Z"
   }
 }

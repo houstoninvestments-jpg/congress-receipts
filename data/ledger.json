@@ -1,5 +1,5 @@
 {
-  "nextNumber": 31,
+  "nextNumber": 32,
   "receipts": [
     {
       "number": 1,
@@ -2429,6 +2429,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "cDePgK66Neg",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 31,
+      "date": "2026-11-05",
+      "txnId": "20035450-10",
+      "docId": "20035450",
+      "bioguide": "F000472",
+      "party": "Republican",
+      "facts": {
+        "memberName": "Scott Franklin",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "FL",
+        "stateName": "Florida",
+        "district": 18,
+        "owner": "the member",
+        "company": "Novo Nordisk A/S",
+        "companyFull": "Novo Nordisk A/S",
+        "ticker": "NVO",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-08-26",
+        "filedDate": "2026-09-17",
+        "daysToFile": 22,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "NVO",
+            "start": {
+              "date": "2026-08-26",
+              "close": 47.19
+            },
+            "end": {
+              "date": "2026-11-05",
+              "close": 40.3
+            },
+            "changePct": -14.6
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-08-26",
+              "close": 766.08
+            },
+            "end": {
+              "date": "2026-11-05",
+              "close": 733
+            },
+            "changePct": -4.3
+          }
+        },
+        "excessPts": -10.3,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of Novo Nordisk A/S. Here's what happened next.",
+        "receiptSay": "Rep. Scott Franklin, Republican of Florida. Trade date August 26. Filed September 17.",
+        "resultSay": "Since then, Novo Nordisk A/S is down 14.6%. The S&P 500 is down 4.3%.",
+        "stampSay": "That lost to the market by 10.3 points.",
+        "title": "Receipt No. 031: Rep. Scott Franklin bought Novo Nordisk A/S",
+        "description": "Rep. Scott Franklin (R-FL) reported buying Novo Nordisk A/S (NVO) worth $1,001 - $15,000 on August 26, 2026. The report was filed September 17, 2026."
+      },
+      "slug": "031-scott-franklin-nvo",
+      "cta": "none",
+      "hookVariant": "what-next",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "pZlXnKfMfwk",
       "youtubePrivacy": "public"
     }
   ],

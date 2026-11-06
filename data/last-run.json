@@ -8,43 +8,43 @@
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 453 reports in the Clerk's index, 0 new parsed"
+      "detail": "439 House members; 456 reports in the Clerk's index, 3 new parsed"
     },
     {
       "step": "pick",
       "ok": true,
-      "detail": "45 purchases qualify, 35 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":116,\"not a purchase\":684,\"member featured in the last 7 days\":254,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
+      "detail": "42 purchases qualify, 41 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":117,\"not a purchase\":687,\"member featured in the last 7 days\":256,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2,\"trade too recent to measure\":4}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Rick W. Allen / TSM: code checks and both reviews passed"
+      "detail": "Scott Franklin / NVO: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 37.1s"
+      "detail": "AI voice (Kokoro open model), 32.6s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-05/receipt-030.mp4 (1080x1920, 37.08s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-05/receipt-031.mp4 (1080x1920, 32.64s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded cDePgK66Neg as public"
+      "detail": "uploaded pZlXnKfMfwk as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Rick W. Allen (R-GA) bought TSM $1,001 - $15,000, traded 2026-08-12, filed 2026-09-22, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf",
-    "result": "TSM -7.8% vs SPY -0.7% (2026-08-12 to 2026-11-04), stamp LOST TO THE MARKET",
-    "readWindow": "filing card untouched (0.01% changed), result untouched by the stamp (0.01%)",
-    "title": "Receipt No. 030: Rep. Rick W. Allen's spouse bought Taiwan Semiconductor Manufacturing Company",
-    "upload": "cDePgK66Neg, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.2270 over 4 model calls (writer claude-fable-5-1 1662+1919 tok; writer-retry claude-fable-5-1 2039+1519 tok; checker-a claude-opus-5-5 1419+153 tok; checker-b claude-opus-5-5 1379+193 tok)"
+    "receipt": "Rep. Scott Franklin (R-FL) bought NVO $1,001 - $15,000, traded 2026-08-26, filed 2026-09-17, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf",
+    "result": "NVO -14.6% vs SPY -4.3% (2026-08-26 to 2026-11-05), stamp LOST TO THE MARKET",
+    "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
+    "title": "Receipt No. 031: Rep. Scott Franklin bought Novo Nordisk A/S",
+    "upload": "pZlXnKfMfwk, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The thumbnail can't be set for the specified video. The request might not be properly authorized.\", \"errors\": [ { \"message\": \"The thumbnail can't be set for the s",
+    "modelCost": "$0.0461 over 3 model calls (writer claude-fable-5-1 1602+230 tok; checker-a claude-opus-5-5 1323+188 tok; checker-b claude-opus-5-5 1283+222 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-05/receipt-030.mp4",
-  "receipt": 30,
-  "youtubeId": "cDePgK66Neg"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-05/receipt-031.mp4",
+  "receipt": 31,
+  "youtubeId": "pZlXnKfMfwk"
 }

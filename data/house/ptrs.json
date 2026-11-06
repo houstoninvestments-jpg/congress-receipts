@@ -62392,6 +62392,40 @@
     "problems": [],
     "parsedAt": "2026-10-25T04:19:48.957Z"
   },
+  "20035662": {
+    "filing": {
+      "docId": "20035662",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Daniel",
+      "last": "Meuser",
+      "suffix": "",
+      "stateDst": "PA09",
+      "filingDate": "2026-11-05",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035662.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-11-05",
+    "transactions": [
+      {
+        "id": "20035662-1",
+        "docId": "20035662",
+        "row": 1,
+        "owner": "SP",
+        "asset": "NVIDIA Corporation - Common Stock (NVDA) [ST]",
+        "ticker": "NVDA",
+        "assetType": "ST",
+        "type": "S (partial)",
+        "tradeDate": "2026-09-25",
+        "notifiedDate": "2026-10-14",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-11-06T02:38:33.357Z"
+  },
   "20035669": {
     "filing": {
       "docId": "20035669",
@@ -63093,5 +63127,148 @@
     ],
     "problems": [],
     "parsedAt": "2026-11-04T21:38:33.324Z"
+  },
+  "20035765": {
+    "filing": {
+      "docId": "20035765",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Mike",
+      "last": "Kelly",
+      "suffix": "",
+      "stateDst": "PA16",
+      "filingDate": "2026-11-04",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035765.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-11-04",
+    "transactions": [
+      {
+        "id": "20035765-1",
+        "docId": "20035765",
+        "row": 1,
+        "owner": "SP",
+        "asset": "Fairfax Cnty VA Ser A Go [GS]",
+        "ticker": null,
+        "assetType": "GS",
+        "type": "S",
+        "tradeDate": "2026-10-15",
+        "notifiedDate": "2026-11-04",
+        "amountMin": 50001,
+        "amountMax": 100000,
+        "amountText": "$50,001 - $100,000"
+      },
+      {
+        "id": "20035765-2",
+        "docId": "20035765",
+        "row": 2,
+        "owner": "SP",
+        "asset": "North Carolina Hsg Fin Agy Hom S [GS]",
+        "ticker": null,
+        "assetType": "GS",
+        "type": "P",
+        "tradeDate": "2026-10-01",
+        "notifiedDate": "2026-11-04",
+        "amountMin": 50001,
+        "amountMax": 100000,
+        "amountText": "$50,001 - $100,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-11-06T02:38:33.357Z"
+  },
+  "20035778": {
+    "filing": {
+      "docId": "20035778",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Maria Elvira",
+      "last": "Salazar",
+      "suffix": "",
+      "stateDst": "FL27",
+      "filingDate": "2026-11-05",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035778.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-11-05",
+    "transactions": [
+      {
+        "id": "20035778-1",
+        "docId": "20035778",
+        "row": 1,
+        "owner": "",
+        "asset": "Cisco Systems, Inc. - Common Stock (CSCO) [ST]",
+        "ticker": "CSCO",
+        "assetType": "ST",
+        "type": "S",
+        "tradeDate": "2026-10-23",
+        "notifiedDate": "2026-11-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035778-2",
+        "docId": "20035778",
+        "row": 2,
+        "owner": "",
+        "asset": "NVIDIA Corporation - Common Stock (NVDA) [ST]",
+        "ticker": "NVDA",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-10-23",
+        "notifiedDate": "2026-11-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035778-3",
+        "docId": "20035778",
+        "row": 3,
+        "owner": "",
+        "asset": "NVIDIA Corporation - Common Stock (NVDA) [ST]",
+        "ticker": "NVDA",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-10-23",
+        "notifiedDate": "2026-11-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035778-4",
+        "docId": "20035778",
+        "row": 4,
+        "owner": "",
+        "asset": "Procter & Gamble Company (PG) [ST]",
+        "ticker": "PG",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-10-23",
+        "notifiedDate": "2026-11-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035778-5",
+        "docId": "20035778",
+        "row": 5,
+        "owner": "",
+        "asset": "Procter & Gamble Company (PG) [ST]",
+        "ticker": "PG",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-10-23",
+        "notifiedDate": "2026-11-01",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-11-06T02:38:33.357Z"
   }
 }
