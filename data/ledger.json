@@ -1,5 +1,5 @@
 {
-  "nextNumber": 32,
+  "nextNumber": 33,
   "receipts": [
     {
       "number": 1,
@@ -2510,6 +2510,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "pZlXnKfMfwk",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 32,
+      "date": "2026-11-06",
+      "txnId": "20035591-2",
+      "docId": "20035591",
+      "bioguide": "K000398",
+      "party": "Republican",
+      "facts": {
+        "memberName": "Thomas H. Kean, Jr.",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "NJ",
+        "stateName": "New Jersey",
+        "district": 7,
+        "owner": "the member",
+        "company": "ESAB",
+        "companyFull": "ESAB Corporation",
+        "ticker": "ESAB",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-09-29",
+        "filedDate": "2026-10-30",
+        "daysToFile": 31,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "ESAB",
+            "start": {
+              "date": "2026-09-29",
+              "close": 67.6
+            },
+            "end": {
+              "date": "2026-11-05",
+              "close": 79.12
+            },
+            "changePct": 17
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-09-29",
+              "close": 764.2
+            },
+            "end": {
+              "date": "2026-11-05",
+              "close": 733
+            },
+            "changePct": -4.1
+          }
+        },
+        "excessPts": 21.1,
+        "stamp": "BEAT THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035591.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of ESAB. The receipt is in.",
+        "receiptSay": "Rep. Thomas H. Kean, Jr., Republican of New Jersey. Trade date September 29. Filed October 30.",
+        "resultSay": "Since then, ESAB is up 17.0%. The S&P 500 is down 4.1%.",
+        "stampSay": "That beat the market by 21.1 points.",
+        "title": "Receipt No. 032: Rep. Thomas H. Kean, Jr. bought ESAB",
+        "description": "Rep. Thomas H. Kean, Jr. (R-NJ) reported buying ESAB (ESAB) worth $1,001 - $15,000 on September 29, 2026. The report was filed October 30, 2026."
+      },
+      "slug": "032-thomas-h-kean-jr-esab",
+      "cta": "soft",
+      "hookVariant": "receipt-in",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "wTdZ6OP8MaE",
       "youtubePrivacy": "public"
     }
   ],

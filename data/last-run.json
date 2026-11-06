@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "dryRun": false,
   "status": "published",
   "warnings": [],
@@ -8,43 +8,43 @@
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 456 reports in the Clerk's index, 3 new parsed"
+      "detail": "439 House members; 456 reports in the Clerk's index, 0 new parsed"
     },
     {
       "step": "pick",
       "ok": true,
-      "detail": "42 purchases qualify, 41 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":117,\"not a purchase\":687,\"member featured in the last 7 days\":256,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2,\"trade too recent to measure\":4}"
+      "detail": "60 purchases qualify, 59 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":117,\"not a purchase\":683,\"member featured in the last 7 days\":240,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Scott Franklin / NVO: code checks and both reviews passed"
+      "detail": "Thomas H. Kean, Jr. / ESAB: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 32.6s"
+      "detail": "AI voice (Kokoro open model), 30.6s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-05/receipt-031.mp4 (1080x1920, 32.64s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-06/receipt-032.mp4 (1080x1920, 30.64s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded pZlXnKfMfwk as public"
+      "detail": "uploaded wTdZ6OP8MaE as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Scott Franklin (R-FL) bought NVO $1,001 - $15,000, traded 2026-08-26, filed 2026-09-17, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf",
-    "result": "NVO -14.6% vs SPY -4.3% (2026-08-26 to 2026-11-05), stamp LOST TO THE MARKET",
+    "receipt": "Rep. Thomas H. Kean, Jr. (R-NJ) bought ESAB $1,001 - $15,000, traded 2026-09-29, filed 2026-10-30, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035591.pdf",
+    "result": "ESAB 17% vs SPY -4.1% (2026-09-29 to 2026-11-05), stamp BEAT THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 031: Rep. Scott Franklin bought Novo Nordisk A/S",
-    "upload": "pZlXnKfMfwk, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The thumbnail can't be set for the specified video. The request might not be properly authorized.\", \"errors\": [ { \"message\": \"The thumbnail can't be set for the s",
-    "modelCost": "$0.0461 over 3 model calls (writer claude-fable-5-1 1602+230 tok; checker-a claude-opus-5-5 1323+188 tok; checker-b claude-opus-5-5 1283+222 tok)"
+    "title": "Receipt No. 032: Rep. Thomas H. Kean, Jr. bought ESAB",
+    "upload": "wTdZ6OP8MaE, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0474 over 3 model calls (writer claude-fable-5-1 1593+224 tok; checker-a claude-opus-5-5 1315+201 tok; checker-b claude-opus-5-5 1275+297 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-05/receipt-031.mp4",
-  "receipt": 31,
-  "youtubeId": "pZlXnKfMfwk"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-06/receipt-032.mp4",
+  "receipt": 32,
+  "youtubeId": "wTdZ6OP8MaE"
 }
