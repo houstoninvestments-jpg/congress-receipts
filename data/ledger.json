@@ -1,5 +1,5 @@
 {
-  "nextNumber": 33,
+  "nextNumber": 34,
   "receipts": [
     {
       "number": 1,
@@ -2591,6 +2591,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "wTdZ6OP8MaE",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 33,
+      "date": "2026-11-06",
+      "txnId": "20035770-2",
+      "docId": "20035770",
+      "bioguide": "G000583",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Josh Gottheimer",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "NJ",
+        "stateName": "New Jersey",
+        "district": 5,
+        "owner": "jointly",
+        "company": "Benchmark Electronics",
+        "companyFull": "Benchmark Electronics, Inc.",
+        "ticker": "BHE",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-10-12",
+        "filedDate": "2026-11-05",
+        "daysToFile": 24,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "BHE",
+            "start": {
+              "date": "2026-10-12",
+              "close": 79.34
+            },
+            "end": {
+              "date": "2026-11-05",
+              "close": 59.34
+            },
+            "changePct": -25.2
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-10-12",
+              "close": 778.1
+            },
+            "end": {
+              "date": "2026-11-05",
+              "close": 733
+            },
+            "changePct": -5.8
+          }
+        },
+        "excessPts": -19.4,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035770.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of Benchmark Electronics jointly. What happened next?",
+        "receiptSay": "Rep. Josh Gottheimer, Democrat of New Jersey. Trade date October 12. Filed November 5.",
+        "resultSay": "Since then, Benchmark Electronics is down 25.2%. The S&P 500 is down 5.8%.",
+        "stampSay": "That lost to the market by 19.4 points.",
+        "title": "Receipt No. 033: Rep. Josh Gottheimer bought Benchmark Electronics",
+        "description": "Rep. Josh Gottheimer (D-NJ) reported buying Benchmark Electronics (BHE) jointly on October 12, 2026. The trade was worth $1,001 - $15,000 and was filed November 5, 2026."
+      },
+      "slug": "033-josh-gottheimer-bhe",
+      "cta": "direct",
+      "hookVariant": "what-next",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "qYc8PFJuw3Q",
       "youtubePrivacy": "public"
     }
   ],

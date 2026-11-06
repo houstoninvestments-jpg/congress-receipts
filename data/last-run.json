@@ -8,43 +8,43 @@
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 456 reports in the Clerk's index, 0 new parsed"
+      "detail": "439 House members; 457 reports in the Clerk's index, 1 new parsed"
     },
     {
       "step": "pick",
       "ok": true,
-      "detail": "60 purchases qualify, 59 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":117,\"not a purchase\":683,\"member featured in the last 7 days\":240,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2}"
+      "detail": "49 purchases qualify, 18 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":117,\"not a purchase\":684,\"member featured in the last 7 days\":251,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2,\"trade too recent to measure\":1}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Thomas H. Kean, Jr. / ESAB: code checks and both reviews passed"
+      "detail": "Josh Gottheimer / BHE: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 30.6s"
+      "detail": "AI voice (Kokoro open model), 31.8s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-06/receipt-032.mp4 (1080x1920, 30.64s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-06/receipt-033.mp4 (1080x1920, 31.85s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded wTdZ6OP8MaE as public"
+      "detail": "uploaded qYc8PFJuw3Q as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Thomas H. Kean, Jr. (R-NJ) bought ESAB $1,001 - $15,000, traded 2026-09-29, filed 2026-10-30, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035591.pdf",
-    "result": "ESAB 17% vs SPY -4.1% (2026-09-29 to 2026-11-05), stamp BEAT THE MARKET",
+    "receipt": "Rep. Josh Gottheimer (D-NJ) bought BHE $1,001 - $15,000, traded 2026-10-12, filed 2026-11-05, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035770.pdf",
+    "result": "BHE -25.2% vs SPY -5.8% (2026-10-12 to 2026-11-05), stamp LOST TO THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 032: Rep. Thomas H. Kean, Jr. bought ESAB",
-    "upload": "wTdZ6OP8MaE, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0474 over 3 model calls (writer claude-fable-5-1 1593+224 tok; checker-a claude-opus-5-5 1315+201 tok; checker-b claude-opus-5-5 1275+297 tok)"
+    "title": "Receipt No. 033: Rep. Josh Gottheimer bought Benchmark Electronics",
+    "upload": "qYc8PFJuw3Q, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0849 over 3 model calls (writer claude-fable-5-1 1614+1001 tok; checker-a claude-opus-5-5 1338+163 tok; checker-b claude-opus-5-5 1298+244 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-06/receipt-032.mp4",
-  "receipt": 32,
-  "youtubeId": "wTdZ6OP8MaE"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-06/receipt-033.mp4",
+  "receipt": 33,
+  "youtubeId": "qYc8PFJuw3Q"
 }

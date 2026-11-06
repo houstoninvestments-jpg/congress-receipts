@@ -63177,6 +63177,70 @@
     "problems": [],
     "parsedAt": "2026-11-06T02:38:33.357Z"
   },
+  "20035770": {
+    "filing": {
+      "docId": "20035770",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Josh",
+      "last": "Gottheimer",
+      "suffix": "",
+      "stateDst": "NJ05",
+      "filingDate": "2026-11-05",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035770.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-11-05",
+    "transactions": [
+      {
+        "id": "20035770-1",
+        "docId": "20035770",
+        "row": 1,
+        "owner": "JT",
+        "asset": "Applied Materials, Inc. - Common Stock (AMAT) [ST]",
+        "ticker": "AMAT",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-10-26",
+        "notifiedDate": "2026-11-04",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035770-2",
+        "docId": "20035770",
+        "row": 2,
+        "owner": "JT",
+        "asset": "Benchmark Electronics, Inc. Common Stock (BHE) [ST]",
+        "ticker": "BHE",
+        "assetType": "ST",
+        "type": "P",
+        "tradeDate": "2026-10-12",
+        "notifiedDate": "2026-11-04",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      },
+      {
+        "id": "20035770-3",
+        "docId": "20035770",
+        "row": 3,
+        "owner": "JT",
+        "asset": "PT Telekomunikasi Indonesia, Tbk (TLK) [ST]",
+        "ticker": "TLK",
+        "assetType": "ST",
+        "type": "S",
+        "tradeDate": "2026-10-15",
+        "notifiedDate": "2026-11-04",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-11-06T21:38:45.239Z"
+  },
   "20035778": {
     "filing": {
       "docId": "20035778",
