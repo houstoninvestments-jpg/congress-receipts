@@ -1,5 +1,5 @@
 {
-  "nextNumber": 36,
+  "nextNumber": 37,
   "receipts": [
     {
       "number": 1,
@@ -2834,6 +2834,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "wpi8roCacEA",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 36,
+      "date": "2026-11-07",
+      "txnId": "20035484-2",
+      "docId": "20035484",
+      "bioguide": "M001239",
+      "party": "Republican",
+      "facts": {
+        "memberName": "John J. McGuire III",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "VA",
+        "stateName": "Virginia",
+        "district": 5,
+        "owner": "a spouse",
+        "company": "Micron Technology",
+        "companyFull": "Micron Technology, Inc.",
+        "ticker": "MU",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-09-24",
+        "filedDate": "2026-11-01",
+        "daysToFile": 38,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "MU",
+            "start": {
+              "date": "2026-09-24",
+              "close": 1080.53
+            },
+            "end": {
+              "date": "2026-11-06",
+              "close": 690
+            },
+            "changePct": -36.1
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-09-24",
+              "close": 767.18
+            },
+            "end": {
+              "date": "2026-11-06",
+              "close": 735.29
+            },
+            "changePct": -4.2
+          }
+        },
+        "excessPts": -31.9,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035484.pdf"
+      },
+      "script": {
+        "hook": "This congressman's spouse bought up to $15K of Micron Technology. Here's the receipt.",
+        "receiptSay": "Rep. John J. McGuire III, Republican of Virginia. Trade date Sep 24. Filed Nov 1.",
+        "resultSay": "Since then, Micron Technology is down 36.1%. The S&P 500 is down 4.2%.",
+        "stampSay": "That lost to the market by 31.9 points.",
+        "title": "Receipt No. 036: Rep. John J. McGuire III's spouse bought Micron Technology",
+        "description": "Rep. John J. McGuire III (R-VA) reported a spouse's purchase of Micron Technology (MU). The trade was worth $1,001 - $15,000 on September 24, 2026, and filed November 1, 2026."
+      },
+      "slug": "036-john-j-mcguire-iii-mu",
+      "cta": "direct",
+      "hookVariant": "receipt-in",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "dDS-KsYzI9s",
       "youtubePrivacy": "public"
     }
   ],
