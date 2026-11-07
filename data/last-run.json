@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "dryRun": false,
   "status": "published",
   "warnings": [],
@@ -13,38 +13,73 @@
     {
       "step": "pick",
       "ok": true,
-      "detail": "40 purchases qualify, 39 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":117,\"not a purchase\":684,\"member featured in the last 7 days\":259,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2,\"trade too recent to measure\":1}"
+      "detail": "54 purchases qualify, 16 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":117,\"not a purchase\":671,\"member featured in the last 7 days\":244,\"filer not matched to one sitting member\":2,\"thinly traded foreign share (over the counter)\":2,\"trade too recent to measure\":1}"
+    },
+    {
+      "step": "prices",
+      "ok": false,
+      "detail": "UDR: Error: UDR: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "step": "prices",
+      "ok": false,
+      "detail": "A: Error: A: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "step": "prices",
+      "ok": false,
+      "detail": "VRSN: Error: marketstack SPY -> 429"
+    },
+    {
+      "step": "prices",
+      "ok": false,
+      "detail": "VRSK: Error: marketstack SPY -> 429"
+    },
+    {
+      "step": "prices",
+      "ok": false,
+      "detail": "WEC: Error: marketstack WEC -> 429"
+    },
+    {
+      "step": "prices",
+      "ok": false,
+      "detail": "WY: Error: marketstack SPY -> 429"
+    },
+    {
+      "step": "prices",
+      "ok": false,
+      "detail": "ALK: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Byron Donalds / NFLX: code checks and both reviews passed"
+      "detail": "Jared Moskowitz / AMAT: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 29.8s"
+      "detail": "AI voice (Kokoro open model), 36.1s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-06/receipt-034.mp4 (1080x1920, 29.78s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-07/receipt-035.mp4 (1080x1920, 36.14s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded XFYXakIN00w as public"
+      "detail": "uploaded wpi8roCacEA as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Byron Donalds (R-FL) bought NFLX $1,001 - $15,000, traded 2026-08-12, filed 2026-09-15, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035420.pdf",
-    "result": "NFLX -14.6% vs SPY -4.8% (2026-08-12 to 2026-11-06), stamp LOST TO THE MARKET",
+    "receipt": "Rep. Jared Moskowitz (D-FL) bought AMAT $1,001 - $15,000, traded 2026-06-18, filed 2026-07-26, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf",
+    "result": "AMAT -46.1% vs SPY -1.5% (2026-06-18 to 2026-11-06), stamp LOST TO THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 034: Rep. Byron Donalds bought Netflix",
-    "upload": "XFYXakIN00w, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0448 over 3 model calls (writer claude-fable-5-1 1572+211 tok; checker-b claude-opus-5-5 1249+153 tok; checker-a claude-opus-5-5 1289+265 tok)"
+    "title": "Receipt No. 035: Rep. Jared Moskowitz's child bought Applied Materials",
+    "upload": "wpi8roCacEA, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.1001 over 3 model calls (writer claude-fable-5-1 1605+1306 tok; checker-a claude-opus-5-5 1347+174 tok; checker-b claude-opus-5-5 1307+234 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-06/receipt-034.mp4",
-  "receipt": 34,
-  "youtubeId": "XFYXakIN00w"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-07/receipt-035.mp4",
+  "receipt": 35,
+  "youtubeId": "wpi8roCacEA"
 }

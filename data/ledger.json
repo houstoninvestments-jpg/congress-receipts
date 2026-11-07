@@ -1,5 +1,5 @@
 {
-  "nextNumber": 35,
+  "nextNumber": 36,
   "receipts": [
     {
       "number": 1,
@@ -2754,6 +2754,87 @@
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "XFYXakIN00w",
       "youtubePrivacy": "public"
+    },
+    {
+      "number": 35,
+      "date": "2026-11-07",
+      "txnId": "20034963-1",
+      "docId": "20034963",
+      "bioguide": "M001217",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Jared Moskowitz",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "FL",
+        "stateName": "Florida",
+        "district": 23,
+        "owner": "a dependent child",
+        "company": "Applied Materials",
+        "companyFull": "Applied Materials, Inc.",
+        "ticker": "AMAT",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-06-18",
+        "filedDate": "2026-07-26",
+        "daysToFile": 38,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "AMAT",
+            "start": {
+              "date": "2026-06-18",
+              "close": 617.11
+            },
+            "end": {
+              "date": "2026-11-06",
+              "close": 332.72
+            },
+            "changePct": -46.1
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-06-18",
+              "close": 746.74
+            },
+            "end": {
+              "date": "2026-11-06",
+              "close": 735.29
+            },
+            "changePct": -1.5
+          }
+        },
+        "excessPts": -44.6,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf"
+      },
+      "script": {
+        "hook": "This congressman's child bought up to $15K of Applied Materials. What happened next?",
+        "receiptSay": "Rep. Jared Moskowitz, Democrat of Florida. His dependent child's trade. Trade date June 18, 2026. Filed July 26, 2026.",
+        "resultSay": "Since then, Applied Materials is down 46.1%. The S&P 500 is down 1.5%.",
+        "stampSay": "That lost to the market by 44.6 points.",
+        "title": "Receipt No. 035: Rep. Jared Moskowitz's child bought Applied Materials",
+        "description": "Rep. Jared Moskowitz (D-FL) reported a dependent child's purchase of Applied Materials (AMAT) on June 18, 2026. The amount was $1,001 - $15,000, and the report was filed July 26, 2026."
+      },
+      "slug": "035-jared-moskowitz-amat",
+      "cta": "soft",
+      "hookVariant": "what-next",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "wpi8roCacEA",
+      "youtubePrivacy": "public"
     }
   ],
   "skipped": [
@@ -2946,6 +3027,41 @@
       "txnId": "20035408-30",
       "date": "2026-11-04",
       "reason": "code check: script is 547 characters when read aloud; limit is 520 to stay under 40 seconds"
+    },
+    {
+      "txnId": "20035035-69",
+      "date": "2026-11-07",
+      "reason": "prices: Error: UDR: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "txnId": "20035035-7",
+      "date": "2026-11-07",
+      "reason": "prices: Error: A: -100% in one day on 2026-06-09; looks like bad data"
+    },
+    {
+      "txnId": "20035035-70",
+      "date": "2026-11-07",
+      "reason": "prices: Error: marketstack SPY -> 429"
+    },
+    {
+      "txnId": "20035035-73",
+      "date": "2026-11-07",
+      "reason": "prices: Error: marketstack SPY -> 429"
+    },
+    {
+      "txnId": "20035035-74",
+      "date": "2026-11-07",
+      "reason": "prices: Error: marketstack WEC -> 429"
+    },
+    {
+      "txnId": "20035035-77",
+      "date": "2026-11-07",
+      "reason": "prices: Error: marketstack SPY -> 429"
+    },
+    {
+      "txnId": "20035035-8",
+      "date": "2026-11-07",
+      "reason": "prices: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
     }
   ],
   "firstUploadCheck": {
