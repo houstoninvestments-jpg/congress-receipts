@@ -8,43 +8,43 @@
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 457 reports in the Clerk's index, 1 new parsed"
+      "detail": "439 House members; 457 reports in the Clerk's index, 0 new parsed"
     },
     {
       "step": "pick",
       "ok": true,
-      "detail": "49 purchases qualify, 18 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":117,\"not a purchase\":684,\"member featured in the last 7 days\":251,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2,\"trade too recent to measure\":1}"
+      "detail": "40 purchases qualify, 39 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":117,\"not a purchase\":684,\"member featured in the last 7 days\":259,\"filer not matched to one sitting member\":7,\"thinly traded foreign share (over the counter)\":2,\"trade too recent to measure\":1}"
     },
     {
       "step": "check",
       "ok": true,
-      "detail": "Josh Gottheimer / BHE: code checks and both reviews passed"
+      "detail": "Byron Donalds / NFLX: code checks and both reviews passed"
     },
     {
       "step": "voice",
       "ok": true,
-      "detail": "AI voice (Kokoro open model), 31.8s"
+      "detail": "AI voice (Kokoro open model), 29.8s"
     },
     {
       "step": "render",
       "ok": true,
-      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-06/receipt-033.mp4 (1080x1920, 31.85s)"
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-06/receipt-034.mp4 (1080x1920, 29.78s)"
     },
     {
       "step": "publish",
       "ok": true,
-      "detail": "uploaded qYc8PFJuw3Q as public"
+      "detail": "uploaded XFYXakIN00w as public"
     }
   ],
   "summary": {
-    "receipt": "Rep. Josh Gottheimer (D-NJ) bought BHE $1,001 - $15,000, traded 2026-10-12, filed 2026-11-05, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035770.pdf",
-    "result": "BHE -25.2% vs SPY -5.8% (2026-10-12 to 2026-11-05), stamp LOST TO THE MARKET",
+    "receipt": "Rep. Byron Donalds (R-FL) bought NFLX $1,001 - $15,000, traded 2026-08-12, filed 2026-09-15, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035420.pdf",
+    "result": "NFLX -14.6% vs SPY -4.8% (2026-08-12 to 2026-11-06), stamp LOST TO THE MARKET",
     "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
-    "title": "Receipt No. 033: Rep. Josh Gottheimer bought Benchmark Electronics",
-    "upload": "qYc8PFJuw3Q, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
-    "modelCost": "$0.0849 over 3 model calls (writer claude-fable-5-1 1614+1001 tok; checker-a claude-opus-5-5 1338+163 tok; checker-b claude-opus-5-5 1298+244 tok)"
+    "title": "Receipt No. 034: Rep. Byron Donalds bought Netflix",
+    "upload": "XFYXakIN00w, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0448 over 3 model calls (writer claude-fable-5-1 1572+211 tok; checker-b claude-opus-5-5 1249+153 tok; checker-a claude-opus-5-5 1289+265 tok)"
   },
-  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-06/receipt-033.mp4",
-  "receipt": 33,
-  "youtubeId": "qYc8PFJuw3Q"
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-06/receipt-034.mp4",
+  "receipt": 34,
+  "youtubeId": "XFYXakIN00w"
 }

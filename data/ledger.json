@@ -1,5 +1,5 @@
 {
-  "nextNumber": 34,
+  "nextNumber": 35,
   "receipts": [
     {
       "number": 1,
@@ -2672,6 +2672,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "qYc8PFJuw3Q",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 34,
+      "date": "2026-11-06",
+      "txnId": "20035420-4",
+      "docId": "20035420",
+      "bioguide": "D000032",
+      "party": "Republican",
+      "facts": {
+        "memberName": "Byron Donalds",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Republican",
+        "partyLetter": "R",
+        "state": "FL",
+        "stateName": "Florida",
+        "district": 19,
+        "owner": "the member",
+        "company": "Netflix",
+        "companyFull": "Netflix, Inc.",
+        "ticker": "NFLX",
+        "amountText": "$1,001 - $15,000",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountMid": 8001,
+        "tradeDate": "2026-08-12",
+        "filedDate": "2026-09-15",
+        "daysToFile": 34,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "NFLX",
+            "start": {
+              "date": "2026-08-12",
+              "close": 74.21
+            },
+            "end": {
+              "date": "2026-11-06",
+              "close": 63.41
+            },
+            "changePct": -14.6
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-08-12",
+              "close": 772.49
+            },
+            "end": {
+              "date": "2026-11-06",
+              "close": 735.29
+            },
+            "changePct": -4.8
+          }
+        },
+        "excessPts": -9.8,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035420.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $15K of Netflix. The receipt is in.",
+        "receiptSay": "Rep. Byron Donalds, Republican of Florida. Trade date August 12. Filed September 15.",
+        "resultSay": "Since the trade, Netflix is down 14.6%. The S&P 500 is down 4.8%.",
+        "stampSay": "That lost to the market by 9.8 points.",
+        "title": "Receipt No. 034: Rep. Byron Donalds bought Netflix",
+        "description": "Rep. Byron Donalds (R-FL) reported buying Netflix (NFLX) worth $1,001 - $15,000 on August 12, 2026. The report was filed September 15, 2026."
+      },
+      "slug": "034-byron-donalds-nflx",
+      "cta": "none",
+      "hookVariant": "receipt-in",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "XFYXakIN00w",
       "youtubePrivacy": "public"
     }
   ],
