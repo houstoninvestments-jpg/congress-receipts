@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "dryRun": false,
   "status": "skipped",
   "warnings": [
-    "no trade passed every check today; skipped"
+    "no trade qualified today"
   ],
   "errors": [],
   "steps": [
@@ -14,18 +14,8 @@
     },
     {
       "step": "pick",
-      "ok": true,
-      "detail": "30 purchases qualify, 2 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":117,\"not a purchase\":671,\"member featured in the last 7 days\":259,\"filer not matched to one sitting member\":2,\"thinly traded foreign share (over the counter)\":2,\"trade too recent to measure\":1}"
-    },
-    {
-      "step": "prices",
       "ok": false,
-      "detail": "HLT: Error: SPY: Infinity% in one day on 2026-06-16; looks like bad data"
-    },
-    {
-      "step": "prices",
-      "ok": false,
-      "detail": "SPHR: Error: SPY: Infinity% in one day on 2026-06-16; looks like bad data"
+      "detail": "28 purchases qualify, 0 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":107,\"not a purchase\":664,\"member featured in the last 7 days\":259,\"filer not matched to one sitting member\":2,\"thinly traded foreign share (over the counter)\":2,\"trade too recent to measure\":1}"
     }
   ],
   "summary": {
