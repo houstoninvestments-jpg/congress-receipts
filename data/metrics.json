@@ -19,7 +19,7 @@
     "averageViewPercentage": 66.6,
     "holdAt10": null,
     "scored": false,
-    "measuredAt": "2026-11-08T16:38:47.737Z"
+    "measuredAt": "2026-11-08T21:38:47.312Z"
   },
   "hls28dxrCls": {
     "videoId": "hls28dxrCls",
@@ -30,7 +30,7 @@
     "averageViewPercentage": 34.55,
     "holdAt10": 1,
     "scored": false,
-    "measuredAt": "2026-11-08T16:38:47.737Z"
+    "measuredAt": "2026-11-08T21:38:47.312Z"
   },
   "Eh2Z7SwAUwg": {
     "videoId": "Eh2Z7SwAUwg",
@@ -250,7 +250,7 @@
     "averageViewPercentage": 40.93,
     "holdAt10": null,
     "scored": false,
-    "measuredAt": "2026-11-08T16:38:47.737Z"
+    "measuredAt": "2026-11-08T21:38:47.312Z"
   },
   "r5Tn4Dx0G3o": {
     "videoId": "r5Tn4Dx0G3o",
@@ -268,11 +268,11 @@
     "number": 26,
     "hookVariant": "receipt-in",
     "cta": "soft",
-    "views": 45,
+    "views": 46,
     "averageViewPercentage": 52.42,
     "holdAt10": 1.0556,
     "scored": false,
-    "measuredAt": "2026-11-08T16:38:47.737Z"
+    "measuredAt": "2026-11-08T21:38:47.312Z"
   },
   "BhJRyQJbB8A": {
     "videoId": "BhJRyQJbB8A",
@@ -301,11 +301,11 @@
     "number": 29,
     "hookVariant": "what-next",
     "cta": "soft",
-    "views": 47,
-    "averageViewPercentage": 41.74,
+    "views": 50,
+    "averageViewPercentage": 40.01,
     "holdAt10": 1,
-    "scored": false,
-    "measuredAt": "2026-11-08T16:38:47.737Z"
+    "scored": true,
+    "measuredAt": "2026-11-08T21:38:47.312Z"
   },
   "cDePgK66Neg": {
     "videoId": "cDePgK66Neg",
