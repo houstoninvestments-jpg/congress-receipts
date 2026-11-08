@@ -3143,6 +3143,16 @@
       "txnId": "20035035-8",
       "date": "2026-11-07",
       "reason": "prices: Error: SPY: -100% in one day on 2026-04-07; looks like bad data"
+    },
+    {
+      "txnId": "20034908-1",
+      "date": "2026-11-07",
+      "reason": "prices: Error: SPY: Infinity% in one day on 2026-06-16; looks like bad data"
+    },
+    {
+      "txnId": "20034908-3",
+      "date": "2026-11-07",
+      "reason": "prices: Error: SPY: Infinity% in one day on 2026-06-16; looks like bad data"
     }
   ],
   "firstUploadCheck": {
