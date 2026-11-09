@@ -1958,5 +1958,42 @@
     "receipt": null,
     "usd": 0,
     "calls": []
+  },
+  {
+    "at": "2026-11-09T16:40:14.845Z",
+    "date": "2026-11-09",
+    "dryRun": false,
+    "status": "published",
+    "receipt": 37,
+    "usd": 0.047,
+    "calls": [
+      {
+        "role": "writer",
+        "model": "claude-fable-5-1",
+        "input": 1625,
+        "output": 249,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.0287
+      },
+      {
+        "role": "checker-a",
+        "model": "claude-opus-5-5",
+        "input": 1357,
+        "output": 141,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.00825
+      },
+      {
+        "role": "checker-b",
+        "model": "claude-opus-5-5",
+        "input": 1317,
+        "output": 237,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "usd": 0.01001
+      }
+    ]
   }
 ]

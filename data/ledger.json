@@ -1,5 +1,5 @@
 {
-  "nextNumber": 37,
+  "nextNumber": 38,
   "receipts": [
     {
       "number": 1,
@@ -2915,6 +2915,87 @@
       "review": "code checks + 2 reviews (claude-opus-5-5)",
       "voice": "AI voice (Kokoro open model)",
       "youtubeId": "dDS-KsYzI9s",
+      "youtubePrivacy": "public"
+    },
+    {
+      "number": 37,
+      "date": "2026-11-09",
+      "txnId": "20035622-8",
+      "docId": "20035622",
+      "bioguide": "C001123",
+      "party": "Democrat",
+      "facts": {
+        "memberName": "Gilbert Ray Cisneros, Jr.",
+        "memberTitle": "Rep.",
+        "memberNoun": "congressman",
+        "party": "Democrat",
+        "partyLetter": "D",
+        "state": "CA",
+        "stateName": "California",
+        "district": 31,
+        "owner": "the member",
+        "company": "Benchmark Electronics",
+        "companyFull": "Benchmark Electronics, Inc.",
+        "ticker": "BHE",
+        "amountText": "$15,001 - $50,000",
+        "amountMin": 15001,
+        "amountMax": 50000,
+        "amountMid": 32501,
+        "tradeDate": "2026-10-01",
+        "filedDate": "2026-10-12",
+        "daysToFile": 11,
+        "daysLate": 0,
+        "prices": {
+          "source": {
+            "name": "Marketstack end-of-day prices",
+            "url": "https://marketstack.com",
+            "terms": "https://marketstack.com/pricing"
+          },
+          "stock": {
+            "symbol": "BHE",
+            "start": {
+              "date": "2026-10-01",
+              "close": 84.62
+            },
+            "end": {
+              "date": "2026-11-06",
+              "close": 60.4
+            },
+            "changePct": -28.6
+          },
+          "market": {
+            "symbol": "SPY",
+            "start": {
+              "date": "2026-10-01",
+              "close": 763.99
+            },
+            "end": {
+              "date": "2026-11-06",
+              "close": 735.29
+            },
+            "changePct": -3.8
+          }
+        },
+        "excessPts": -24.8,
+        "stamp": "LOST TO THE MARKET",
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      "script": {
+        "hook": "This congressman bought up to $50K of Benchmark Electronics. Let's see how it did.",
+        "receiptSay": "Rep. Gilbert Ray Cisneros, Jr., Democrat of California. Trade date October 1. Filed October 12.",
+        "resultSay": "Since then, Benchmark Electronics is down 28.6%. The S&P 500 is down 3.8%.",
+        "stampSay": "That lost to the market by 24.8 points.",
+        "title": "Receipt No. 037: Rep. Gilbert Ray Cisneros, Jr. bought Benchmark Electronics",
+        "description": "Rep. Gilbert Ray Cisneros, Jr. (D-CA) reported buying Benchmark Electronics (BHE) worth $15,001 - $50,000 on October 1, 2026. The report was filed October 12, 2026."
+      },
+      "slug": "037-gilbert-ray-cisneros-jr-bhe",
+      "cta": "none",
+      "hookVariant": "since-then",
+      "status": "published",
+      "writer": "claude-fable-5-1",
+      "review": "code checks + 2 reviews (claude-opus-5-5)",
+      "voice": "AI voice (Kokoro open model)",
+      "youtubeId": "fcK7LK7Uh4Y",
       "youtubePrivacy": "public"
     }
   ],

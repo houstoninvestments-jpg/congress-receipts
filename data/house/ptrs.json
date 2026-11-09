@@ -1119,6 +1119,26 @@
     ],
     "parsedAt": "2026-10-30T02:38:46.197Z"
   },
+  "9116399": {
+    "filing": {
+      "docId": "9116399",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Rohit",
+      "last": "Khanna",
+      "suffix": "",
+      "stateDst": "CA17",
+      "filingDate": "2026-11-05",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116399.pdf"
+    },
+    "status": "scanned",
+    "filedDateOnForm": null,
+    "transactions": [],
+    "problems": [
+      "no text layer (paper filing scanned as an image)"
+    ],
+    "parsedAt": "2026-11-09T16:38:50.343Z"
+  },
   "20019182": {
     "filing": {
       "docId": "20019182",
@@ -63241,6 +63261,40 @@
     "problems": [],
     "parsedAt": "2026-11-06T21:38:45.239Z"
   },
+  "20035775": {
+    "filing": {
+      "docId": "20035775",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "John J Mr",
+      "last": "McGuire",
+      "suffix": "III",
+      "stateDst": "VA05",
+      "filingDate": "2026-11-06",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035775.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-11-06",
+    "transactions": [
+      {
+        "id": "20035775-1",
+        "docId": "20035775",
+        "row": 1,
+        "owner": "SP",
+        "asset": "Western Digital Corporation - Common Stock (WDC) [ST]",
+        "ticker": "WDC",
+        "assetType": "ST",
+        "type": "S",
+        "tradeDate": "2026-10-15",
+        "notifiedDate": "2026-11-04",
+        "amountMin": 1001,
+        "amountMax": 15000,
+        "amountText": "$1,001 - $15,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-11-09T16:38:50.343Z"
+  },
   "20035778": {
     "filing": {
       "docId": "20035778",
@@ -63334,5 +63388,39 @@
     ],
     "problems": [],
     "parsedAt": "2026-11-06T02:38:33.357Z"
+  },
+  "20035780": {
+    "filing": {
+      "docId": "20035780",
+      "year": 2026,
+      "prefix": "Hon.",
+      "first": "Nancy",
+      "last": "Pelosi",
+      "suffix": "",
+      "stateDst": "CA11",
+      "filingDate": "2026-11-06",
+      "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035780.pdf"
+    },
+    "status": "electronic",
+    "filedDateOnForm": "2026-11-06",
+    "transactions": [
+      {
+        "id": "20035780-1",
+        "docId": "20035780",
+        "row": 1,
+        "owner": "SP",
+        "asset": "Warner Bros. Discovery, Inc. - Series A Common Stock (WBD) [ST]",
+        "ticker": "WBD",
+        "assetType": "ST",
+        "type": "S",
+        "tradeDate": "2026-10-07",
+        "notifiedDate": "2026-10-07",
+        "amountMin": 50001,
+        "amountMax": 100000,
+        "amountText": "$50,001 - $100,000"
+      }
+    ],
+    "problems": [],
+    "parsedAt": "2026-11-09T16:38:50.343Z"
   }
 }

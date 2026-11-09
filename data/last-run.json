@@ -1,24 +1,50 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "dryRun": false,
-  "status": "skipped",
-  "warnings": [
-    "no trade qualified today"
-  ],
+  "status": "published",
+  "warnings": [],
   "errors": [],
   "steps": [
     {
       "step": "data",
       "ok": true,
-      "detail": "439 House members; 457 reports in the Clerk's index, 0 new parsed"
+      "detail": "439 House members; 460 reports in the Clerk's index, 3 new parsed"
     },
     {
       "step": "pick",
-      "ok": false,
-      "detail": "28 purchases qualify, 0 after the party-balance and repeat rules; set aside: {\"filing scanned\":56,\"not a listed stock with a ticker\":107,\"not a purchase\":664,\"member featured in the last 7 days\":259,\"filer not matched to one sitting member\":2,\"thinly traded foreign share (over the counter)\":2,\"trade too recent to measure\":1}"
+      "ok": true,
+      "detail": "131 purchases qualify, 97 after the party-balance and repeat rules; set aside: {\"filing scanned\":57,\"not a listed stock with a ticker\":107,\"not a purchase\":666,\"member featured in the last 7 days\":157,\"filer not matched to one sitting member\":2,\"thinly traded foreign share (over the counter)\":2}"
+    },
+    {
+      "step": "check",
+      "ok": true,
+      "detail": "Gilbert Ray Cisneros, Jr. / BHE: code checks and both reviews passed"
+    },
+    {
+      "step": "voice",
+      "ok": true,
+      "detail": "AI voice (Kokoro open model), 32.5s"
+    },
+    {
+      "step": "render",
+      "ok": true,
+      "detail": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-09/receipt-037.mp4 (1080x1920, 32.47s)"
+    },
+    {
+      "step": "publish",
+      "ok": true,
+      "detail": "uploaded fcK7LK7Uh4Y as public"
     }
   ],
   "summary": {
-    "modelCost": "$0 (no model calls)"
-  }
+    "receipt": "Rep. Gilbert Ray Cisneros, Jr. (D-CA) bought BHE $15,001 - $50,000, traded 2026-10-01, filed 2026-10-12, 0 days late | https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf",
+    "result": "BHE -28.6% vs SPY -3.8% (2026-10-01 to 2026-11-06), stamp LOST TO THE MARKET",
+    "readWindow": "filing card untouched (0.00% changed), result untouched by the stamp (0.00%)",
+    "title": "Receipt No. 037: Rep. Gilbert Ray Cisneros, Jr. bought Benchmark Electronics",
+    "upload": "fcK7LK7Uh4Y, public; thumbnail not set (403): { \"error\": { \"code\": 403, \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\", \"errors\": [ { \"message\": \"The authenticated user doesn't have permiss",
+    "modelCost": "$0.0470 over 3 model calls (writer claude-fable-5-1 1625+249 tok; checker-a claude-opus-5-5 1357+141 tok; checker-b claude-opus-5-5 1317+237 tok)"
+  },
+  "videoFile": "/home/runner/work/congress-receipts/congress-receipts/work/2026-11-09/receipt-037.mp4",
+  "receipt": 37,
+  "youtubeId": "fcK7LK7Uh4Y"
 }
